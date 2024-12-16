@@ -1,0 +1,119 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Button" x:Key="BP01">
+        <Style.Setters>
+            <Setter Property="BorderThickness" Value="5" />
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#FFF3FDFF" Offset="0"/>
+                        <GradientStop Color="#FFF0F3FF" Offset="0.6"/>
+                        <GradientStop Color="#FFFFF5FE" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="Label" x:Key="BP2L01">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground">
+            <Setter.Value>
+                <SolidColorBrush Color="#FF353538"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="BP02" TargetType="RadioButton">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border>
+                            <Border.Background>
+                                <!--LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                    <GradientStop Color="#FFF3FDFF" Offset="0"/>
+                                    <GradientStop Color="#FFF0F3FF" Offset="0.6"/>
+                                    <GradientStop Color="#FFFFF5FE" Offset="1"/>
+                                </LinearGradientBrush-->
+                                <SolidColorBrush Color="Transparent"/>
+                            </Border.Background>
+
+                            <Label Content="{TemplateBinding Content}" Style="{StaticResource BP2L01}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style.Setters>
+        <Style.Triggers>
+            <!--Trigger Property="IsChecked" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="RadioButton">
+                            <Border Background="Orange">
+
+                                <Label Content="{TemplateBinding Content}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger-->
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="RadioButton">
+                            <Border>
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                        <GradientStop Color="#FFC7E9FF" Offset="0"/>
+                                        <GradientStop Color="#FFF4D6FF" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+
+                                <Label Content="{TemplateBinding Content}" Style="{StaticResource BP2L01}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+            <Trigger Property="IsMouseCaptured" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="RadioButton">
+                            <Border>
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                        <GradientStop Color="#FFCBD5FF" Offset="0"/>
+                                        <GradientStop Color="#FFFFCFFD" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+
+                                <Label Content="{TemplateBinding Content}" Style="{StaticResource BP2L01}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Label" x:Key="pfp">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Border Background="Black" CornerRadius="20">
+                        <Image Source="{TemplateBinding Content}"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+</ResourceDictionary>

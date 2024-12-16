@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Visi0n._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Core\Pictures\home.png" />
+    <None Remove="Core\Pictures\sea.jpg" />
+    <None Remove="Core\Pictures\settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Core\Pictures\home.png" />
+    <Resource Include="Core\Pictures\sea.jpg" />
+    <Resource Include="Core\Pictures\settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="VModel\" />
+  </ItemGroup>
+
+</Project>
