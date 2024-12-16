@@ -36,6 +36,7 @@
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
 
+                <!-- will be done soon-->
                 <Border Background="Black" CornerRadius="10">
                     
                 </Border>
