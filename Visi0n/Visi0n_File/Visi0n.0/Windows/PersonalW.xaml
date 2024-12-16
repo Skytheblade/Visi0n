@@ -30,15 +30,19 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid x:Name="grid02" Margin="10,5,5,5">
+            <Grid x:Name="grid02" Margin="5,7,10,7">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
 
-                <!-- will be done soon-->
-                <Border Background="Black" CornerRadius="10">
+                
+                <Border Background="Gray" CornerRadius="20" Height="30" Width="30">
+                    <Border.Clip>
+                        <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,30,30"/>
+                    </Border.Clip>
                     
+                    <Image Source="/Core/Pictures/sea.jpg" Stretch="Fill"/>
                 </Border>
                 <Image x:Name="Settings" Grid.Column="1" Source="/Core/Pictures/settings.png" Margin="2"/>
             </Grid>

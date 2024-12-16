@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Vision.0.1.11.4\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {}
+    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Vision.0.1.11.4\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {
+    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Vision.0.1.11.4\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
         "projectName": "Visi0n.0",
-        "projectPath": "C:\\Users\\User\\Desktop\\Vision.0.1.11.4\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Vision.0.1.11.4\\Visi0n\\Visi0n_File\\Visi0n.0\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

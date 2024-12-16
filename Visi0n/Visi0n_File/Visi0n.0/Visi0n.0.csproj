@@ -9,6 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Model\**" />
+    <Compile Remove="VModel\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <EmbeddedResource Remove="VModel\**" />
+    <None Remove="Model\**" />
+    <None Remove="VModel\**" />
+    <Page Remove="Model\**" />
+    <Page Remove="VModel\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Core\Pictures\home.png" />
     <None Remove="Core\Pictures\sea.jpg" />
     <None Remove="Core\Pictures\settings.png" />
@@ -18,11 +29,6 @@
     <Resource Include="Core\Pictures\home.png" />
     <Resource Include="Core\Pictures\sea.jpg" />
     <Resource Include="Core\Pictures\settings.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="VModel\" />
   </ItemGroup>
 
 </Project>
