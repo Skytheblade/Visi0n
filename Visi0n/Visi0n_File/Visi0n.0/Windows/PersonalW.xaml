@@ -37,7 +37,7 @@
                 </Grid.ColumnDefinitions>
 
                 
-                <Border Background="Gray" CornerRadius="20" Height="30" Width="30">
+                <Border Background="Gray" CornerRadius="20" Height="30" Width="30" MouseDown="Border_MouseDown">
                     <Border.Clip>
                         <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,30,30"/>
                     </Border.Clip>
@@ -54,7 +54,7 @@
                 <RadioButton Style="{StaticResource BP02}" x:Name="RemindP" Content="Reminders" Height="50" Checked="RemindP_Click"/>
             </StackPanel>
             <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" FlowDirection="RightToLeft" Margin="0,0,10,0">
-                <RadioButton Style="{StaticResource BP02}" x:Name="logout" Content="Log Out" Width="75" Checked="logout_Click"/>
+                <!--RadioButton Style="{StaticResource BP02}" x:Name="logout" Content="Log Out" Width="75" Checked="logout_Click"/-->
                 <RadioButton Style="{StaticResource BP02}" x:Name="quit" Content="X" Width="50" Checked="quit_Click"/>
                 <RadioButton Style="{StaticResource BP02}" x:Name="minmax" Content="[  ]" Width="50" Checked="minmax_Checked"/>
                 <RadioButton Style="{StaticResource BP02}" x:Name="fold" Content="_____" Width="50" Checked="fold_Checked" />

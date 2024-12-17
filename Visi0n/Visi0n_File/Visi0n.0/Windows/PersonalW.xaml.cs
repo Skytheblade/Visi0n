@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using Visi0n._0.Pages;
 using Visi0n._0.Pages.Pesonal;
 using Visi0n._0.Pages.General;
+using System.Windows.Controls.Primitives;
 
 namespace Visi0n._0
 {
@@ -30,7 +31,11 @@ namespace Visi0n._0
 
         private void Drag(object sender, RoutedEventArgs e)
         {
-            DragMove();
+            try
+            {
+                DragMove();
+            }
+            catch { } // if cant drag, then don't
         }
 
 
@@ -86,6 +91,24 @@ namespace Visi0n._0
         {
             this.WindowState = WindowState.Minimized;
             fold.IsChecked = false;
+        }
+
+        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (!Pfp_Act())
+            {
+                logout_Click(null, null);
+            }
+        }
+        private bool Pfp_Act()
+        {
+            MessageBoxResult result = MessageBox.Show("Log Out?", "message", MessageBoxButton.YesNo);
+            if (result == MessageBoxResult.Yes)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

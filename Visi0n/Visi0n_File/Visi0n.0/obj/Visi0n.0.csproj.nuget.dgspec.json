@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {}
+    "C:\\Users\\User\\OneDrive\\שולחן העבודה\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {
+    "C:\\Users\\User\\OneDrive\\שולחן העבודה\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\שולחן העבודה\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
         "projectName": "Visi0n.0",
-        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\שולחן העבודה\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\שולחן העבודה\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
