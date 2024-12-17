@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Visi0n._0.VModel;
 
 namespace Visi0n._0.Pages
 {
@@ -34,10 +35,17 @@ namespace Visi0n._0.Pages
 
         private void StartPersonal(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(usrnameBox.Text + "  " + usrpassBox.Text);
-            if (_type == 1) new PersonalW().Show();
-            else new CompanyW().Show();
-            _win.Close();
+            //MessageBox.Show(usrnameBox.Text + "  " + usrpassBox.Text);
+            if (UserService01.LoginAtt(usrnameBox.Text, usrpassBox.Text))
+            {
+                if (_type == 1) new PersonalW().Show();
+                else new CompanyW().Show();
+                _win.Close();
+            }
+            else
+            {
+                MessageBox.Show("Login info incorrect");
+            }
         }
 
         private void back_Click(object sender, RoutedEventArgs e)

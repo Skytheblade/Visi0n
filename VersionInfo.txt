@@ -3,3 +3,6 @@ moved to git
 
 ver 0.1.11.5
 minor improvement
+
+ver 0.1.11.6
+first database usage

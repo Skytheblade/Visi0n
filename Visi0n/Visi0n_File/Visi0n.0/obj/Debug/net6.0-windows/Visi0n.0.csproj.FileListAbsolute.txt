@@ -1385,3 +1385,10 @@ C:\Users\User\OneDrive\שולחן העבודה\Visi0n\Visi0n\Visi0n_File\Visi0n.
 C:\Users\User\OneDrive\שולחן העבודה\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\System.Data.OleDb.dll
 C:\Users\User\OneDrive\שולחן העבודה\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.csproj.AssemblyReference.cache
 C:\Users\User\OneDrive\שולחן העבודה\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.csproj.Up2Date
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\System.Data.OleDb.dll
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.csproj.CopyComplete
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll

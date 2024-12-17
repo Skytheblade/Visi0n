@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Visi0n._0.VModel
 {
-    class User
+    public class User
     {
         public string _usrName { get; set; }
         public string _pwd { get; set; }
+
+        public User() 
+        {
+            _usrName = "";
+            _pwd = "";
+        }
 
         public User(string un, string pd) 
         {
