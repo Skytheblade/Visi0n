@@ -19,8 +19,8 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <TextBox Text="Name" Margin="5" Grid.ColumnSpan="2"/>
-        <TextBox Text="Text" Margin="5" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Name" Text="Name" Margin="5" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Text" Text="Text" Margin="5" Grid.Row="1" Grid.ColumnSpan="2"/>
         <Button Content="Cancel" Margin="5" Grid.Row="2"/>
         <Button Content="Save" Margin="5" Grid.Row="2" Grid.Column="1" Click="Button_Click"/>
     </Grid>

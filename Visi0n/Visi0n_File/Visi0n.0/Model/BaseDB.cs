@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Visi0n._0.Model
 {
-    // working with OleDb 8.0.0 & x86
+    // working with OleDb 8.0.0 & x86 or x64
     public abstract class BaseDB
     {
         //private static string dir = Directory.GetCurrentDirectory(); // dir = ...\Nous.x\Nous\bin\Debug\net6.0-windows (target directory is Nous)

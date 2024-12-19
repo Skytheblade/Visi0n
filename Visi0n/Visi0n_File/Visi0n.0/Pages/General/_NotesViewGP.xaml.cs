@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Visi0n._0.Pages.Pesonal;
+using Visi0n._0.VModel;
 
 namespace Visi0n._0.Pages.General
 {
@@ -22,6 +23,7 @@ namespace Visi0n._0.Pages.General
     public partial class _NotesViewGP : Page
     {
         Frame _frame;
+        NoteItem _item;
 
         public _NotesViewGP(Frame frame)
         {
@@ -31,7 +33,7 @@ namespace Visi0n._0.Pages.General
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _frame.Navigate(new NotesGP(_frame));
+            _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text)));
         }
     }
 }
