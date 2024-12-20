@@ -32,7 +32,8 @@ namespace Visi0n._0.Pages.General
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CheckBox ck = new CheckBox() { Content = TextName.Text, Style = (Style)Resources["Reminder01"], Margin = new Thickness(4, 4, 4, 4) };
+            CheckBox ck = new CheckBox() { Content = TextName.Text, Margin = new Thickness(4, 4, 4, 4) };
+            ck.Style = (Style)FindResource("Reminder01");
             Grid.SetRow(ck, posCur);
             posCur++;
             Rtable.Children.Add(ck);

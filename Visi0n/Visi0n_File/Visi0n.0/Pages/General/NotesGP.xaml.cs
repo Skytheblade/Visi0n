@@ -43,7 +43,8 @@ namespace Visi0n._0.Pages.General
 
         private void AddItem(NoteItem nt, int pos)
         {
-            Label label = new Label() { Content = nt._name, Style = Style = (Style)Resources["Note01"], Margin = new Thickness(5, 5, 5, 5) };
+            Label label = new Label() { Content = nt._name, Margin = new Thickness(5, 5, 5, 5) };
+            label.Style = (Style)FindResource("Note01");
             Grid.SetRow(label, pos);
             Table.Children.Add(label);
             posCur++;
