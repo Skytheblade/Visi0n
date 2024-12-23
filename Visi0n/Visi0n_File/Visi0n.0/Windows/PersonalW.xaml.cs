@@ -15,6 +15,8 @@ using Visi0n._0.Pages;
 using Visi0n._0.Pages.Pesonal;
 using Visi0n._0.Pages.General;
 using System.Windows.Controls.Primitives;
+using Visi0n._0.Model;
+using Visi0n._0.VModel;
 
 namespace Visi0n._0
 {
@@ -23,10 +25,22 @@ namespace Visi0n._0
     /// </summary>
     public partial class PersonalW : Window
     {
-        public PersonalW()
+        User _user;
+
+        public PersonalW(User usr = null)
         {
             InitializeComponent();
+            ToFrame();
             Frame01.Navigate(new PersonalHome());
+            if (usr != null) UserSetUp(usr);
+        }
+
+        private void UserSetUp(User u)
+        {
+            _user = u;
+
+            usrName.Content = _user._usrName;
+            usrPass.Content = _user._pwd;
         }
 
         private void Drag(object sender, RoutedEventArgs e)
@@ -52,31 +66,39 @@ namespace Visi0n._0
 
         private void HomeP_Click(object sender, RoutedEventArgs e)
         {
+            ToFrame();
             Frame01.Navigate(new PersonalHome());
             CurrentPage.Content = "Home";
+            HomeP.IsChecked = false;
         }
 
         private void Frame01_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
         {
-
+            //ToFrame();
         }
 
         private void CalP_Click(object sender, RoutedEventArgs e)
         {
+            ToFrame();
             Frame01.Navigate(new CalendarGP(Frame01));
             CurrentPage.Content = "Calendar";
+            CalP.IsChecked = false;
         }
 
         private void NoteP_Click(object sender, RoutedEventArgs e)
         {
+            ToFrame();
             Frame01.Navigate(new NotesGP(Frame01));
             CurrentPage.Content = "Notes";
+            NoteP.IsChecked = false;
         }
 
         private void RemindP_Click(object sender, RoutedEventArgs e)
         {
+            ToFrame();
             Frame01.Navigate(new RemindersGP(Frame01));
             CurrentPage.Content = "Reminders";
+            RemindP.IsChecked = false;
         }
 
         private void minmax_Checked(object sender, RoutedEventArgs e)
@@ -93,12 +115,13 @@ namespace Visi0n._0
             fold.IsChecked = false;
         }
 
-        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        private void pfpC(object sender, MouseButtonEventArgs e)
         {
-            if (!Pfp_Act())
+            /*if (!Pfp_Act())
             {
                 logout_Click(null, null);
-            }
+            }*/
+            OpenAccSec();
         }
         private bool Pfp_Act()
         {
@@ -109,6 +132,29 @@ namespace Visi0n._0
             }
 
             return true;
+        }
+        private void OpenAccSec()
+        {
+            Frame01.Visibility = Visibility.Collapsed;
+            AccSec.Visibility = Visibility.Visible;
+            SettSec.Visibility = Visibility.Collapsed;
+        }
+        private void OpenSettSec()
+        {
+            Frame01.Visibility = Visibility.Collapsed;
+            AccSec.Visibility = Visibility.Collapsed;
+            SettSec.Visibility = Visibility.Visible;
+        }
+        private void ToFrame()
+        {
+            Frame01.Visibility = Visibility.Visible;
+            AccSec.Visibility = Visibility.Collapsed;
+            SettSec.Visibility = Visibility.Collapsed;
+        }
+
+        private void Settings_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            OpenSettSec();
         }
     }
 }

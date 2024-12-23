@@ -6,3 +6,6 @@ minor improvement
 
 ver 0.1.11.6
 first database usage
+
+ver 0.1.11.7
+improvements

@@ -8,6 +8,7 @@ namespace Visi0n._0.VModel
 {
     public class User
     {
+        public int _absId;
         public string _usrName { get; set; }
         public string _pwd { get; set; }
 
@@ -15,12 +16,14 @@ namespace Visi0n._0.VModel
         {
             _usrName = "";
             _pwd = "";
+            _absId = 0;
         }
 
-        public User(string un, string pd) 
+        public User(string un, string pd, int id) 
         {
             _usrName = un;
             _pwd = pd;
+            _absId = id;
         }
     }
 }

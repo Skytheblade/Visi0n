@@ -18,5 +18,13 @@ namespace Visi0n._0.VModel
             if (usr._usrName == usrname && usr._pwd == pass) return true;
             return false;
         }
+
+        public static User Get(int id = 2)
+        {
+            _UserDB usrdb = new _UserDB();
+            User usr = usrdb.CreateUser();
+            if (usr._absId == id) return usr;
+            else return null;
+        }
     }
 }

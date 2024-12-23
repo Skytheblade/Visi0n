@@ -78,10 +78,8 @@ namespace Visi0n._0.Model
             //prsn = (User)(base.CreateModel(prsn));
             prsn._usrName = reader["UserName"].ToString();
             prsn._pwd = reader["Password"].ToString();
-            //prsn.firstName = asncReader["firstName"].ToString();
-            //prsn.lastName = asncReader["lastName"].ToString();
-            //prsn.city = new City(asncReader["city"].ToString());
-            //prsn.telephone = asncReader["telephone"].ToString();
+            prsn._absId = int.Parse(reader["ID"].ToString());
+            
             return prsn;
         }
 
