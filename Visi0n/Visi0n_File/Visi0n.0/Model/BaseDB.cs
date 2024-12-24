@@ -15,7 +15,7 @@ namespace Visi0n._0.Model
         //private static string dir = Directory.GetCurrentDirectory(); // dir = ...\Nous.x\Nous\bin\Debug\net6.0-windows (target directory is Nous)
         //private static string dirr = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(dir)));
 
-        public string connectionString = @"" + "Provider=Microsoft.ACE.OLEDB.12.0" /*"Provider=sqloledb"*/ + ";Data Source=" + "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Model\\DatabaseTest1.accdb" +
+        public string connectionString = @"" + "Provider=Microsoft.ACE.OLEDB.12.0" /*"Provider=sqloledb"*/ + ";Data Source=" + "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Model\\DatabaseTest1.accdb" +
             //dirr + "\\Database2.accdb" + // Data Source= ...\\***\\***\\a.x\\a\\b.accdb
             ";Persist Security Info=True";
 
