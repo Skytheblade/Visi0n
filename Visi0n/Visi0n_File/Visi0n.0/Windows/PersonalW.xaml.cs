@@ -156,5 +156,24 @@ namespace Visi0n._0
         {
             OpenSettSec();
         }
+
+        private void darkLightMode_Click(object sender, RoutedEventArgs e)
+        {
+            ToggleButton tb = ((ToggleButton)sender);
+            if (tb.IsChecked == true)
+            {
+                LinearGradientBrush LinearBrush = new LinearGradientBrush();
+                LinearBrush.StartPoint = new Point(0, 1);
+                LinearBrush.EndPoint = new Point(1, 1);
+                LinearBrush.GradientStops.Add(new GradientStop(Colors.Yellow, 0.0));
+                LinearBrush.GradientStops.Add(new GradientStop(Colors.Red, 0.3));
+                LinearBrush.GradientStops.Add(new GradientStop(Colors.Blue, 0.6));
+                tb.Background = LinearBrush;
+            }
+            else
+            {
+                tb.Background = new SolidColorBrush(Colors.Red);
+            }
+        }
     }
 }

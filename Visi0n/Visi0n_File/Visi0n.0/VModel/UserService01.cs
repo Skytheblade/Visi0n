@@ -12,19 +12,21 @@ namespace Visi0n._0.VModel
     {
         public static bool LoginAtt(string usrname, string pass)
         {
-            _UserDB usrdb = new _UserDB();
+            /*_UserDB usrdb = new _UserDB();
             User usr = usrdb.CreateUser();
 
             if (usr._usrName == usrname && usr._pwd == pass) return true;
-            return false;
+            return false;*/
+            return true;
         }
 
         public static User Get(int id = 2)
         {
-            _UserDB usrdb = new _UserDB();
+            /*_UserDB usrdb = new _UserDB();
             User usr = usrdb.CreateUser();
             if (usr._absId == id) return usr;
-            else return null;
+            else return null;*/
+            return new User("Name0", "Pass0", id);
         }
     }
 }
