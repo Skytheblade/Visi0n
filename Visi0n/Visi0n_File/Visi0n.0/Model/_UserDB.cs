@@ -12,7 +12,7 @@ namespace Visi0n._0.Model
     {
         public _UserDB() : base() { /*this.uidArr = this.ArchRun(); this.uidNext = (uidArr.Max() + 1).ToString();*/ }
 
-        public User CreateUser(string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public User SelectLast(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
             command.CommandText = cmdTxt;
             User usr = new User();
@@ -23,14 +23,45 @@ namespace Visi0n._0.Model
                 connection.Open();
                 reader = command.ExecuteReader();
                 //asncReader = await command.ExecuteReaderAsync();
-                User resu = new User();
+                User tmp = new User();
+
+                while (reader.Read()) // each new reader line - each progression
+                {
+                    tmp = new User();
+                    tmp = CreateModel(tmp); // set to current line
+                }
+                usr = tmp;
+            }
+            catch (Exception ex) { MessageBox.Show(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
+            finally // close
+            {
+                if (reader != null) reader.Close();
+                if (connection.State == System.Data.ConnectionState.Open)
+                    connection.Close();
+            }
+            return usr;
+        }
+
+        public User TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
+        {
+            command.CommandText = cmdTxt;
+            User usr = new User();
+
+            try
+            {
+                command.Connection = connection;
+                connection.Open();
+                reader = command.ExecuteReader();
+                //asncReader = await command.ExecuteReaderAsync();
+                User tmp = new User();
 
                 while (reader.Read())
                 {
-                    resu = new User();
-                    resu = CreateModel(resu);
+                    tmp = new User();
+                    tmp = CreateModel(tmp);
+
+                    if (tmp._absId == id) usr = tmp; // from all the table select the last with id - find single correct instance
                 }
-                usr = resu;
             }
             catch (Exception ex) { MessageBox.Show(" Could not load database \n Error message: \n " + ex.Message); }
             finally
@@ -73,14 +104,14 @@ namespace Visi0n._0.Model
             return people;
         }*/
 
-        private User CreateModel(User prsn) // could also be void
+        private User CreateModel(User u) // could also be void
         {
             //prsn = (User)(base.CreateModel(prsn));
-            prsn._usrName = reader["UserName"].ToString();
-            prsn._pwd = reader["Password"].ToString();
-            prsn._absId = int.Parse(reader["ID"].ToString());
+            u._usrName = reader["UserName"].ToString();
+            u._pwd = reader["Password"].ToString();
+            u._absId = int.Parse(reader["ID"].ToString());
             
-            return prsn;
+            return u;
         }
 
         //public PeopleList SelectAll() => Select().Result;

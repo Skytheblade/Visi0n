@@ -36,6 +36,7 @@ namespace Visi0n._0.Pages
         private void StartPersonal(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show(usrnameBox.Text + "  " + usrpassBox.Text);
+
             if (UserService01.LoginAtt(usrnameBox.Text, usrpassBox.Text))
             {
                 if (_type == 1) new PersonalW(UserService01.Get(2)).Show();
