@@ -5,32 +5,46 @@
         <Style.Setters>
             <Setter Property="BorderThickness" Value="5" />
             <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Foreground">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#FF60617B" Offset="0"/>
+                        <GradientStop Color="#FF534F58" Offset="0.6"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="BorderBrush">
                 <Setter.Value>
                     <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
-                        <GradientStop Color="#FFF3FDFF" Offset="0"/>
-                        <GradientStop Color="#FFF0F3FF" Offset="0.6"/>
-                        <GradientStop Color="#FFFFF5FE" Offset="1"/>
+                        <GradientStop Color="#FFCBD5FF" Offset="0"/>
+                        <GradientStop Color="#FFC7E9FF" Offset="0.8"/>
+
+
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
         </Style.Setters>
     </Style>
 
+    
     <Style TargetType="Label" x:Key="BP2L01">
         <Setter Property="FontSize" Value="16"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="Foreground">
             <Setter.Value>
-                <SolidColorBrush Color="#FF353538"/>
+                <!--SolidColorBrush Color="#FF353538"/-->
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#FF60617B" Offset="0"/>
+                    <GradientStop Color="#FF534F58" Offset="0.6"/>
+                </LinearGradientBrush>
             </Setter.Value>
         </Setter>
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="VerticalAlignment" Value="Center"/>
     </Style>
+    
     <Style x:Key="BP02" TargetType="RadioButton">
         <Style.Setters>
             <Setter Property="Template">
@@ -115,5 +129,30 @@
             </Setter.Value>
         </Setter>
     </Style>
-    
+
+    <Style TargetType="Label" x:Key="LL01">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="{Binding FontSize}"/>
+        <Setter Property="Foreground">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#FF60617B" Offset="0"/>
+                    <GradientStop Color="#FF534F58" Offset="0.6"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Label" x:Key="LL02">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="{Binding FontSize}"/>
+        <Setter Property="Foreground">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="0.5,1">
+                    <GradientStop Color="#FF87899E" Offset="0"/>
+                    <GradientStop Color="#FF7F8086" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
 </ResourceDictionary>
