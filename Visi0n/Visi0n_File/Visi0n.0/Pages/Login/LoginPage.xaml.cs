@@ -33,7 +33,7 @@ namespace Visi0n._0.Pages
             _type = tp;
         }
 
-        private void StartPersonal(object sender, RoutedEventArgs e)
+        private void Start(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show(usrnameBox.Text + "  " + usrpassBox.Text);
 

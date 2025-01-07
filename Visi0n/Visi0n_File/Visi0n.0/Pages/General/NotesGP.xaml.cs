@@ -26,14 +26,21 @@ namespace Visi0n._0.Pages.General
         NoteItem _note;
         int posCur;
 
-        public NotesGP(Frame frame, NoteItem nt = null)
+        User _usr;
+
+        public NotesGP(Frame frame, NoteItem nt = null, User usr = null)
         {
             InitializeComponent();
             _frame = frame;
             _note = nt;
 
-            posCur = 3;
+            posCur = 0;
             if (nt != null) { AddItem(nt, posCur); }
+
+            if (usr != null) { _usr = usr; }
+            else { _usr = new User(); }
+
+            // GetAllNotes(_usr);
         }
 
         private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)

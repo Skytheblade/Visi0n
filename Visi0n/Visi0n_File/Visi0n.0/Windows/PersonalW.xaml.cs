@@ -30,7 +30,7 @@ namespace Visi0n._0
         public PersonalW(User usr = null)
         {
             InitializeComponent();
-            ToFrame();
+            Section("f");
             Frame01.Navigate(new PersonalHome());
             if (usr != null) UserSetUp(usr);
         }
@@ -64,42 +64,42 @@ namespace Visi0n._0
             this.Close();
         }
 
-        private void HomeP_Click(object sender, RoutedEventArgs e)
-        {
-            ToFrame();
-            Frame01.Navigate(new PersonalHome());
-            CurrentPage.Content = "Home";
-            HomeP.IsChecked = false;
-        }
+
 
         private void Frame01_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
         {
             //ToFrame();
         }
 
+        private void HomeP_Click(object sender, RoutedEventArgs e)
+        {
+            Section("f");
+            Frame01.Navigate(new PersonalHome(_user));
+            CurrentPage.Content = "Home";
+            HomeP.IsChecked = false;
+        }
         private void CalP_Click(object sender, RoutedEventArgs e)
         {
-            ToFrame();
-            Frame01.Navigate(new CalendarGP(Frame01));
+            Section("f");
+            Frame01.Navigate(new CalendarGP(Frame01, _user));
             CurrentPage.Content = "Calendar";
             CalP.IsChecked = false;
         }
-
         private void NoteP_Click(object sender, RoutedEventArgs e)
         {
-            ToFrame();
-            Frame01.Navigate(new NotesGP(Frame01));
+            Section("f");
+            Frame01.Navigate(new NotesGP(Frame01, null, _user));
             CurrentPage.Content = "Notes";
             NoteP.IsChecked = false;
         }
-
         private void RemindP_Click(object sender, RoutedEventArgs e)
         {
-            ToFrame();
-            Frame01.Navigate(new RemindersGP(Frame01));
+            Section("f");
+            Frame01.Navigate(new RemindersGP(Frame01, _user));
             CurrentPage.Content = "Reminders";
             RemindP.IsChecked = false;
         }
+
 
         private void minmax_Checked(object sender, RoutedEventArgs e)
         {
@@ -108,7 +108,6 @@ namespace Visi0n._0
 
             minmax.IsChecked = false;
         }
-
         private void fold_Checked(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -117,62 +116,47 @@ namespace Visi0n._0
 
         private void pfpC(object sender, MouseButtonEventArgs e)
         {
-            /*if (!Pfp_Act())
-            {
-                logout_Click(null, null);
-            }*/
-            OpenAccSec();
+            Section("a");
         }
-        private bool Pfp_Act()
-        {
-            MessageBoxResult result = MessageBox.Show("Log Out?", "message", MessageBoxButton.YesNo);
-            if (result == MessageBoxResult.Yes)
-            {
-                return false;
-            }
 
-            return true;
-        }
-        private void OpenAccSec()
+        private void Section(string type__)
         {
-            Frame01.Visibility = Visibility.Collapsed;
-            AccSec.Visibility = Visibility.Visible;
-            SettSec.Visibility = Visibility.Collapsed;
-        }
-        private void OpenSettSec()
-        {
-            Frame01.Visibility = Visibility.Collapsed;
-            AccSec.Visibility = Visibility.Collapsed;
-            SettSec.Visibility = Visibility.Visible;
-        }
-        private void ToFrame()
-        {
-            Frame01.Visibility = Visibility.Visible;
-            AccSec.Visibility = Visibility.Collapsed;
-            SettSec.Visibility = Visibility.Collapsed;
+            if (type__ == "a")
+            {
+                Frame01.Visibility = Visibility.Collapsed;
+                AccSec.Visibility = Visibility.Visible;
+                SettSec.Visibility = Visibility.Collapsed;
+            }
+            if (type__ == "s")
+            {
+                Frame01.Visibility = Visibility.Collapsed;
+                AccSec.Visibility = Visibility.Collapsed;
+                SettSec.Visibility = Visibility.Visible;
+            }
+            if (type__ == "f")
+            {
+                Frame01.Visibility = Visibility.Visible;
+                AccSec.Visibility = Visibility.Collapsed;
+                SettSec.Visibility = Visibility.Collapsed;
+            }
         }
 
         private void Settings_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            OpenSettSec();
+            Section("s");
         }
 
         private void darkLightMode_Click(object sender, RoutedEventArgs e)
         {
-            ToggleButton tb = ((ToggleButton)sender);
-            if (tb.IsChecked == true)
+            if (togglelabel.Content == "dark")
             {
-                LinearGradientBrush LinearBrush = new LinearGradientBrush();
-                LinearBrush.StartPoint = new Point(0, 1);
-                LinearBrush.EndPoint = new Point(1, 1);
-                LinearBrush.GradientStops.Add(new GradientStop(Colors.Yellow, 0.0));
-                LinearBrush.GradientStops.Add(new GradientStop(Colors.Red, 0.3));
-                LinearBrush.GradientStops.Add(new GradientStop(Colors.Blue, 0.6));
-                tb.Background = LinearBrush;
+                togglelabel.Content = "light";
+                darkLightMode.IsChecked = false;
             }
             else
             {
-                tb.Background = new SolidColorBrush(Colors.Red);
+                togglelabel.Content = "dark";
+                darkLightMode.IsChecked = false;
             }
         }
     }

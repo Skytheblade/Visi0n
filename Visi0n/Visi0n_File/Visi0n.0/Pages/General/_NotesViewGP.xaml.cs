@@ -33,7 +33,7 @@ namespace Visi0n._0.Pages.General
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text)));
+            _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text, -1)));
         }
     }
 }

@@ -1462,10 +1462,8 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-wi
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.AssemblyInfoInputs.cache
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.AssemblyInfo.cs
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.csproj.CoreCompileInputs.cache
-C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.sourcelink.json
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.csproj.CopyComplete
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.dll
-C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\refint\Visi0n.0.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.pdb
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\Visi0n.0.genruntimeconfig.cache
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net6.0-windows\ref\Visi0n.0.dll
@@ -1480,3 +1478,4 @@ C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-window
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\System.Data.Odbc.dll
+C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\bin\Debug\net6.0-windows\ref\Visi0n.0.dll

@@ -9,9 +9,8 @@ using System.Windows.Markup;
 
 namespace Visi0n._0.Model
 {
-    // -modify provider versions
-    // did not work at all on win11 os (12)
-    // working with OleDb 8.0.0 & x86 or x64 (12)
+    // did not work at all on win11 os
+    // working with OleDb 8.0.0 & x86 or x64 (.16/.12 provider versions)
     public abstract class BaseDB
     {
         private static string dir = Directory.GetCurrentDirectory();

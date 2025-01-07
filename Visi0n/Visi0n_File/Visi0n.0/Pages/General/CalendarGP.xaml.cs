@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Visi0n._0.Pages.Pesonal;
+using Visi0n._0.VModel;
 
 namespace Visi0n._0.Pages.General
 {
@@ -29,9 +30,10 @@ namespace Visi0n._0.Pages.General
         int Ynum;
         string __date;
 
+        User _usr;
 
 
-        public CalendarGP(Frame frame)
+        public CalendarGP(Frame frame, User usr = null)
         {
             InitializeComponent();
             _frame = frame;

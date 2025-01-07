@@ -52,7 +52,6 @@ namespace Visi0n._0.Model
                 command.Connection = connection;
                 connection.Open();
                 reader = command.ExecuteReader();
-                //asncReader = await command.ExecuteReaderAsync();
                 User tmp = new User();
 
                 while (reader.Read())

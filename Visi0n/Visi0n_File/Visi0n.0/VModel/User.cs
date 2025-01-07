@@ -16,7 +16,7 @@ namespace Visi0n._0.VModel
         {
             _usrName = "";
             _pwd = "";
-            _absId = 0;
+            _absId = -1;
         }
 
         public User(string un, string pd, int id) 

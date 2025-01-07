@@ -23,9 +23,9 @@
                         <RowDefinition Height="10*"/>
                     </Grid.RowDefinitions>
 
-                    <Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="0"/>
+                    <!--Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="0"/>
                     <Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="1"/>
-                    <Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="2"/>
+                    <Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="2"/-->
                     <Label Style="{StaticResource Note01}" Content="+" Margin="5" Grid.Row="7" MouseDoubleClick="Label_MouseDoubleClick"/>
                 </Grid>
             </Border>

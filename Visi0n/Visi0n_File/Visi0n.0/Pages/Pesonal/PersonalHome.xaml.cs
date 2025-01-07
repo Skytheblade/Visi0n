@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Visi0n._0.VModel;
 
 namespace Visi0n._0.Pages.Pesonal
 {
@@ -20,7 +21,9 @@ namespace Visi0n._0.Pages.Pesonal
     /// </summary>
     public partial class PersonalHome : Page
     {
-        public PersonalHome()
+        User _user;
+
+        public PersonalHome(User user = null)
         {
             InitializeComponent();
         }

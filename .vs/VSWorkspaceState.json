@@ -4,14 +4,13 @@
     "\\Visi0n",
     "\\Visi0n\\Visi0n_File",
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Core",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Model",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\VModel",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows"
   ],
-  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\Model\\_UserDB.cs",
+  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\VModel\\NoteItem.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -12,3 +12,6 @@ improvements
 
 ver 0.1.11.8
 db advancment
+
+ver 0.1.11.9
+reorder & added notes to db
