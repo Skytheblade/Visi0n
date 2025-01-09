@@ -35,24 +35,34 @@ namespace Visi0n._0.Pages.General
             _note = nt;
 
             posCur = 0;
-            if (nt != null) { AddItem(nt, posCur); }
+            if (nt != null) { AddItem(nt); }
 
             if (usr != null) { _usr = usr; }
             else { _usr = new User(); }
 
-            // GetAllNotes(_usr);
+            SetNotes(_usr);
+
+        }
+
+        public void SetNotes(User usr)
+        {
+            List<NoteItem> notes = NoteService.GetNotes(usr);
+            for (int i = 0; i < notes.Count; i++)
+            {
+                AddItem(notes.First());
+            }
         }
 
         private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            _frame.Navigate(new _NotesViewGP(_frame));
+            _frame.Navigate(new _NotesViewGP(_frame, _usr));
         }
 
-        private void AddItem(NoteItem nt, int pos)
+        private void AddItem(NoteItem nt)
         {
             Label label = new Label() { Content = nt._name, Margin = new Thickness(5, 5, 5, 5) };
             label.Style = (Style)FindResource("Note01");
-            Grid.SetRow(label, pos);
+            Grid.SetRow(label, posCur);
             Table.Children.Add(label);
             posCur++;
         }

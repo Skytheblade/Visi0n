@@ -12,6 +12,13 @@ namespace Visi0n._0.VModel
         public string _name;
         public string _text;
 
+        public NoteItem()
+        {
+            _name = "";
+            _text = "";
+            _uid = -1;
+        }
+
         public NoteItem(string n, string t, int u)
         {
             _name = n;

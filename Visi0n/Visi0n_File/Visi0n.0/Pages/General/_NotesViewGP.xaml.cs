@@ -23,17 +23,19 @@ namespace Visi0n._0.Pages.General
     public partial class _NotesViewGP : Page
     {
         Frame _frame;
+        User _user;
         NoteItem _item;
 
-        public _NotesViewGP(Frame frame)
+        public _NotesViewGP(Frame frame, User usr)
         {
             InitializeComponent();
             _frame = frame;
+            _user = usr;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text, -1)));
+            _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text, _user._absId), _user));
         }
     }
 }
