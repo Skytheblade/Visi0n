@@ -109,7 +109,8 @@ namespace Visi0n._0.Model
             u._usrName = reader["UserName"].ToString();
             u._pwd = reader["Password"].ToString();
             u._absId = int.Parse(reader["ID"].ToString());
-            
+            u._type = int.Parse(reader["UserType"].ToString());
+
             return u;
         }
 

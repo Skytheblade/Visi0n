@@ -28,13 +28,6 @@
                     <RowDefinition Height="10*"/>
                 </Grid.RowDefinitions>
 
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="0"/>
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="1"/>
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="2"/>
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="3"/>
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="4"/>
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="5"/>
-                <CheckBox Style="{StaticResource Reminder01}" Content="Reminder" Margin="4" Grid.Row="6"/>
 
                 <Grid Grid.Row="13">
                     <Grid.ColumnDefinitions>
@@ -43,7 +36,7 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBox x:Name="TextName" Margin="1" Grid.Column="0" Text="New Reminder"/>
-                    <Button Content="Add" Margin="1" Grid.Column="1" Click="Button_Click"/>
+                    <Button Content="Add" Margin="1" Grid.Column="1" Click="AddRCommand"/>
                 </Grid>
             </Grid>
         </Border>

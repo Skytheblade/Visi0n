@@ -30,16 +30,45 @@ namespace Visi0n._0.Pages.General
         {
             InitializeComponent();
             _frame = frame;
-            posCur = 7;
+            posCur = 0;
+
+            if (usr != null) _usr = usr;
+            else _usr = new User();
+
+            Load(_usr);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Load(User usr)
         {
-            CheckBox ck = new CheckBox() { Content = TextName.Text, Margin = new Thickness(4, 4, 4, 4) };
+            List<Reminder> reminders = ReminderService.GetReminders(usr);
+            for (int i = 0; i < reminders.Count; i++)
+            {
+                AddReminder(reminders.First());
+                reminders.RemoveAt(0);
+            }
+        }
+
+        private void AddRCommand(object sender, RoutedEventArgs e)
+        {
+            AddReminder();
+        }
+        private void AddReminder(Reminder r = null)
+        {
+            CheckBox ck = new CheckBox() { Margin = new Thickness(4, 4, 4, 4) };
+            if (r != null)
+                ck.Content = r._text;
+            else
+                ck.Content = TextName.Text;
             ck.Style = (Style)FindResource("Reminder01");
             Grid.SetRow(ck, posCur);
             posCur++;
             Rtable.Children.Add(ck);
+        }
+
+        // on: Checked=""
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            // remove
         }
     }
 }

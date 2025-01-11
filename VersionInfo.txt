@@ -15,3 +15,6 @@ db advancment
 
 ver 0.1.11.9
 reorder & added notes to db
+
+ver 0.1.11.10
+db & logic advancment

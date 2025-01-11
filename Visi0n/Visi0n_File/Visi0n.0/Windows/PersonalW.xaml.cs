@@ -41,6 +41,7 @@ namespace Visi0n._0
 
             usrName.Content = _user._usrName;
             usrPass.Content = _user._pwd;
+            usrType.Content = _user._type;
         }
 
         private void Drag(object sender, RoutedEventArgs e)
@@ -77,6 +78,12 @@ namespace Visi0n._0
             Frame01.Navigate(new PersonalHome(_user));
             CurrentPage.Content = "Home";
             HomeP.IsChecked = false;
+
+            MessageBox.Show("Ideas to make this unique and better: \n" +
+                "Create gaming (skyblock) profile page \n" +
+                "Create sprort and sw page \n" +
+                "Make corporate chat \n" +
+                "");
         }
         private void CalP_Click(object sender, RoutedEventArgs e)
         {

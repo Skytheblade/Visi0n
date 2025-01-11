@@ -50,6 +50,7 @@ namespace Visi0n._0.Pages.General
             for (int i = 0; i < notes.Count; i++)
             {
                 AddItem(notes.First());
+                notes.RemoveAt(0);
             }
         }
 
