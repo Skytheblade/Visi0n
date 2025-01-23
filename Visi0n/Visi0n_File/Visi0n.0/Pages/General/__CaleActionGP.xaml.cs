@@ -36,12 +36,13 @@ namespace Visi0n._0.Pages.General
         {
             _target = new ListViewItem();
             _target.Content = AcName.Text;
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Save();
-            _frame.Navigate(new _CaleDayViewGP(_frame, _date, _target));
+            //_frame.Navigate(new _CaleDayViewGP(_frame, _date, _target));
         }
     }
 }

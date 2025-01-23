@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,12 +32,16 @@ namespace Visi0n._0.Pages.General
         string __date;
 
         User _usr;
+        ObservableCollection<Event> _events;
 
 
-        public CalendarGP(Frame frame, User usr = null)
+        public CalendarGP(Frame frame, User usr)
         {
             InitializeComponent();
             _frame = frame;
+            _usr = usr;
+
+             _events = EventService.Load(_usr);
 
             Marr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
             Ynum = 2024;
@@ -50,7 +55,11 @@ namespace Visi0n._0.Pages.General
 
         private void UpdateDate()
         {
-            __date = " " + _day + " / " + Marr[MarrIndx] + " / " + Ynum;
+            string ddd;
+            string mmm;
+            if (_day < 10) ddd = "0" + _day; else ddd = "" + _day;
+            if (Marr[MarrIndx] < 10) mmm = "0" + Marr[MarrIndx]; else mmm = "" + Marr[MarrIndx];
+            __date = " " + ddd + " / " + mmm + " / " + Ynum;
             TheDateOfToday.Content = __date;
         }
         private void UpdateColumn()
@@ -106,7 +115,8 @@ namespace Visi0n._0.Pages.General
 
         private void d_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            _frame.Navigate(new _CaleDayViewGP(_frame, __date, null));
+            ObservableCollection<Event> storm = EventService.Storm(_events, __date.Replace(" ", ""));
+            _frame.Navigate(new _CaleDayViewGP(_frame, _usr, __date, storm));
         }
     }
 }

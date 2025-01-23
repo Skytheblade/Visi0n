@@ -79,11 +79,11 @@ namespace Visi0n._0
             CurrentPage.Content = "Home";
             HomeP.IsChecked = false;
 
-            MessageBox.Show("Ideas to make this unique and better: \n" +
+            /*MessageBox.Show("Ideas to make this unique and better: \n" +
                 "Create gaming (skyblock) profile page \n" +
                 "Create sprort and sw page \n" +
                 "Make corporate chat \n" +
-                "");
+                "");*/
         }
         private void CalP_Click(object sender, RoutedEventArgs e)
         {

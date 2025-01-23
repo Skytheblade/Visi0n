@@ -50,7 +50,7 @@ namespace Visi0n._0
 
         private void CalendarB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new CalendarGP(Screen));
+            Screen.Navigate(new CalendarGP(Screen, new VModel.User()));
             currentStateLabel.Content = "Current: Calendar";
         }
 

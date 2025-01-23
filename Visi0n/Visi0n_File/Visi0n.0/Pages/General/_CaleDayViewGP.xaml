@@ -15,10 +15,16 @@
         </Grid.ColumnDefinitions>
 
         <Border Grid.Column="0" Margin="10">
-            <ListView x:Name="EventList">
-                <ListViewItem Content="Event" Selected="ListViewItem_Selected" />
-                <ListViewItem Content="Event"/>
+            
+            <ListView x:Name="EventList" SelectionChanged="EventList_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" Width="80" DisplayMemberBinding="{Binding _ID}"/>
+                        <GridViewColumn Header="Name" Width="200" DisplayMemberBinding="{Binding _name}"/>
+                    </GridView>
+                </ListView.View>
             </ListView>
+            
         </Border>
 
         <Grid Grid.Column="1" Margin="10">
