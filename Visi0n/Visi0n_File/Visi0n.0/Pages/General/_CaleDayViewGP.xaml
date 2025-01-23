@@ -16,15 +16,30 @@
 
         <Border Grid.Column="0" Margin="10">
             
-            <ListView x:Name="EventList" SelectionChanged="EventList_SelectionChanged">
+            <!--ListView x:Name="EventList" SelectionChanged="EventList_SelectionChanged">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="ID" Width="80" DisplayMemberBinding="{Binding _ID}"/>
                         <GridViewColumn Header="Name" Width="200" DisplayMemberBinding="{Binding _name}"/>
                     </GridView>
                 </ListView.View>
-            </ListView>
-            
+            </ListView-->
+
+            <Grid x:Name="Table">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+
+                
+            </Grid>
+
         </Border>
 
         <Grid Grid.Column="1" Margin="10">
@@ -36,9 +51,9 @@
             <Label x:Name="DateStringLabel" Content="Current date" FontSize="16" VerticalAlignment="Top"/>
 
             <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Bottom">
-                <Button Content="Add New" Height="50" Click="Action_Click"/>
-                <Button Content="Edit" Height="50" Click="Action_Click"/>
-                <Button Content="Remove" Height="50"/>
+                <Button x:Name="AD"  Content="Add New" Height="50" Click="AD_Click"/>
+                <Button x:Name="ED" Content="Edit" Height="50" Click="ED_Click"/>
+                <Button x:Name="RE" Content="Remove" Height="50" Click="RE_Click"/>
                 <Button x:Name="BackB" Content="Back" Height="50" Click="BackB_Click"/>
             </StackPanel>
 

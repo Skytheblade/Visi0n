@@ -29,19 +29,36 @@ namespace Visi0n._0.Pages.General
         ObservableCollection<Event> _events = new ObservableCollection<Event>();
         Event _selected;
 
-        public _CaleDayViewGP(Frame frame, User u, string date, ObservableCollection<Event> e)
+        int posCur;
+
+        public _CaleDayViewGP(Frame frame, User u, string date, ObservableCollection<Event> storm, Event edited = null)
         {
             InitializeComponent();
 
             _frame = frame;
             _date = date;
-            _events = e;
+            _events = storm;
             _user = u;
 
-            EventList.Items.Clear();
-            EventList.ItemsSource = _events;
+            if (edited != null) {
+                // check edit
+                // if new - add
+                // if removed (edited, removed on date) - remove
+                // if edited (edited, not removed) - replace
+                // write to db
+                // identifier - ID
+
+                // needs fixing
+            }
+
+            posCur = 0;
+
+            //EventList.Items.Clear();
+            //EventList.ItemsSource = _events;
 
             DateStringLabel.Content = _date;
+
+            Inprint(_events);
 
             //if (_selected != null) EventList.Items.Add(new ListViewItem { Content = _selected._name});
         }
@@ -51,14 +68,56 @@ namespace Visi0n._0.Pages.General
             _frame.Navigate(new CalendarGP(_frame, _user));
         }
 
-        private void Action_Click(object sender, RoutedEventArgs e)
+
+        public void Inprint(ObservableCollection<Event> evs)
         {
-            //_frame.Navigate(new __CaleActionGP(_frame, _date));
+            //ObservableCollection<Event> eev = new ObservableCollection<Event>();
+            //foreach (Event ev in evs) { eev.Add(ev); }
+            for (int i = 0; i < evs.Count; i++)
+            {
+                AddItem(evs[i]);
+            }
+        }
+        private void AddItem(Event ev)
+        {
+            Label label = new Label() { Content = ev._name + "; " + ev._ID, Margin = new Thickness(5, 5, 5, 5),  };
+            label.Style = (Style)FindResource("Note01");
+            Grid.SetRow(label, posCur);
+            label.MouseDown += new MouseButtonEventHandler(label_MouseDown);
+            Table.Children.Add(label);
+            posCur++;
         }
 
-        private void EventList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void label_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            _selected = EventList.SelectedItem as Event;
+            string id = ((Label)sender).Content.ToString();
+            id = id.Replace(" ", "");
+            id = id.Split(';')[1];
+
+            foreach(Event eve in _events)
+            {
+                if (eve._ID.ToString() == id) _selected = eve;
+            }
+            MessageBox.Show(_selected._name);
+        }
+
+
+        private void AD_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(_selected._name);
+            _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events));
+        }
+
+        private void ED_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(_selected._name);
+            _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events, _selected, 2));
+        }
+
+        private void RE_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(_selected._name);
+            _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events, _selected, 3));
         }
     }
 }

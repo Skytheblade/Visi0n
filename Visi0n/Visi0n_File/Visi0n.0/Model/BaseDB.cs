@@ -20,7 +20,7 @@ namespace Visi0n._0.Model
         private static string dir = Directory.GetCurrentDirectory();
         private static string dirr = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(dir))); // Visi0n.0
 
-        public string connectionString = @"" + "Provider=Microsoft.ACE.OLEDB"+".16.0" + 
+        public string connectionString = @"" + "Provider=Microsoft.ACE.OLEDB"+".12.0" + 
             ";Data Source=" + dirr + "\\Model\\DatabaseTest1.accdb" + 
             ";Persist Security Info=True";
 
