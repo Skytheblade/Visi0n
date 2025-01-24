@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Visi0n._0.VModel;
+using Model_;
+using VModel_;
 
 namespace Visi0n._0.Pages
 {
@@ -37,10 +38,10 @@ namespace Visi0n._0.Pages
         {
             //MessageBox.Show(usrnameBox.Text + "  " + usrpassBox.Text);
 
-            if (UserService01.LoginAtt(usrnameBox.Text, usrpassBox.Text))
+            if (UserService.LoginAtt(usrnameBox.Text, usrpassBox.Text))
             {
-                if (_type == 1) new PersonalW(UserService01.Get(2)).Show();
-                else new CompanyW().Show();
+                if (_type == 1) new PersonalW(UserService.Get(2)).Show();
+                else new CompanyW(UserService.Get(2)).Show();
                 _win.Close();
             }
             else

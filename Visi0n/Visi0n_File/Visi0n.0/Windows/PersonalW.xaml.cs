@@ -15,8 +15,7 @@ using Visi0n._0.Pages;
 using Visi0n._0.Pages.Pesonal;
 using Visi0n._0.Pages.General;
 using System.Windows.Controls.Primitives;
-using Visi0n._0.Model;
-using Visi0n._0.VModel;
+using Model_;
 
 namespace Visi0n._0
 {
@@ -155,14 +154,14 @@ namespace Visi0n._0
 
         private void darkLightMode_Click(object sender, RoutedEventArgs e)
         {
-            if (togglelabel.Content == "dark")
+            if (togglelabel.Content == "dark (not coming soon)")
             {
                 togglelabel.Content = "light";
                 darkLightMode.IsChecked = false;
             }
             else
             {
-                togglelabel.Content = "dark";
+                togglelabel.Content = "dark (not coming soon)";
                 darkLightMode.IsChecked = false;
             }
         }

@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using Visi0n._0.Pages.Company;
 using Visi0n._0.Pages.General;
 using Visi0n._0.Pages.Pesonal;
+using Model_;
 
 namespace Visi0n._0
 {
@@ -22,17 +23,26 @@ namespace Visi0n._0
     /// </summary>
     public partial class CompanyW : Window
     {
-        public CompanyW()
+        User _user;
+
+        public CompanyW(User usr = null)
         {
             InitializeComponent();
+
+            if (usr != null) UserSetUp(usr);
 
             Screen.Navigate(new CompanyDetailsPage(Screen));
             currentStateLabel.Content = "Current: Details";
         }
+        private void UserSetUp(User u)
+        {
+            _user = u;
+        }
 
         private void Drag(object sender, RoutedEventArgs e)
         {
-            DragMove();
+            try { DragMove(); }
+            catch { }
         }
 
 
@@ -50,19 +60,19 @@ namespace Visi0n._0
 
         private void CalendarB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new CalendarGP(Screen, new VModel.User()));
+            Screen.Navigate(new CalendarGP(Screen, _user));
             currentStateLabel.Content = "Current: Calendar";
         }
 
         private void NotesB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new NotesGP(Screen));
+            Screen.Navigate(new NotesGP(Screen, null, _user));
             currentStateLabel.Content = "Current: Notes";
         }
 
         private void RemindersB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new RemindersGP(Screen));
+            Screen.Navigate(new RemindersGP(Screen, _user));
             currentStateLabel.Content = "Current: Reminders";
         }
 

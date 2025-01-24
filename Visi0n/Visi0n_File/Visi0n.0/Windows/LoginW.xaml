@@ -31,6 +31,7 @@
                     <Button x:Name="Quit" Content="X" Width="50" Click="Quit_Click" Foreground="AliceBlue" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
                     <Button x:Name="Mini" Content="__" Width="50" Click="Mini_Click" Foreground="AliceBlue" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
                     <Button x:Name="Maxi" Content="[   ]" Width="50" Click="Maxi_Click" Foreground="AliceBlue" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Visibility="Collapsed"/>
+                    <Button x:Name="Info" Content="i" Width="50" Click="Info_Click" Foreground="AliceBlue" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
                 </StackPanel>
             </Grid>
             <Grid Margin="10" Grid.Row="1">

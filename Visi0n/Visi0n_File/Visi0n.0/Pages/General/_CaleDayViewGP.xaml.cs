@@ -14,7 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Visi0n._0.VModel;
+using Model_;
 
 namespace Visi0n._0.Pages.General
 {
@@ -41,13 +41,25 @@ namespace Visi0n._0.Pages.General
             _user = u;
 
             if (edited != null) {
+                bool f = false;
+                foreach (Event e in _events)
+                {
+                    if (e._ID == edited._ID) f = true;
+                }
+                if (f)
+                {
+                    // update db
+                }
+                else
+                {
+                    _events.Add(edited);
+                    // add to db
+                }
                 // check edit
                 // if new - add
-                // if removed (edited, removed on date) - remove
-                // if edited (edited, not removed) - replace
+                // if edited - replace
                 // write to db
                 // identifier - ID
-
                 // needs fixing
             }
 
@@ -98,26 +110,45 @@ namespace Visi0n._0.Pages.General
             {
                 if (eve._ID.ToString() == id) _selected = eve;
             }
-            MessageBox.Show(_selected._name);
+
+            MessageBox.Show(_selected._ID +"\n"+ _selected._name +"\n"+ _selected._description +"\n"+ _selected._date +"\n"+ _selected._uid);
         }
 
 
         private void AD_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(_selected._name);
+            if (_selected != null) MessageBox.Show("Selected: " + _selected._name);
             _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events));
         }
 
         private void ED_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(_selected._name);
-            _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events, _selected, 2));
+            if (_selected == null) MessageBox.Show("Please select an event first");
+            else
+            {
+                MessageBox.Show("Selected: " + _selected._name);
+                _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events, _selected, 2));
+            }
         }
 
         private void RE_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(_selected._name);
-            _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events, _selected, 3));
+            if (_selected == null) MessageBox.Show("Please select an event first");
+            else
+            {
+                MessageBox.Show("Selected: " + _selected._name);
+                // remove from db
+                _events.Remove(_selected);
+                Reload();
+            }
+        }
+
+
+        private void Reload()
+        {
+            Table.Children.Clear();
+            posCur = 0;
+            Inprint(_events);
         }
     }
 }

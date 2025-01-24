@@ -13,7 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Visi0n._0.Pages.Pesonal;
-using Visi0n._0.VModel;
+using Model_;
+using VModel_;
 
 namespace Visi0n._0.Pages.General
 {
@@ -56,7 +57,7 @@ namespace Visi0n._0.Pages.General
 
         private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            _frame.Navigate(new _NotesViewGP(_frame, _usr));
+            _frame.Navigate(new _NotesViewGP(_frame, _usr, 0));
         }
 
         private void AddItem(NoteItem nt)
@@ -64,8 +65,14 @@ namespace Visi0n._0.Pages.General
             Label label = new Label() { Content = nt._name, Margin = new Thickness(5, 5, 5, 5) };
             label.Style = (Style)FindResource("Note01");
             Grid.SetRow(label, posCur);
+            label.MouseDown += new MouseButtonEventHandler(label_MouseDown);
             Table.Children.Add(label);
             posCur++;
+        }
+
+        private void label_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            _frame.Navigate(new _NotesViewGP(_frame, _usr, 1));
         }
     }
 }

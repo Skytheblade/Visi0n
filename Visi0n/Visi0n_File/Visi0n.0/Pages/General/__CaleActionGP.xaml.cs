@@ -13,7 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Visi0n._0.VModel;
+using Model_;
+using VModel_;
 
 namespace Visi0n._0.Pages.General
 {
@@ -26,7 +27,7 @@ namespace Visi0n._0.Pages.General
         string _date;
         Event _target;
         ObservableCollection<Event> _collection;
-        int _mode; // 1 - add; 2 - edit; 3 - remove
+        int _mode; // 1 - add; 2 - edit;
         User _user;
 
         public __CaleActionGP(Frame frame, User u, string date, ObservableCollection<Event> storm, Event target = null, int mode = 1)
@@ -43,29 +44,21 @@ namespace Visi0n._0.Pages.General
 
         private void Save()
         {
-            if (_target == null && _mode != 1) { }
-            else
+            if (_mode == 1 && _target == null) //null - new
             {
-                if (_mode == 1) //null
+                _target = new Event();
+                _target._name = AcName.Text;
+                _target._description = Detl.Text;
+                _target._ID = EventService.CreateNewID();
+                _target._date = _date;
+                _target._uid = _user._absId;
+            }
+            else //not null - existing
+            {
+                if (_mode == 2)
                 {
-                    _target = new Event();
                     _target._name = AcName.Text;
                     _target._description = Detl.Text;
-                    // create new id, else -1
-                    _target._date = _date;
-                    _target._uid = _collection.First()._uid;
-                }
-                else //not null
-                {
-                    if (_mode == 3)
-                    {
-                        _target._date = "removed";
-                    }
-                    if (_mode == 2)
-                    {
-                        _target._name = AcName.Text;
-                        _target._description = Detl.Text;
-                    }
                 }
             }
         }

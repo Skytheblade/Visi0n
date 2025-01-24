@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Model_
+{
+    public class NoteItem
+    {
+        public int _uid;
+        public string _name;
+        public string _text;
+
+        public NoteItem()
+        {
+            _name = "";
+            _text = "";
+            _uid = -1;
+        }
+
+        public NoteItem(string n, string t, int u)
+        {
+            _name = n;
+            _text = t;
+            _uid = u;
+        }
+    }
+}

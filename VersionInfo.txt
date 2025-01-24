@@ -18,3 +18,6 @@ reorder & added notes to db
 
 ver 0.1.11.10
 db & logic advancment
+
+ver 0.2
+precompletion of the wpf app, logic incomplete

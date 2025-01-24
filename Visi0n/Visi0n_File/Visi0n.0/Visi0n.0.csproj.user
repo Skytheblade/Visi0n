@@ -70,6 +70,9 @@
     <Compile Update="Windows\CompanyW.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\InfoW.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\PersonalW.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -145,6 +148,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\CompanyW.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\InfoW.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\LoginW.xaml">
