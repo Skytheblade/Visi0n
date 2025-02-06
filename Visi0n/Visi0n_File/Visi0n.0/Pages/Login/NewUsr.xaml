@@ -18,7 +18,7 @@
 
             <TextBox x:Name="usrnameBox" Style="{StaticResource TextBox01}" Text="Username" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="300"  MouseDoubleClick="TextBoxClear"/>
         <TextBox x:Name="usrpassBox" Style="{StaticResource TextBox01}" Text="Password" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="300" Grid.Row="1"  MouseDoubleClick="TextBoxClear"/>
-            <Button x:Name="usrLogin" Style="{StaticResource Button03}" Content="Create" Grid.Row="2" Height="50" Width="100" />
+            <Button x:Name="usrCreate" Style="{StaticResource Button03}" Content="Create" Grid.Row="2" Height="50" Width="100" Click="usrCreate_Click" />
         <Button x:Name="back" Style="{StaticResource Button03}" Content="Back" Grid.Row="3" Grid.Column="1" Height="50" Width="100" Click="back_Click"/>
         </Grid>
 </Page>

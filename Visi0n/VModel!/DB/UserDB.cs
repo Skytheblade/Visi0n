@@ -35,9 +35,7 @@ namespace VModel_
             catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
             finally // close
             {
-                if (reader != null) reader.Close();
-                if (connection.State == System.Data.ConnectionState.Open)
-                    connection.Close();
+                CloseSetup();
             }
             return usr;
         }
@@ -65,9 +63,7 @@ namespace VModel_
             catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
             finally
             {
-                if (reader != null) reader.Close();
-                if (connection.State == System.Data.ConnectionState.Open)
-                    connection.Close();
+                CloseSetup();
             }
             return usr;
         }
@@ -105,12 +101,69 @@ namespace VModel_
             catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
             finally // close
             {
-                if (reader != null) reader.Close();
-                if (connection.State == System.Data.ConnectionState.Open)
-                    connection.Close();
+                CloseSetup();
             }
 
             return ul;
         }
+
+
+        protected async Task<int> Edit(string sqlStr, int records = 0)
+        {
+            trans = null;
+            try
+            {
+                command.CommandText = sqlStr;
+                connection.Open();
+                trans = connection.BeginTransaction();
+                command.Transaction = trans;
+                records = command.ExecuteNonQuery(); // action; +Async & await for later
+                trans.Commit();
+            }
+            catch (Exception e)
+            {
+                trans.Rollback();
+                Console.WriteLine("Error message: \n " + e.Message);
+            }
+            finally
+            {
+                CloseSetup();
+            }
+            return records;
+        }
+
+        public async Task<int> Insert(User usr)
+        {
+            int records = 0;
+
+            string sqlStr = string.Format("INSERT INTO Usr_Tbl (ID, UserName, Password, UserType) "
+                + "VALUES ('{0}', '{1}', '{2}', '{3}')",
+                usr._absId, usr._usrName, usr._pwd, usr._type);
+
+            return Edit(sqlStr, records).Result;
+        }
+
+        /*public async Task<int> Update(People usr)
+        {
+            int records = 0;
+
+            string sqlStr = $"UPDATE peopleTBL SET " +
+                $"firstName = '{prsn.firstName}'," +
+                $" lastName = '{prsn.lastName}'," +
+                $" city = '{prsn.city.cityname}'," +
+                $" telephone = '{prsn.telephone}'" +
+                $" WHERE UID = '{prsn.id}'";
+
+            return Edit(sqlStr, records).Result;
+        }
+
+        public async Task<int> Remove(string uid)
+        {
+            int records = 0;
+
+            string sqlStr = $"DELETE FROM peopleTBL WHERE UID = '{uid}'";
+
+            return Edit(sqlStr, records).Result;
+        }*/
     }
 }

@@ -28,5 +28,26 @@ namespace VModel_
             else return null;
             //return new User("Name0", "Pass0", id);
         }
+
+        public static User MakeUser(string usrN, string pass, int ty)
+        {
+            User uu = new User(usrN, pass, NextId(), ty);
+
+            new UserDB().Insert(uu);
+
+            return uu;
+        }
+
+        public static int NextId()
+        {
+            List<User> ul = new UserDB().Collect();
+            int iid = 0;
+            for (int i = 0; i < ul.Count; i++)
+            {
+                if (iid <= ul[i]._absId) iid = ul[i]._absId;
+            }
+            iid++;
+            return iid;
+        }
     }
 }

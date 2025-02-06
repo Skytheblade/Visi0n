@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using VModel_;
 
 namespace Visi0n._0.Pages
 {
@@ -40,6 +41,13 @@ namespace Visi0n._0.Pages
         private void TextBoxClear(object sender, MouseButtonEventArgs e)
         {
             ((TextBox)sender).Text = string.Empty;
+        }
+
+        private void usrCreate_Click(object sender, RoutedEventArgs e)
+        {
+            UserService.MakeUser(usrnameBox.Text, usrpassBox.Text, _type);
+            MessageBox.Show("attempted creation for: " +
+                usrnameBox.Text + ", " + usrpassBox.Text + ", " + _type + " with next id");
         }
     }
 }

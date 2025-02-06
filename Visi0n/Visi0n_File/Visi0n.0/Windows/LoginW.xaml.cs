@@ -25,7 +25,7 @@ namespace Visi0n._0
         {
             InitializeComponent();
             FrameL.Navigate(new StartPage(FrameL, this));
-            MessageBox.Show("Click the i button for info and instructions");
+            //MessageBox.Show("Click the i button for info and instructions");
         }
 
         private void Quit_Click(object sender, RoutedEventArgs e)
