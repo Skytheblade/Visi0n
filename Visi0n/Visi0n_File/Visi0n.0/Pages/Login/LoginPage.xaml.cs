@@ -40,8 +40,9 @@ namespace Visi0n._0.Pages
 
             if (UserService.LoginAtt(usrnameBox.Text, usrpassBox.Text))
             {
-                if (_type == 1) new PersonalW(UserService.Get(2)).Show();
-                else new CompanyW(UserService.Get(2)).Show();
+                int idd = new UserDB().FindID(usrnameBox.Text);
+                if (_type == 1) new PersonalW(UserService.Get(idd)).Show();
+                else new CompanyW(UserService.Get(idd)).Show();
                 _win.Close();
             }
             else

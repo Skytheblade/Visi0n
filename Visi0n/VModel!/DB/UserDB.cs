@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
+using System.Net;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,7 +73,7 @@ namespace VModel_
         public User CreateModel(User u)
         {
             u._usrName = reader["UserName"].ToString();
-            u._pwd = reader["Password"].ToString();
+            u._pwd = reader["PassCode"].ToString();
             u._absId = int.Parse(reader["ID"].ToString());
             u._type = int.Parse(reader["UserType"].ToString());
 
@@ -136,9 +138,12 @@ namespace VModel_
         {
             int records = 0;
 
-            string sqlStr = string.Format("INSERT INTO Usr_Tbl (ID, UserName, Password, UserType) "
-                + "VALUES ('{0}', '{1}', '{2}', '{3}')",
-                usr._absId, usr._usrName, usr._pwd, usr._type);
+            string sqlStr = string.Format("INSERT INTO Usr_Tbl (UserName, PassCode, UserType) "
+                + "VALUES ('{0}', '{1}', {2});",
+            /*usr._absId,*/
+            usr._usrName, usr._pwd, usr._type);
+
+            //do not insert autonumber, and do not use 'Password' fields (syntax error)
 
             return Edit(sqlStr, records).Result;
         }
@@ -165,5 +170,18 @@ namespace VModel_
 
             return Edit(sqlStr, records).Result;
         }*/
+
+
+        public int FindID(string uname, string cmdTxt = "SELECT * FROM Usr_Tbl")
+        {
+            List<User> ul = Collect();
+            int found = -1;
+            foreach (User uu in ul)
+            {
+                if (uu._usrName == uname) found = uu._absId;
+            }
+
+            return found;
+        }
     }
 }
