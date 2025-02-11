@@ -38,7 +38,7 @@ namespace Visi0n._0.Pages
         {
             //MessageBox.Show(usrnameBox.Text + "  " + usrpassBox.Text);
 
-            if (UserService.LoginAtt(usrnameBox.Text, usrpassBox.Text))
+            if (UserService.LoginAtt(usrnameBox.Text, usrpassBox.Text, _type))
             {
                 int idd = new UserDB().FindID(usrnameBox.Text);
                 if (_type == 1) new PersonalW(UserService.Get(idd)).Show();

@@ -10,12 +10,12 @@ namespace VModel_
 {
     public class UserService
     {
-        public static bool LoginAtt(string usrname, string pass)
+        public static bool LoginAtt(string usrname, string pass, int type_)
         {
             UserDB usrdb = new UserDB();
             User usr = usrdb.TargetSelect(new UserDB().FindID(usrname));
 
-            if (usr._usrName == usrname && usr._pwd == pass) return true;
+            if (usr._usrName == usrname && usr._pwd == pass && (usr._type == type_ || usr._type == 3)) return true;
             return false;
             //return true;
         }

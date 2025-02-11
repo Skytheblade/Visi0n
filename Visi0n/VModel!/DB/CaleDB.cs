@@ -76,9 +76,7 @@ namespace VModel_
             catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
             finally
             {
-                if (reader != null) reader.Close();
-                if (connection.State == System.Data.ConnectionState.Open)
-                    connection.Close();
+                CloseSetup();
             }
             return nMax;
         }

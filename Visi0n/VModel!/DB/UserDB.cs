@@ -109,30 +109,11 @@ namespace VModel_
             return ul;
         }
 
-
-        protected async Task<int> Edit(string sqlStr, int records = 0)
+        /*public List<User> SelectAll(string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
-            trans = null;
-            try
-            {
-                command.CommandText = sqlStr;
-                connection.Open();
-                trans = connection.BeginTransaction();
-                command.Transaction = trans;
-                records = command.ExecuteNonQuery(); // action; +Async & await for later
-                trans.Commit();
-            }
-            catch (Exception e)
-            {
-                trans.Rollback();
-                Console.WriteLine("Error message: \n " + e.Message);
-            }
-            finally
-            {
-                CloseSetup();
-            }
-            return records;
-        }
+            return Collect<User>(cmdTxt);
+        }*/
+
 
         public async Task<int> Insert(User usr)
         {
