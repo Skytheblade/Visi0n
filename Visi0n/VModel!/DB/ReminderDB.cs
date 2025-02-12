@@ -54,5 +54,10 @@ namespace VModel_
         {
             return new Reminder();
         }
+
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Reminder_Tbl")
+        {
+            return base.Collect(cmdTxt);
+        }
     }
 }

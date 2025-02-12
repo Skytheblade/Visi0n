@@ -12,7 +12,7 @@ namespace VModel_
         public PersonalDB() : base() { }
 
 
-        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Personal_Tbl")
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Personal_Tbl")
         {
             return base.Collect(cmdTxt);
         }

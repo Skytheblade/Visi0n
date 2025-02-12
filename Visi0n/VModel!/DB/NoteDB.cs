@@ -51,7 +51,7 @@ namespace VModel_
             n._text = reader["NoteText"].ToString();
         }
 
-        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Note_Tbl")
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Note_Tbl")
         {
             return base.Collect(cmdTxt);
         }

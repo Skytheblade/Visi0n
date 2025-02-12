@@ -38,6 +38,7 @@ namespace VModel_
             this.command.Connection = this.connection;
         }
 
+
         protected void CloseSetup()
         {
             if (reader != null) reader.Close();
@@ -45,58 +46,13 @@ namespace VModel_
                 connection.Close();
         }
 
+
         protected abstract Entity EGen();
+        public abstract void CreateModel(Entity e);
 
 
-        /*public List<T> Collect<T>(string cmdTxt /* = "SELECT * FROM Usr_Tbl")
-        {
-            command.CommandText = cmdTxt;
-            List<T> ul = new List<T>();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                T tmp = new T();
-
-                while (reader.Read()) // each new reader line - each progression
-                {
-                    tmp = new T();
-                    tmp = CreateModel(tmp);
-                    ul.Add(tmp);
-                }
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
-
-            finally { CloseSetup(); }
-            return ul;
-        }*/
 
 
-        protected async Task<int> Edit(string sqlStr, int records = 0)
-        {
-            trans = null;
-            try
-            {
-                command.CommandText = sqlStr;
-                connection.Open();
-                trans = connection.BeginTransaction();
-                command.Transaction = trans;
-                records = command.ExecuteNonQuery(); // action; + Async & await for later
-                trans.Commit();
-            }
-            catch (Exception e)
-            {
-                trans.Rollback();
-                Console.WriteLine("Error message: \n " + e.Message);
-            }
-            finally
-            {
-                CloseSetup();
-            }
-            return records;
-        }
 
         protected List<Entity> Collect(string cmdTxt)
         {
@@ -129,7 +85,34 @@ namespace VModel_
 
         public abstract List<Entity> SelectAll(string cmdTxt);
 
-        public abstract void CreateModel(Entity e);
+        //public abstract List<Entity> TargetSelect(int id, string cmdTxt);
+        
+
+
+
+        protected async Task<int> Edit(string sqlStr, int records = 0)
+        {
+            trans = null;
+            try
+            {
+                command.CommandText = sqlStr;
+                connection.Open();
+                trans = connection.BeginTransaction();
+                command.Transaction = trans;
+                records = command.ExecuteNonQuery(); // action; + Async & await for later
+                trans.Commit();
+            }
+            catch (Exception e)
+            {
+                trans.Rollback();
+                Console.WriteLine("Error message: \n " + e.Message);
+            }
+            finally
+            {
+                CloseSetup();
+            }
+            return records;
+        }
 
         //protected abstract Task<int> Insert();
         //protected abstract async Task<int> Update();

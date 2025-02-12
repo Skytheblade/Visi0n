@@ -44,7 +44,7 @@ namespace VModel_
             return nl;
         }
 
-        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Cale_Tbl")
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Cale_Tbl")
         {
             return base.Collect(cmdTxt);
         }
@@ -64,10 +64,6 @@ namespace VModel_
             return new Event();
         }
 
-        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM FROM Cale_Tbl")
-        {
-            return base.Collect(cmdTxt);
-        }
 
         public int ReturnNextID(string cmdTxt = "SELECT * FROM Cale_Tbl")
         {

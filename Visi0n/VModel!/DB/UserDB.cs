@@ -85,7 +85,7 @@ namespace VModel_
         }
 
 
-        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
             return base.Collect(cmdTxt);
         }
