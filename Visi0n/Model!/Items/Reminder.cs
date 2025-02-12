@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model_
 {
-    public class Reminder
+    public class Reminder : Entity
     {
         public int _uid;
         public string _text;

@@ -29,7 +29,7 @@ namespace VModel_
                 while (reader.Read())
                 {
                     tmp = new Reminder();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
                     if (user._absId == tmp._uid) nl.Add(tmp);
                 }
             }
@@ -43,12 +43,11 @@ namespace VModel_
             return nl;
         }
 
-        private Reminder CreateModel(Reminder n)
+        public override void CreateModel(Entity e)
         {
+            Reminder n = e as Reminder;
             n._uid = int.Parse(reader["Uid"].ToString());
             n._text = reader["Content"].ToString();
-
-            return n;
         }
     }
 }

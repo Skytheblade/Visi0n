@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5aQxGzCKJ8L4MKTUVtLYe0EJcFkmDV16TnouTch0P3adGw/l9T3ISesZYig8+2K1UVVmyLYGIWbLVJQQSPlag==",
+  "dgSpecHash": "/tE/q1NWZOdf5+kiXdWyoNVtbvqR8mM47o8g9FbPWpM2ZRVGw0nepm2tKeWk9VcEAA+qgZ7ISIM50NEX4xu11A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\אורט\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.data.oledb\\8.0.0\\system.data.oledb.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

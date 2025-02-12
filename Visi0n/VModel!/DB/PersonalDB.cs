@@ -26,7 +26,7 @@ namespace VModel_
                 while (reader.Read())
                 {
                     tmp = new Person();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
                     pl.Add(tmp);
                 }
             }
@@ -36,8 +36,9 @@ namespace VModel_
             return pl;
         }
 
-        private Person CreateModel(Person p)
+        public override void CreateModel(Entity e)
         {
+            Person p = e as Person;
             p._absId = int.Parse(reader["ID"].ToString());
 
             User u = new UserDB().TargetSelect(p._absId); // !
@@ -48,8 +49,6 @@ namespace VModel_
             p._fName = reader["FirstName"].ToString();
             p._lName = reader["LastName"].ToString();
             p._cid = reader["Corp"].ToString();
-
-            return p;
         }
 
         public Person TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
@@ -67,7 +66,7 @@ namespace VModel_
                 while (reader.Read())
                 {
                     tmp = new Person();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
 
                     if (tmp._absId == id) p = tmp;
                 }

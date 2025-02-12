@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model_
 {
-    public class NoteItem
+    public class NoteItem : Entity
     {
         public int _uid;
         public string _name;

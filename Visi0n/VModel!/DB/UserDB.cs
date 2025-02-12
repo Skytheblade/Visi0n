@@ -11,7 +11,7 @@ using Model_;
 
 namespace VModel_
 {
-    public class UserDB : BaseDB
+    public class UserDB : BaseDB, IBaseDB
     {
         public UserDB() : base() { }
 
@@ -30,7 +30,7 @@ namespace VModel_
                 while (reader.Read()) // each new reader line - each progression
                 {
                     tmp = new User();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
                 }
                 usr = tmp;
             }
@@ -57,7 +57,7 @@ namespace VModel_
                 while (reader.Read())
                 {
                     tmp = new User();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
 
                     if (tmp._absId == id) usr = tmp; // from all the table select the last with id - find single correct instance
                 }
@@ -70,53 +70,34 @@ namespace VModel_
             return usr;
         }
 
-        public User CreateModel(User u)
+        public override void CreateModel(Entity e)
         {
+            User u = e as User;
             u._usrName = reader["UserName"].ToString();
             u._pwd = reader["PassCode"].ToString();
             u._absId = int.Parse(reader["ID"].ToString());
             u._type = int.Parse(reader["UserType"].ToString());
-
-            return u;
         }
 
 
         public List<User> Collect(string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
-            command.CommandText = cmdTxt;
             List<User> ul = new List<User>();
-
-            try
+            List<Entity> el = Select(cmdTxt);
+            foreach (Entity e in el)
             {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                User tmp = new User();
-
-                while (reader.Read()) // each new reader line - each progression
-                {
-                    tmp = new User();
-                    tmp = CreateModel(tmp);
-                    ul.Add(tmp);
-                }
+                ul.Add((User)e);
             }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
-            finally // close
-            {
-                CloseSetup();
-            }
-
             return ul;
         }
 
-        /*public List<User> SelectAll(string cmdTxt = "SELECT * FROM Usr_Tbl")
-        {
-            return Collect<User>(cmdTxt);
-        }*/
 
-
-        public async Task<int> Insert(User usr)
+        public async Task<int> Insert(Entity e)
         {
+            User usr;
+            if (e is User) usr = e as User;
+            else return -1;
+
             int records = 0;
 
             string sqlStr = string.Format("INSERT INTO Usr_Tbl (UserName, PassCode, UserType) "

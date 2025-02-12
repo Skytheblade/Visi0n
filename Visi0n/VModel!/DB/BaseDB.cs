@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model_;
+using System;
 using System.Collections.Generic;
 using System.Data.OleDb;
 using System.IO;
@@ -95,7 +96,37 @@ namespace VModel_
             return records;
         }
 
-        //protected abstract async Task<int> Insert();
+        public List<Entity> Select(string cmdTxt)
+        {
+            command.CommandText = cmdTxt;
+            List<Entity> el = new List<Entity>();
+
+            try
+            {
+                command.Connection = connection;
+                connection.Open();
+                reader = command.ExecuteReader();
+                Entity tmp = new Entity();
+
+                while (reader.Read()) // each new reader line - each progression
+                {
+                    tmp = new Entity();
+                    CreateModel(tmp);
+                    el.Add(tmp);
+                }
+            }
+            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
+            finally // close
+            {
+                CloseSetup();
+            }
+
+            return el;
+        }
+
+        public abstract void CreateModel(Entity e);
+
+        //protected abstract Task<int> Insert();
         //protected abstract async Task<int> Update();
         //protected abstract async Task<int> Remove();
     }

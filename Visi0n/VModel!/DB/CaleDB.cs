@@ -30,7 +30,7 @@ namespace VModel_
                 while (reader.Read())
                 {
                     tmp = new Event();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
                     if (user._absId == tmp._uid) nl.Add(tmp);
                 }
             }
@@ -44,15 +44,14 @@ namespace VModel_
             return nl;
         }
 
-        private Event CreateModel(Event n)
+        public override void CreateModel(Entity e)
         {
+            Event n = e as Event;
             n._uid = int.Parse(reader["Uid"].ToString());
             n._name = reader["EventName"].ToString();
             n._description = reader["EventContent"].ToString();
             n._date = reader["EventDate"].ToString();
             n._ID = int.Parse(reader["ID"].ToString());
-
-            return n;
         }
 
         public int ReturnNextID(string cmdTxt = "SELECT * FROM Cale_Tbl")

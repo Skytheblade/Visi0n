@@ -29,7 +29,7 @@ namespace VModel_
                 while (reader.Read())
                 {
                     tmp = new NoteItem();
-                    tmp = CreateModel(tmp);
+                    CreateModel(tmp);
                     if (user._absId == tmp._uid) nl.Add(tmp);
                 }
             }
@@ -43,13 +43,12 @@ namespace VModel_
             return nl;
         }
 
-        private NoteItem CreateModel(NoteItem n)
+        public override void CreateModel(Entity e)
         {
+            NoteItem n = e as NoteItem;
             n._uid = int.Parse(reader["Uid"].ToString());
             n._name = reader["NoteName"].ToString();
             n._text = reader["NoteText"].ToString();
-
-            return n;
         }
     }
 }

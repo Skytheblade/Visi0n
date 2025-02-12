@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model_
 {
-    public class Event
+    public class Event : Entity
     {
         public int _uid;
         public string _name;
