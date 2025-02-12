@@ -49,5 +49,10 @@ namespace VModel_
             n._uid = int.Parse(reader["Uid"].ToString());
             n._text = reader["Content"].ToString();
         }
+
+        protected override Entity EGen()
+        {
+            return new Reminder();
+        }
     }
 }

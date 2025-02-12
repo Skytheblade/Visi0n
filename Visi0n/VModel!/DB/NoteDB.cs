@@ -50,5 +50,15 @@ namespace VModel_
             n._name = reader["NoteName"].ToString();
             n._text = reader["NoteText"].ToString();
         }
+
+        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Note_Tbl")
+        {
+            return base.Collect(cmdTxt);
+        }
+
+        protected override Entity EGen()
+        {
+            return new NoteItem();
+        }
     }
 }

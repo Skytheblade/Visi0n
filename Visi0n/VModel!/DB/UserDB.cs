@@ -42,6 +42,11 @@ namespace VModel_
             return usr;
         }
 
+        protected override Entity EGen()
+        {
+            return new User();
+        }
+
         public User TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
             command.CommandText = cmdTxt;
@@ -72,7 +77,7 @@ namespace VModel_
 
         public override void CreateModel(Entity e)
         {
-            User u = e as User;
+            User u = (User)e;
             u._usrName = reader["UserName"].ToString();
             u._pwd = reader["PassCode"].ToString();
             u._absId = int.Parse(reader["ID"].ToString());
@@ -80,15 +85,9 @@ namespace VModel_
         }
 
 
-        public List<User> Collect(string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
-            List<User> ul = new List<User>();
-            List<Entity> el = Select(cmdTxt);
-            foreach (Entity e in el)
-            {
-                ul.Add((User)e);
-            }
-            return ul;
+            return base.Collect(cmdTxt);
         }
 
 
@@ -136,7 +135,7 @@ namespace VModel_
 
         public int FindID(string uname, string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
-            List<User> ul = Collect();
+            List<Entity> ul = SelectAll();
             int found = -1;
             foreach (User uu in ul)
             {

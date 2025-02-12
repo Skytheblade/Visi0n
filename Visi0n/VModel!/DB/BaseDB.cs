@@ -45,6 +45,8 @@ namespace VModel_
                 connection.Close();
         }
 
+        protected abstract Entity EGen();
+
 
         /*public List<T> Collect<T>(string cmdTxt /* = "SELECT * FROM Usr_Tbl")
         {
@@ -96,7 +98,7 @@ namespace VModel_
             return records;
         }
 
-        public List<Entity> Select(string cmdTxt)
+        protected List<Entity> Collect(string cmdTxt)
         {
             command.CommandText = cmdTxt;
             List<Entity> el = new List<Entity>();
@@ -110,12 +112,13 @@ namespace VModel_
 
                 while (reader.Read()) // each new reader line - each progression
                 {
-                    tmp = new Entity();
+                    tmp = EGen();
                     CreateModel(tmp);
                     el.Add(tmp);
                 }
             }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
+            catch (Exception ex) 
+            { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
             finally // close
             {
                 CloseSetup();
@@ -123,6 +126,8 @@ namespace VModel_
 
             return el;
         }
+
+        public abstract List<Entity> SelectAll(string cmdTxt);
 
         public abstract void CreateModel(Entity e);
 

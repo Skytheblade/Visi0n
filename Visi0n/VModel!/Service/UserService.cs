@@ -40,11 +40,11 @@ namespace VModel_
 
         public static int NextId()
         {
-            List<User> ul = new UserDB().Collect();
+            List<Entity> ul = new UserDB().Collect();
             int iid = 0;
-            for (int i = 0; i < ul.Count; i++)
+            foreach (User u in ul/*int i = 0; i < ul.Count; i++*/)
             {
-                if (iid <= ul[i]._absId) iid = ul[i]._absId;
+                if (iid <= u._absId) iid = u._absId;
             }
             iid++;
             return iid;

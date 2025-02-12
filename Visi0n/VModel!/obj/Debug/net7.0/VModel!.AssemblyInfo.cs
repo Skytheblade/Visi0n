@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VModel!")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4547b39032f1d26a499137381d16f787c2b31040")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3559b7ba7a3009bf44f2c945468535d4e6147e27")]
 [assembly: System.Reflection.AssemblyProductAttribute("VModel!")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VModel!")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

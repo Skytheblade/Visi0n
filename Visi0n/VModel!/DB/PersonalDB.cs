@@ -11,29 +11,10 @@ namespace VModel_
     {
         public PersonalDB() : base() { }
 
-        public List<Person> Collect(string cmdTxt = "SELECT * FROM Personal_Tbl")
+
+        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Personal_Tbl")
         {
-            command.CommandText = cmdTxt;
-            List<Person> pl = new List<Person>();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                Person tmp = new Person();
-
-                while (reader.Read())
-                {
-                    tmp = new Person();
-                    CreateModel(tmp);
-                    pl.Add(tmp);
-                }
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
-            finally { CloseSetup(); }
-
-            return pl;
+            return base.Collect(cmdTxt);
         }
 
         public override void CreateModel(Entity e)
@@ -49,6 +30,11 @@ namespace VModel_
             p._fName = reader["FirstName"].ToString();
             p._lName = reader["LastName"].ToString();
             p._cid = reader["Corp"].ToString();
+        }
+
+        protected override Entity EGen()
+        {
+            return new Person();
         }
 
         public Person TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")

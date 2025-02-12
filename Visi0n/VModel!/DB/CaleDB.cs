@@ -44,6 +44,11 @@ namespace VModel_
             return nl;
         }
 
+        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Cale_Tbl")
+        {
+            return base.Collect(cmdTxt);
+        }
+
         public override void CreateModel(Entity e)
         {
             Event n = e as Event;
@@ -52,6 +57,16 @@ namespace VModel_
             n._description = reader["EventContent"].ToString();
             n._date = reader["EventDate"].ToString();
             n._ID = int.Parse(reader["ID"].ToString());
+        }
+
+        protected override Entity EGen()
+        {
+            return new Event();
+        }
+
+        public List<Entity> SelectAll(string cmdTxt = "SELECT * FROM FROM Cale_Tbl")
+        {
+            return base.Collect(cmdTxt);
         }
 
         public int ReturnNextID(string cmdTxt = "SELECT * FROM Cale_Tbl")
