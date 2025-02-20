@@ -13,20 +13,18 @@ namespace VModel_
         public static bool LoginAtt(string usrname, string pass, int type_)
         {
             UserDB usrdb = new UserDB();
-            User usr = usrdb.TargetSelect(new UserDB().FindID(usrname));
+            User usr = (User)(usrdb.TargetSelect(new UserDB().FindID(usrname)));
 
             if (usr._usrName == usrname && usr._pwd == pass && (usr._type == type_ || usr._type == 3)) return true;
             return false;
-            //return true;
         }
 
         public static User Get(int id = 2)
         {
             UserDB usrdb = new UserDB();
-            User usr = usrdb.TargetSelect(id);
+            User usr = (User)(usrdb.TargetSelect(id));
             if (usr._absId == id) return usr;
             else return null;
-            //return new User("Name0", "Pass0", id);
         }
 
         public static User MakeUser(string usrN, string pass, int ty)

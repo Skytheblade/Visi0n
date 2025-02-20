@@ -17,36 +17,24 @@ namespace VModel_
         public ObservableCollection<Event> SelectPerId(User user, string cmdTxt = "SELECT * FROM Cale_Tbl")
         {
             int id = user._absId;
-            command.CommandText = cmdTxt;
             ObservableCollection<Event> nl = new ObservableCollection<Event>();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                Event tmp = new Event();
-
-                while (reader.Read())
-                {
-                    tmp = new Event();
-                    CreateModel(tmp);
-                    if (user._absId == tmp._uid) nl.Add(tmp);
-                }
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
-            finally
-            {
-                if (reader != null) reader.Close();
-                if (connection.State == System.Data.ConnectionState.Open)
-                    connection.Close();
-            }
+            List<Entity> el = base.Collect(cmdTxt);
+            foreach (Event e in el)
+            { if (e._uid == id) nl.Add(e); }
             return nl;
         }
 
         public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Cale_Tbl")
         {
             return base.Collect(cmdTxt);
+        }
+
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Cale_Tbl")
+        {
+            List<Entity> cl = base.Collect(cmdTxt);
+            foreach (Event e in cl)
+            { if (e._ID == id) return e; }
+            return new Event();
         }
 
         public override void CreateModel(Entity e)

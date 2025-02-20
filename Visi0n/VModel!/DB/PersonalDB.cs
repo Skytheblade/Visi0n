@@ -17,12 +17,13 @@ namespace VModel_
             return base.Collect(cmdTxt);
         }
 
+
         public override void CreateModel(Entity e)
         {
             Person p = e as Person;
             p._absId = int.Parse(reader["ID"].ToString());
 
-            User u = new UserDB().TargetSelect(p._absId); // !
+            User u = (User)(new UserDB().TargetSelect(p._absId)); // !
             p._usrName = u._usrName;
             p._pwd = u._pwd;
             p._type = 1;
@@ -37,29 +38,12 @@ namespace VModel_
             return new Person();
         }
 
-        public Person TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
+
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Personal_Tbl")
         {
-            command.CommandText = cmdTxt;
-            Person p = new Person();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                Person tmp = new Person();
-
-                while (reader.Read())
-                {
-                    tmp = new Person();
-                    CreateModel(tmp);
-
-                    if (tmp._absId == id) p = tmp;
-                }
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
-            finally { CloseSetup(); }
-            return p;
+            List<Entity> cl = base.Collect(cmdTxt);
+            foreach (Person p in cl) { if (p._absId == id) return p; }
+            return new Person();
         }
     }
 }

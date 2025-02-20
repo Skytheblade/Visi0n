@@ -47,13 +47,13 @@ namespace VModel_
         }
 
 
-        protected abstract Entity EGen();
-        public abstract void CreateModel(Entity e);
+        protected abstract Entity EGen(); // Generation of highest level entity, such as (Entity)User; in specified class
+        public abstract void CreateModel(Entity e); // Setup of the entity; in specified class 
 
 
 
 
-
+        // Returns all entities, internal command
         protected List<Entity> Collect(string cmdTxt)
         {
             command.CommandText = cmdTxt;
@@ -83,13 +83,15 @@ namespace VModel_
             return el;
         }
 
+        // The reflection of Collect in all specified classes, with a more self explanatory name
         public abstract List<Entity> SelectAll(string cmdTxt);
 
-        //public abstract List<Entity> TargetSelect(int id, string cmdTxt);
+        // Returns target entity (mostly w/ Collect as well); not necessary in all classes
+        public abstract Entity TargetSelect(int id, string cmdTxt);
         
 
 
-
+        // The execution of Insert, Update & Remove commands
         protected async Task<int> Edit(string sqlStr, int records = 0)
         {
             trans = null;

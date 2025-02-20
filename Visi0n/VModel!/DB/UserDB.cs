@@ -11,11 +11,11 @@ using Model_;
 
 namespace VModel_
 {
-    public class UserDB : BaseDB, IBaseDB
+    public class UserDB : BaseDB
     {
         public UserDB() : base() { }
 
-        public User SelectLast(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
+        /*public User SelectLast(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
             command.CommandText = cmdTxt;
             User usr = new User();
@@ -40,16 +40,16 @@ namespace VModel_
                 CloseSetup();
             }
             return usr;
-        }
+        }*/
 
         protected override Entity EGen()
         {
             return new User();
         }
 
-        public User TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
-            command.CommandText = cmdTxt;
+            /*command.CommandText = cmdTxt;
             User usr = new User();
 
             try
@@ -72,7 +72,12 @@ namespace VModel_
             {
                 CloseSetup();
             }
-            return usr;
+            return usr;*/
+
+            List<Entity> cl = base.Collect(cmdTxt);
+            foreach (User u in cl)
+            { if (u._absId == id) return u; }
+            return new User();
         }
 
         public override void CreateModel(Entity e)
@@ -97,7 +102,7 @@ namespace VModel_
             if (e is User) usr = e as User;
             else return -1;
 
-            int records = 0;
+            int records = 0; // affected lines
 
             string sqlStr = string.Format("INSERT INTO Usr_Tbl (UserName, PassCode, UserType) "
                 + "VALUES ('{0}', '{1}', {2});",
@@ -122,6 +127,7 @@ namespace VModel_
 
             return Edit(sqlStr, records).Result;
         }
+
 
         public async Task<int> Remove(string uid)
         {

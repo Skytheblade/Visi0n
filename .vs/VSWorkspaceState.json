@@ -8,8 +8,9 @@
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
     "\\Visi0n\\VModel!",
-    "\\Visi0n\\VModel!\\DB"
+    "\\Visi0n\\VModel!\\DB",
+    "\\Visi0n\\VModel!\\Service"
   ],
-  "SelectedNode": "\\Visi0n\\VModel!\\DB\\UserDB.cs",
+  "SelectedNode": "\\Visi0n\\VModel!\\DB\\BaseDB.cs",
   "PreviewInSolutionExplorer": false
 }

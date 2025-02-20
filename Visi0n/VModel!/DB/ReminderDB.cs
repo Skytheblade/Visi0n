@@ -13,34 +13,15 @@ namespace VModel_
     {
         public ReminderDB() : base() { }
 
+
         public List<Reminder> SelectPerId(User user, string cmdTxt = "SELECT * FROM Reminder_Tbl")
         {
             int id = user._absId;
-            command.CommandText = cmdTxt;
-            List<Reminder> nl = new List<Reminder>();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                Reminder tmp = new Reminder();
-
-                while (reader.Read())
-                {
-                    tmp = new Reminder();
-                    CreateModel(tmp);
-                    if (user._absId == tmp._uid) nl.Add(tmp);
-                }
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
-            finally
-            {
-                if (reader != null) reader.Close();
-                if (connection.State == System.Data.ConnectionState.Open)
-                    connection.Close();
-            }
-            return nl;
+            List<Reminder> rl = new List<Reminder>();
+            List<Entity> el = base.Collect(cmdTxt);
+            foreach (Reminder r in el)
+            { if (r._uid == id) rl.Add(r); }
+            return rl;
         }
 
         public override void CreateModel(Entity e)
@@ -58,6 +39,11 @@ namespace VModel_
         public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Reminder_Tbl")
         {
             return base.Collect(cmdTxt);
+        }
+
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Personal_Tbl")
+        {
+            return new Reminder(); // unused
         }
     }
 }

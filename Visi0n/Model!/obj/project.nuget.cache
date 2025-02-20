@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XZo8CdFBOeQ=",
+  "dgSpecHash": "CzwDQjTyr8CRoTYzEHREE2DFJF1SOHJnopSt5r6z37bRht5HN736ymOd6ic1xbwFq/QIMYK0qhzhMiew7cnc6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\אורט\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\אורט\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\אורט\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\אורט\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
