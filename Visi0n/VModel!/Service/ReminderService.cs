@@ -14,5 +14,15 @@ namespace VModel_
             List<Reminder> l = new ReminderDB().SelectPerId(user);
             return l;
         }
+
+        public static void ListReminder(Reminder r)
+        {
+            new ReminderDB().Insert(r);
+        }
+
+        public static void DropReminder(Reminder r)
+        {
+            new ReminderDB().Remove(r);
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -42,10 +43,9 @@ namespace Visi0n._0.Pages.General
         public void Load(User usr)
         {
             List<Reminder> reminders = ReminderService.GetReminders(usr);
-            for (int i = 0; i < reminders.Count; i++)
+            foreach (Reminder r in reminders)
             {
-                AddReminder(reminders.First());
-                reminders.RemoveAt(0);
+                AddReminder(r);
             }
         }
 
@@ -55,12 +55,19 @@ namespace Visi0n._0.Pages.General
         }
         private void AddReminder(Reminder r = null)
         {
+            if (r == null) 
+            { 
+                r = new Reminder(_usr._absId, TextName.Text);
+                ReminderService.ListReminder(r);
+            }
+            DrawR(r);
+        }
+        private void DrawR(Reminder r)
+        {
             CheckBox ck = new CheckBox() { Margin = new Thickness(4, 4, 4, 4) };
-            if (r != null)
-                ck.Content = r._text;
-            else
-                ck.Content = TextName.Text;
+            ck.Content = r._text;
             ck.Style = (Style)FindResource("Reminder01");
+            ck.Checked += new RoutedEventHandler(CheckBox_Checked);
             Grid.SetRow(ck, posCur);
             posCur++;
             Rtable.Children.Add(ck);
@@ -69,7 +76,9 @@ namespace Visi0n._0.Pages.General
         // on: Checked=""
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            // remove
+            Reminder r = new Reminder(_usr._absId, ((CheckBox)sender).Content.ToString());
+            MessageBox.Show("To be removed: " + r._uid + " (uid), " + r._text + " (text)");
+            ReminderService.DropReminder(r);
         }
     }
 }

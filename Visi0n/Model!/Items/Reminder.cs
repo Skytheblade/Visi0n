@@ -13,7 +13,7 @@ namespace Model_
 
         public Reminder()
         {
-            _uid = 0;
+            _uid = -1;
             _text = "";
         }
 

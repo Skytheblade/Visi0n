@@ -41,9 +41,35 @@ namespace VModel_
             return base.Collect(cmdTxt);
         }
 
-        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Personal_Tbl")
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Reminder_Tbl")
         {
             return new Reminder(); // unused
+        }
+
+        public async Task<int> Insert(Entity e)
+        {
+            Reminder r;
+            if (e is Reminder) r = e as Reminder;
+            else return -1;
+            int records = 0;
+
+            // later fix sql injection
+            string sqlStr = string.Format("INSERT INTO Reminder_Tbl (Uid, Content, Corp) " + "VALUES (" + r._uid + ", '" + r._text + "', '--');");
+
+            return Edit(sqlStr, records).Result;
+        }
+
+        public async Task<int> Remove(Entity e)
+        {
+            Reminder r;
+            if (e is Reminder) r = e as Reminder;
+            else return -1;
+            int records = 0;
+
+            // deletes all same instances (it is now a feature)
+            string sqlStr = $"DELETE FROM Reminder_Tbl WHERE (Uid = "+r._uid+" AND Content = '"+r._text+"')";
+
+            return Edit(sqlStr, records).Result;
         }
     }
 }
