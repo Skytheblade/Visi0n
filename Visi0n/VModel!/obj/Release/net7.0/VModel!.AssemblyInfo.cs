@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VModel!")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c9f3eb339e58089285d3c7fb9d443ac8787f4fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e8b608c0c797f76a930ab71c89ffbc6d2083d1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("VModel!")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VModel!")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

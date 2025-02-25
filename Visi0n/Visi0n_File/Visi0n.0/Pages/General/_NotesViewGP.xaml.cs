@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Visi0n._0.Pages.Pesonal;
 using Model_;
+using VModel_;
 
 namespace Visi0n._0.Pages.General
 {
@@ -27,18 +28,40 @@ namespace Visi0n._0.Pages.General
         NoteItem _item;
         int _type;
 
-        public _NotesViewGP(Frame frame, User usr, int type)
+        public _NotesViewGP(Frame frame, User usr, NoteItem n)
         {
             InitializeComponent();
             _frame = frame;
             _user = usr;
-            _type = type;
+            _item = n;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (_type == 0) { _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text, _user._absId), _user)); }
             else { _frame.Navigate(new NotesGP(_frame, null, _user)); }
+        }
+
+        private void SetBack()
+        {
+            _frame.Navigate(new NotesGP(_frame, null, _user));
+        }
+
+        private void cancelB_Click(object sender, RoutedEventArgs e)
+        {
+            SetBack();
+        }
+
+        private void saveB_Click(object sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show("Will be updated: ("{ } { } { } ")");
+            SetBack();
+        }
+
+        private void deleteB_Click(object sender, RoutedEventArgs e)
+        {
+            //
+            SetBack();
         }
     }
 }

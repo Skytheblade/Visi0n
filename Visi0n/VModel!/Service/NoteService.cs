@@ -14,5 +14,20 @@ namespace VModel_
             List<NoteItem> list = new NoteDB().SelectPerId(user);
             return list;
         }
+
+        public static void WriteNote(NoteItem n)
+        {
+            new NoteDB().Insert(n);
+        }
+
+        public static void DeleteNote(NoteItem n)
+        {
+            new NoteDB().Remove(n);
+        }
+
+        public static void UpdateNote(NoteItem n, string name, string txt)
+        {
+            new NoteDB().Update(n, new NoteItem(name, txt, n._uid));
+        }
     }
 }

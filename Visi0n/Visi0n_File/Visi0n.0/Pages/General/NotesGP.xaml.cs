@@ -57,7 +57,7 @@ namespace Visi0n._0.Pages.General
 
         private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            _frame.Navigate(new _NotesViewGP(_frame, _usr, 0));
+            _frame.Navigate(new _NotesViewGP(_frame, _usr, new NoteItem()));
         }
 
         private void AddItem(NoteItem nt)
@@ -72,7 +72,7 @@ namespace Visi0n._0.Pages.General
 
         private void label_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            _frame.Navigate(new _NotesViewGP(_frame, _usr, 1));
+            _frame.Navigate(new _NotesViewGP(_frame, _usr, new NoteItem()));
         }
     }
 }
