@@ -55,7 +55,7 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = string.Format("INSERT INTO Note_Tbl (Uid, NoteName, NoteText, Corp) " + "VALUES (" + n._uid + ", '" + n._name +"', '" + n._text + "', '--');");
+            string sqlStr = string.Format($"INSERT INTO Note_Tbl (Uid, NoteName, NoteText, Corp) VALUES ({n._uid}, '{n._name}', '{n._text}', '--');");
 
             return Edit(sqlStr, records).Result;
         }

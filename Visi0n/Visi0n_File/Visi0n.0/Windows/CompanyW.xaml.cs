@@ -66,7 +66,7 @@ namespace Visi0n._0
 
         private void NotesB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new NotesGP(Screen, null, _user));
+            Screen.Navigate(new NotesGP(Screen, _user));
             currentStateLabel.Content = "Current: Notes";
         }
 

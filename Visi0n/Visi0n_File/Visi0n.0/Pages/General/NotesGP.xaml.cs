@@ -29,29 +29,26 @@ namespace Visi0n._0.Pages.General
 
         User _usr;
 
-        public NotesGP(Frame frame, NoteItem nt = null, User usr = null)
+        public NotesGP(Frame frame, User usr = null)
         {
             InitializeComponent();
             _frame = frame;
-            _note = nt;
 
             posCur = 0;
-            if (nt != null) { AddItem(nt); }
 
             if (usr != null) { _usr = usr; }
             else { _usr = new User(); }
+            MessageBox.Show($"UID = {_usr._absId}");
 
             SetNotes(_usr);
-
         }
 
         public void SetNotes(User usr)
         {
             List<NoteItem> notes = NoteService.GetNotes(usr);
-            for (int i = 0; i < notes.Count; i++)
+            foreach (NoteItem n in notes)
             {
-                AddItem(notes.First());
-                notes.RemoveAt(0);
+                AddItem(n);
             }
         }
 
@@ -72,7 +69,13 @@ namespace Visi0n._0.Pages.General
 
         private void label_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            _frame.Navigate(new _NotesViewGP(_frame, _usr, new NoteItem()));
+            NoteItem nt = NoteService.Find(_usr, ((Label)sender).Content.ToString());
+            if (nt._uid == -1) MessageBox.Show("Note not found - an error occured");
+            else
+            {
+                MessageBox.Show($"Selected: Uid = {nt._uid}, Name = {nt._name}");
+                _frame.Navigate(new _NotesViewGP(_frame, _usr, nt));
+            }
         }
     }
 }

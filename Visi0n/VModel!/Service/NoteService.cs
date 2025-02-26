@@ -29,5 +29,13 @@ namespace VModel_
         {
             new NoteDB().Update(n, new NoteItem(name, txt, n._uid));
         }
+
+        public static NoteItem Find(User u, string name)
+        {
+            List<Entity> nl = new NoteDB().SelectAll();
+            NoteItem nn = new NoteItem();
+            foreach (NoteItem n in nl) { if (n._uid == u._absId && n._name == name) nn = n; }
+            return nn;
+        }
     }
 }

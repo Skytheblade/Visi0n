@@ -94,7 +94,7 @@ namespace Visi0n._0
         private void NoteP_Click(object sender, RoutedEventArgs e)
         {
             Section("f");
-            Frame01.Navigate(new NotesGP(Frame01, null, _user));
+            Frame01.Navigate(new NotesGP(Frame01, _user));
             CurrentPage.Content = "Notes";
             NoteP.IsChecked = false;
         }

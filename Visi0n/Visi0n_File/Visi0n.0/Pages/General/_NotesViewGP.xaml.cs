@@ -34,17 +34,21 @@ namespace Visi0n._0.Pages.General
             _frame = frame;
             _user = usr;
             _item = n;
+
+            Render(_item);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Render(NoteItem n)
         {
-            if (_type == 0) { _frame.Navigate(new NotesGP(_frame, new NoteItem(Name.Text, Text.Text, _user._absId), _user)); }
-            else { _frame.Navigate(new NotesGP(_frame, null, _user)); }
+            Name_.Text = n._name;
+            Text_.Text = n._text;
+            MessageBox.Show($"Uid: {n._uid}");
         }
+
 
         private void SetBack()
         {
-            _frame.Navigate(new NotesGP(_frame, null, _user));
+            _frame.Navigate(new NotesGP(_frame, _user));
         }
 
         private void cancelB_Click(object sender, RoutedEventArgs e)
@@ -54,7 +58,8 @@ namespace Visi0n._0.Pages.General
 
         private void saveB_Click(object sender, RoutedEventArgs e)
         {
-            //MessageBox.Show("Will be updated: ("{ } { } { } ")");
+            MessageBox.Show($"Will be updated: ({_item._uid}, {_item._name }, {_item._text }) :(uid, name, text)");
+            NoteService.UpdateNote(_item, Name_.Text, Text_.Text);
             SetBack();
         }
 
