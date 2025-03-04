@@ -38,7 +38,7 @@ namespace Visi0n._0.Pages.General
 
             if (usr != null) { _usr = usr; }
             else { _usr = new User(); }
-            MessageBox.Show($"UID = {_usr._absId}");
+            //MessageBox.Show($"UID = {_usr._absId}");
 
             SetNotes(_usr);
         }

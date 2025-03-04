@@ -26,6 +26,7 @@ namespace Visi0n._0.Pages.Pesonal
         public PersonalHome(User user = null)
         {
             InitializeComponent();
+            MessageBox.Show("try google icon font");
         }
     }
 }
