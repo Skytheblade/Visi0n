@@ -33,7 +33,7 @@ namespace Visi0n._0.Pages.General
         string __date;
 
         User _usr;
-        ObservableCollection<Event> _events;
+        ObservableCollection<Event> _events; //same as list, but might be better sometimes
 
 
         public CalendarGP(Frame frame, User usr)

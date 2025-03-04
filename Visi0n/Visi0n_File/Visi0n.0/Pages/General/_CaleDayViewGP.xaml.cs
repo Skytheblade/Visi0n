@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Model_;
+using VModel_;
 
 namespace Visi0n._0.Pages.General
 {
@@ -92,7 +93,7 @@ namespace Visi0n._0.Pages.General
         }
         private void AddItem(Event ev)
         {
-            Label label = new Label() { Content = ev._name + "; " + ev._ID, Margin = new Thickness(5, 5, 5, 5),  };
+            Label label = new Label() { Content = ev._name /* + "; " + ev._ID*/, Margin = new Thickness(5, 5, 5, 5),  };
             label.Style = (Style)FindResource("Note01");
             Grid.SetRow(label, posCur);
             label.MouseDown += new MouseButtonEventHandler(label_MouseDown);
@@ -102,13 +103,14 @@ namespace Visi0n._0.Pages.General
 
         private void label_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            string id = ((Label)sender).Content.ToString();
-            id = id.Replace(" ", "");
-            id = id.Split(';')[1];
+            string idd = ((Label)sender).Content.ToString();
+            //id = id.Replace(" ", "");
+            //id = id.Split(';')[1];
+            int id = EventService.FindId(idd, _user, _date);
 
             foreach(Event eve in _events)
             {
-                if (eve._ID.ToString() == id) _selected = eve;
+                if (eve._ID == id) _selected = eve;
             }
 
             MessageBox.Show(_selected._ID +"\n"+ _selected._name +"\n"+ _selected._description +"\n"+ _selected._date +"\n"+ _selected._uid);

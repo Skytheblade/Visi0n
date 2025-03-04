@@ -27,9 +27,9 @@ namespace VModel_
         public static ObservableCollection<Event> Storm(ObservableCollection<Event> l, string d)
         {
             ObservableCollection<Event> strm = new ObservableCollection<Event>();
-            for (int i = 0; i < l.Count; i++)
+            foreach (Event ev in l)
             {
-                if (l[i]._date == d) strm.Add(l[i]);
+                if (ev._date == d) strm.Add(ev);
             }
             return strm;
         }
@@ -37,6 +37,11 @@ namespace VModel_
         public static int CreateNewID()
         {
             return new CaleDb().ReturnNextID();
+        }
+
+        public static int FindId(string name, User u, string date)
+        {
+            return new CaleDb().FindID(name, u, date);
         }
     }
 }

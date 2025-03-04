@@ -78,5 +78,16 @@ namespace VModel_
             }
             return nMax;
         }
+
+        public int FindID(string ename, User u, string date, string cmdTxt = "SELECT * FROM Cale_Tbl")
+        {
+            List<Entity> el = SelectAll();
+            int found = -1;
+            foreach (Event e in el)
+            {
+                if (u._absId == e._uid && ename == e._name && date == e._date) found = e._ID;
+            }
+            return found;
+        }
     }
 }

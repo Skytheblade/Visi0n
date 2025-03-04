@@ -3,6 +3,41 @@
   "WorkspaceRootPath": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_caledayviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_caledayviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\caledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\reminderdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\notedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_caledayviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_caledayviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\calendargp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\calendargp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\calendargp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\calendargp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\remindersgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\remindersgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\pesonal\\personalhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\pesonal\\personalhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,15 +46,16 @@
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\pesonal\\personalhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\visi0n.0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\visi0n.0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\notesgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\notesgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_notesviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_notesviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\notedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\service\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -32,10 +68,6 @@
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\basedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\visi0n.0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\visi0n.0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\personalw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\personalw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -44,12 +76,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCFBBE35-123F-4499-896B-8A9F933D4449}|..\\Model!\\Model!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\model!\\items\\noteitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\reminderdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,9 +87,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\caledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\\u05D0\u05D5\u05E8\u05D8\\desktop\\visi0n\\visi0n\\vmodel!\\db\\personaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -126,19 +149,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_CaleDayViewGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAA8wG4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:37:24.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\EventService.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\Service\\EventService.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\EventService.cs",
+              "RelativeToolTip": "..\\VModel!\\Service\\EventService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:24:37.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RemindersGP.xaml",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\RemindersGP.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\RemindersGP.xaml",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\RemindersGP.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\RemindersGP.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:08:56.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PersonalHome.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
               "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
               "RelativeToolTip": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T07:17:14.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "PersonalHome.xaml",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
@@ -150,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Visi0n.0",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
               "RelativeDocumentMoniker": "Visi0n.0\\Visi0n.0.csproj",
@@ -162,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "NoteService.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\NoteService.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\Service\\NoteService.cs",
@@ -170,24 +231,111 @@
               "RelativeToolTip": "..\\VModel!\\Service\\NoteService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAArwBYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T06:44:23.396Z",
+              "WhenOpened": "2025-02-25T06:44:23.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NoteDB.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\NoteDB.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\NoteDB.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAFYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T06:42:34.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReminderDB.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\ReminderDB.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\ReminderDB.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T06:42:25.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDB.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\UserDB.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\UserDB.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAwwJcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T06:07:44.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CaleDB.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CaleDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\CaleDB.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CaleDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\CaleDB.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T06:07:44.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalendarGP.xaml",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\CalendarGP.xaml",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\CalendarGP.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:16:00.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalendarGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:16:04.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "_CaleDayViewGP.xaml",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:37:25.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_NotesViewGP.xaml",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
               "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
               "RelativeToolTip": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-25T06:33:57.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T06:33:57.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "NotesGP.xaml",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\NotesGP.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\NotesGP.xaml",
@@ -198,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "NotesGP.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
@@ -206,12 +354,11 @@
               "RelativeToolTip": "Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAgwE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T06:33:43.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T06:33:43.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Entity.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\Entity.cs",
@@ -223,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "BaseDB.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\BaseDB.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\DB\\BaseDB.cs",
@@ -236,20 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NoteDB.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\NoteDB.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\NoteDB.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwFYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T06:42:34.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "_NotesViewGP.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
@@ -257,12 +391,11 @@
               "RelativeToolTip": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAuwCwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T06:36:45.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T06:36:45.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "ReminderService.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\ReminderService.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\Service\\ReminderService.cs",
@@ -274,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "CoreInterface.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CoreInterface.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\DB\\CoreInterface.cs",
@@ -286,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "PersonalDB.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\PersonalDB.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\DB\\PersonalDB.cs",
@@ -298,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\User.cs",
@@ -310,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "PersonalW.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Windows\\PersonalW.xaml.cs",
@@ -322,43 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CaleDB.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CaleDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\CaleDB.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CaleDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\CaleDB.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAswDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T06:07:44.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReminderDB.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\ReminderDB.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\ReminderDB.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAswEgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T06:42:25.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserDB.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\UserDB.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\UserDB.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAwwIAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T06:07:44.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\Service\\UserService.cs",
@@ -370,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "Reminder.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Reminder.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\Reminder.cs",
@@ -382,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\Person.cs",
@@ -394,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "NoteItem.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\NoteItem.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\NoteItem.cs",
@@ -406,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Event.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\Event.cs",
@@ -418,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Corp.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
               "RelativeDocumentMoniker": "..\\Model!\\Items\\Corp.cs",
@@ -430,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "LoginW.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Windows\\LoginW.xaml.cs",
@@ -442,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "StartPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\StartPage.xaml.cs",
@@ -454,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
@@ -466,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "NewUsr.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
