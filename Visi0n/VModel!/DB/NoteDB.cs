@@ -81,8 +81,8 @@ namespace VModel_
 
             string sqlStr = $"UPDATE Note_Tbl SET " +
                 $" NoteName = '{n1._name}'," +
-                $" NoteText = '{n1._text}'," +
-                $" WHERE (UID = '{n0._uid}' AND NoteText = '{n0._text}' AND NoteName = '{n0._name}')";
+                $" NoteText = '{n1._text}' " +
+                $" WHERE (Uid = '{n0._uid}' AND NoteText = '{n0._text}' AND NoteName = '{n0._name}')"; // fix long text - string
 
             return Edit(sqlStr, records).Result;
         }
