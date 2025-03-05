@@ -11,6 +11,3 @@ build_property.RootNamespace = Visi0n._0
 build_property.ProjectDir = C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 7.0
-build_property.EnableCodeStyleSeverity = 

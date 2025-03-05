@@ -24,7 +24,7 @@ namespace VModel_
             return null;
         }
 
-        public static ObservableCollection<Event> Storm(ObservableCollection<Event> l, string d)
+        public static ObservableCollection<Event> Storm(ObservableCollection<Event> l, string d) // an unfitting name ik, but I like it (returns all event._date == d for user)
         {
             ObservableCollection<Event> strm = new ObservableCollection<Event>();
             foreach (Event ev in l)
@@ -33,15 +33,36 @@ namespace VModel_
             }
             return strm;
         }
+        public static ObservableCollection<Event> Vortex(User u, string d) // the upgrade of storm; d is unspaced date
+        {
+            ObservableCollection<Event> events = new CaleDb().SelectPerId(u);
+            ObservableCollection<Event> ell = new ObservableCollection<Event>();
+            foreach (Event e in events)
+            {
+                if (e._date == d) ell.Add(e);
+            }
+            return ell;
+        }
 
         public static int CreateNewID()
         {
             return new CaleDb().ReturnNextID();
         }
 
-        public static int FindId(string name, User u, string date)
+        public static Event Find(string name, User u, string date) => new CaleDb().FindEvent(name, u, date);
+
+
+        public static void Tear(Event ev)
         {
-            return new CaleDb().FindID(name, u, date);
+            new CaleDb().Remove(ev);
+        }
+        public static void Write(Event ev)
+        {
+            new CaleDb().Insert(ev);
+        }
+        public static void ReWrite(Event Old, Event New)
+        {
+            new CaleDb().Update(Old, New);
         }
     }
 }

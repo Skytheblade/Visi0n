@@ -31,5 +31,7 @@ namespace Model_
             _date = string.Empty;
             _ID = -1;
         }
+
+        public Event Copy() => new Event(_uid, _name, _description, _date, _ID);
     }
 }

@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Model_;
 using VModel_;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Visi0n._0.Pages.General
 {
@@ -32,15 +33,16 @@ namespace Visi0n._0.Pages.General
 
         int posCur;
 
-        public _CaleDayViewGP(Frame frame, User u, string date, ObservableCollection<Event> storm, Event edited = null)
+        public _CaleDayViewGP(Frame frame, User u, string date, Event edited = null)
         {
             InitializeComponent();
 
             _frame = frame;
             _date = date;
-            _events = storm;
             _user = u;
-
+            _events = EventService.Vortex(_user, Date());
+            
+            
             if (edited != null) {
                 bool f = false;
                 foreach (Event e in _events)
@@ -66,14 +68,9 @@ namespace Visi0n._0.Pages.General
 
             posCur = 0;
 
-            //EventList.Items.Clear();
-            //EventList.ItemsSource = _events;
-
             DateStringLabel.Content = _date;
 
             Inprint(_events);
-
-            //if (_selected != null) EventList.Items.Add(new ListViewItem { Content = _selected._name});
         }
 
         private void BackB_Click(object sender, RoutedEventArgs e)
@@ -84,16 +81,11 @@ namespace Visi0n._0.Pages.General
 
         public void Inprint(ObservableCollection<Event> evs)
         {
-            //ObservableCollection<Event> eev = new ObservableCollection<Event>();
-            //foreach (Event ev in evs) { eev.Add(ev); }
-            for (int i = 0; i < evs.Count; i++)
-            {
-                AddItem(evs[i]);
-            }
+            foreach (Event e in evs) { AddItem(e); }
         }
         private void AddItem(Event ev)
         {
-            Label label = new Label() { Content = ev._name /* + "; " + ev._ID*/, Margin = new Thickness(5, 5, 5, 5),  };
+            Label label = new Label() { Content = ev._name, Margin = new Thickness(5, 5, 5, 5) };
             label.Style = (Style)FindResource("Note01");
             Grid.SetRow(label, posCur);
             label.MouseDown += new MouseButtonEventHandler(label_MouseDown);
@@ -101,26 +93,23 @@ namespace Visi0n._0.Pages.General
             posCur++;
         }
 
+        private string Date() => _date.Replace(" ", ""); // unspaced version - as in the database
+
+
         private void label_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            string idd = ((Label)sender).Content.ToString();
-            //id = id.Replace(" ", "");
-            //id = id.Split(';')[1];
-            int id = EventService.FindId(idd, _user, _date);
+            string name = ((Label)sender).Content.ToString();
+            _selected = EventService.Find(name, _user, Date());
 
-            foreach(Event eve in _events)
-            {
-                if (eve._ID == id) _selected = eve;
-            }
-
-            MessageBox.Show(_selected._ID +"\n"+ _selected._name +"\n"+ _selected._description +"\n"+ _selected._date +"\n"+ _selected._uid);
+            if (_selected != null) MessageBox.Show(_selected._ID + "\n" + _selected._name + "\n" + _selected._description + "\n" + _selected._date + "\n" + _selected._uid);
+            else MessageBox.Show("Error - event not found");
         }
 
 
         private void AD_Click(object sender, RoutedEventArgs e)
         {
             if (_selected != null) MessageBox.Show("Selected: " + _selected._name);
-            _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events));
+            _frame.Navigate(new __CaleActionGP(_frame, _user, _date));
         }
 
         private void ED_Click(object sender, RoutedEventArgs e)
@@ -129,7 +118,7 @@ namespace Visi0n._0.Pages.General
             else
             {
                 MessageBox.Show("Selected: " + _selected._name);
-                _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _events, _selected, 2));
+                _frame.Navigate(new __CaleActionGP(_frame, _user, _date, _selected));
             }
         }
 
@@ -138,19 +127,24 @@ namespace Visi0n._0.Pages.General
             if (_selected == null) MessageBox.Show("Please select an event first");
             else
             {
-                MessageBox.Show("Selected: " + _selected._name);
-                // remove from db
-                _events.Remove(_selected);
+                MessageBox.Show("Selected to be removed: " + _selected._name);
+                EventService.Tear(_selected);
+                //_events.Remove(_selected);
                 Reload();
             }
         }
 
 
-        private void Reload()
+        /*private void ForceReload()
         {
             Table.Children.Clear();
             posCur = 0;
             Inprint(_events);
+        }*/
+
+        private void Reload()
+        {
+            _frame.Navigate(new _CaleDayViewGP(_frame, _user, _date));
         }
     }
 }

@@ -18,7 +18,7 @@ namespace VModel_
         {
             int id = user._absId;
             ObservableCollection<Event> nl = new ObservableCollection<Event>();
-            List<Entity> el = base.Collect(cmdTxt);
+            List<Entity> el = SelectAll();
             foreach (Event e in el)
             { if (e._uid == id) nl.Add(e); }
             return nl;
@@ -79,7 +79,7 @@ namespace VModel_
             return nMax;
         }
 
-        public int FindID(string ename, User u, string date, string cmdTxt = "SELECT * FROM Cale_Tbl")
+        public int FindID(string ename, User u, string date)
         {
             List<Entity> el = SelectAll();
             int found = -1;
@@ -87,7 +87,54 @@ namespace VModel_
             {
                 if (u._absId == e._uid && ename == e._name && date == e._date) found = e._ID;
             }
-            return found;
+            return found; // -1 return as not found
+        }
+        public Event FindEvent(string ename, User u, string date)
+        {
+            List<Entity> el = SelectAll(); int id = FindID(ename, u, date); Event eve = new Event();
+            foreach (Event e in el) { if (e._ID == id) eve = e; }
+            return eve; // empty event return (_ID = -1, _uid = -1) as not found
+        }
+
+
+        public async Task<int> Insert(Entity e)
+        {
+            Event n;
+            if (e is Event) n = e as Event;
+            else return -1;
+            int records = 0;
+
+            string sqlStr = string.Format($"INSERT INTO Cale_Tbl (Uid, EventName, EventContent, EventDate, Corp) VALUES ({n._uid}, '{n._name}', '{n._description}', '{n._date}', '--');");
+
+            return Edit(sqlStr, records).Result;
+        }
+
+        public async Task<int> Remove(Entity e)
+        {
+            Event n;
+            if (e is Event) n = e as Event;
+            else return -1;
+            int records = 0;
+
+            string sqlStr = $"DELETE FROM Cale_Tbl WHERE (Uid = {n._uid} AND EventContent = '{n._description}' AND EventName = '{n._name}' AND EventDate = '{n._date}')";
+
+            return Edit(sqlStr, records).Result;
+        }
+
+        public async Task<int> Update(Entity e0, Entity e1)
+        {
+            Event n0; // old
+            Event n1; // new
+            if (e0 is Event && e1 is Event) { n0 = e0 as Event; n1 = e1 as Event; }
+            else return -1;
+            int records = 0;
+
+            string sqlStr = $"UPDATE Cale_Tbl SET " +
+                $" EventName = '{n1._name}'," +
+                $" EventContent = '{n1._description}' " +
+                $" WHERE (Uid = {n0._uid} AND EventContent = '{n0._description}' AND EventName = '{n0._name}' AND EventDate = '{n0._date}')";
+
+            return Edit(sqlStr, records).Result;
         }
     }
 }

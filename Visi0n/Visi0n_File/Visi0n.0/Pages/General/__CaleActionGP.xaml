@@ -19,9 +19,9 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <TextBox x:Name="AcName" Text="Event Name" Width="300" Height="40" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="Detl" Text="Details" Width="300" Height="40" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="AcName" Text="Event Name" Width="300" Height="40" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="Detl" Text="Details" Width="300" Height="40" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="3"/>
         <Button Content="Cancel" Height="50" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Click="Back"/>
-        <Button Content="Save" Height="50" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Click="Saved"/>
+        <Button Content="Save" Height="50" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="2" Click="Saved"/>
     </Grid>
 </Page>

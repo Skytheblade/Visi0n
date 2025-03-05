@@ -116,8 +116,8 @@ namespace Visi0n._0.Pages.General
 
         private void d_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            ObservableCollection<Event> storm = EventService.Storm(_events, __date.Replace(" ", ""));
-            _frame.Navigate(new _CaleDayViewGP(_frame, _usr, __date, storm));
+            //ObservableCollection<Event> storm = EventService.Vortex(_usr, __date.Replace(" ", ""));
+            _frame.Navigate(new _CaleDayViewGP(_frame, _usr, __date));
         }
     }
 }

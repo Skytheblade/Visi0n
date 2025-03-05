@@ -26,25 +26,25 @@ namespace Visi0n._0.Pages.General
         Frame _frame;
         string _date;
         Event _target;
-        ObservableCollection<Event> _collection;
-        int _mode; // 1 - add; 2 - edit;
+        //ObservableCollection<Event> _collection;
+        //int _mode; // 1 - add; 2 - edit;
         User _user;
 
-        public __CaleActionGP(Frame frame, User u, string date, ObservableCollection<Event> storm, Event target = null, int mode = 1)
+        public __CaleActionGP(Frame frame, User u, string date, Event target = null/*, int mode = 1*/)
         {
             InitializeComponent();
 
             _frame = frame;
             _date = date;
             _target = target;
-            _collection = storm;
-            _mode = mode;
+            //_collection = storm;
+            //_mode = mode;
             _user = u;
         }
 
         private void Save()
         {
-            if (_mode == 1 && _target == null) //null - new
+            /*if (_mode == 1 && _target == null) //null - new
             {
                 _target = new Event();
                 _target._name = AcName.Text;
@@ -60,18 +60,40 @@ namespace Visi0n._0.Pages.General
                     _target._name = AcName.Text;
                     _target._description = Detl.Text;
                 }
+            }*/
+
+            if (_target == null) // add new
+            {
+                _target = new Event();
+
+                _target._name = AcName.Text;
+                _target._description = Detl.Text;
+                _target._ID = EventService.CreateNewID();
+                _target._date = _date.Replace(" ", "");
+                _target._uid = _user._absId;
+
+                EventService.Write(_target);
+            }
+            else // edit selected
+            {
+                Event tor = _target.Copy();
+
+                _target._name = AcName.Text;
+                _target._description = Detl.Text;
+
+                EventService.ReWrite(tor, _target);
             }
         }
 
         private void Saved(object sender, RoutedEventArgs e)
         {
             Save();
-            _frame.Navigate(new _CaleDayViewGP(_frame, _user, _date, _collection, _target));
+            _frame.Navigate(new _CaleDayViewGP(_frame, _user, _date));
         }
 
         private void Back(object sender, RoutedEventArgs e)
         {
-            _frame.Navigate(new _CaleDayViewGP(_frame, _user, _date, _collection));
+            _frame.Navigate(new _CaleDayViewGP(_frame, _user, _date));
         }
     }
 }
