@@ -48,7 +48,7 @@ namespace VModel_
         }
 
 
-        public async Task<int> Insert(Entity e)
+        public override async Task<int> Insert(Entity e)
         {
             NoteItem n;
             if (e is NoteItem) n = e as NoteItem;
@@ -60,7 +60,7 @@ namespace VModel_
             return Edit(sqlStr, records).Result;
         }
 
-        public async Task<int> Remove(Entity e)
+        public override async Task<int> Remove(Entity e)
         {
             NoteItem n;
             if (e is NoteItem) n = e as NoteItem;
@@ -72,7 +72,7 @@ namespace VModel_
             return Edit(sqlStr, records).Result;
         }
 
-        public async Task<int> Update(Entity e0, Entity e1)
+        public override async Task<int> Update(Entity e0, Entity e1)
         {
             NoteItem n0; NoteItem n1;
             if (e0 is NoteItem && e1 is NoteItem) { n0 = e0 as NoteItem; n1 = e1 as NoteItem; }

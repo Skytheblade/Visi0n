@@ -26,42 +26,22 @@ namespace Visi0n._0.Pages.General
         Frame _frame;
         string _date;
         Event _target;
-        //ObservableCollection<Event> _collection;
-        //int _mode; // 1 - add; 2 - edit;
         User _user;
 
-        public __CaleActionGP(Frame frame, User u, string date, Event target = null/*, int mode = 1*/)
+        public __CaleActionGP(Frame frame, User u, string date, Event target = null)
         {
             InitializeComponent();
 
             _frame = frame;
             _date = date;
             _target = target;
-            //_collection = storm;
-            //_mode = mode;
             _user = u;
+
+            if (_target != null) { AcName.Text = _target._name; Detl.Text = _target._description; }
         }
 
         private void Save()
         {
-            /*if (_mode == 1 && _target == null) //null - new
-            {
-                _target = new Event();
-                _target._name = AcName.Text;
-                _target._description = Detl.Text;
-                _target._ID = EventService.CreateNewID();
-                _target._date = _date;
-                _target._uid = _user._absId;
-            }
-            else //not null - existing
-            {
-                if (_mode == 2)
-                {
-                    _target._name = AcName.Text;
-                    _target._description = Detl.Text;
-                }
-            }*/
-
             if (_target == null) // add new
             {
                 _target = new Event();

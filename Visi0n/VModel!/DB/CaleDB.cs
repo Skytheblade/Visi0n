@@ -97,7 +97,7 @@ namespace VModel_
         }
 
 
-        public async Task<int> Insert(Entity e)
+        public override async Task<int> Insert(Entity e)
         {
             Event n;
             if (e is Event) n = e as Event;
@@ -109,7 +109,7 @@ namespace VModel_
             return Edit(sqlStr, records).Result;
         }
 
-        public async Task<int> Remove(Entity e)
+        public override async Task<int> Remove(Entity e)
         {
             Event n;
             if (e is Event) n = e as Event;
@@ -121,7 +121,7 @@ namespace VModel_
             return Edit(sqlStr, records).Result;
         }
 
-        public async Task<int> Update(Entity e0, Entity e1)
+        public override async Task<int> Update(Entity e0, Entity e1)
         {
             Event n0; // old
             Event n1; // new

@@ -15,32 +15,6 @@ namespace VModel_
     {
         public UserDB() : base() { }
 
-        /*public User SelectLast(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
-        {
-            command.CommandText = cmdTxt;
-            User usr = new User();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                User tmp = new User();
-
-                while (reader.Read()) // each new reader line - each progression
-                {
-                    tmp = new User();
-                    CreateModel(tmp);
-                }
-                usr = tmp;
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); } // print error if is
-            finally // close
-            {
-                CloseSetup();
-            }
-            return usr;
-        }*/
 
         protected override Entity EGen()
         {
@@ -49,31 +23,6 @@ namespace VModel_
 
         public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
         {
-            /*command.CommandText = cmdTxt;
-            User usr = new User();
-
-            try
-            {
-                command.Connection = connection;
-                connection.Open();
-                reader = command.ExecuteReader();
-                User tmp = new User();
-
-                while (reader.Read())
-                {
-                    tmp = new User();
-                    CreateModel(tmp);
-
-                    if (tmp._absId == id) usr = tmp; // from all the table select the last with id - find single correct instance
-                }
-            }
-            catch (Exception ex) { Console.WriteLine(" Could not load database \n Error message: \n " + ex.Message); }
-            finally
-            {
-                CloseSetup();
-            }
-            return usr;*/
-
             List<Entity> cl = base.Collect(cmdTxt);
             foreach (User u in cl)
             { if (u._absId == id) return u; }
@@ -96,7 +45,7 @@ namespace VModel_
         }
 
 
-        public async Task<int> Insert(Entity e)
+        public override async Task<int> Insert(Entity e)
         {
             User usr;
             if (e is User) usr = e as User;
@@ -114,29 +63,9 @@ namespace VModel_
             return Edit(sqlStr, records).Result;
         }
 
-        /*public async Task<int> Update(People usr)
-        {
-            int records = 0;
+        public override async Task<int> Remove(Entity e) { return -16; } // empty
+        public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty
 
-            string sqlStr = $"UPDATE peopleTBL SET " +
-                $"firstName = '{prsn.firstName}'," +
-                $" lastName = '{prsn.lastName}'," +
-                $" city = '{prsn.city.cityname}'," +
-                $" telephone = '{prsn.telephone}'" +
-                $" WHERE UID = '{prsn.id}'";
-
-            return Edit(sqlStr, records).Result;
-        }
-
-
-        public async Task<int> Remove(string uid)
-        {
-            int records = 0;
-
-            string sqlStr = $"DELETE FROM peopleTBL WHERE UID = '{uid}'";
-
-            return Edit(sqlStr, records).Result;
-        }*/
 
 
         public int FindID(string uname, string cmdTxt = "SELECT * FROM Usr_Tbl")

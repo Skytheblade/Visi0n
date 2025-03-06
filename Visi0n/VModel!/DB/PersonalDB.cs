@@ -45,5 +45,9 @@ namespace VModel_
             foreach (Person p in cl) { if (p._absId == id) return p; }
             return new Person();
         }
+
+        public override async Task<int> Insert(Entity e) { return -16; } // empty
+        public override async Task<int> Remove(Entity e) { return -16; } // empty
+        public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty
     }
 }

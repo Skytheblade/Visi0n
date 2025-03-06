@@ -1,17 +1,9 @@
 ver 0.1.11.4
 moved to git
 
-ver 0.1.11.5
-minor improvement
-
-ver 0.1.11.6
-first database usage
-
-ver 0.1.11.7
-improvements
-
-ver 0.1.11.8
-db advancment
+ver 0.1.11.5 -- ver 0.1.11.8
+database implementation
+improvements & db advancment
 
 ver 0.1.11.9
 reorder & added notes to db
@@ -21,3 +13,6 @@ db & logic advancment
 
 ver 0.2
 precompletion of the wpf app, logic incomplete
+
+ver 0.2.1
+model & view model complete on basic level, system functional

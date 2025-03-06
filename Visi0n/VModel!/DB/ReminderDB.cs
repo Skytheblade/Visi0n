@@ -46,7 +46,7 @@ namespace VModel_
             return new Reminder(); // unused
         }
 
-        public async Task<int> Insert(Entity e)
+        public override async Task<int> Insert(Entity e)
         {
             Reminder r;
             if (e is Reminder) r = e as Reminder;
@@ -59,7 +59,7 @@ namespace VModel_
             return Edit(sqlStr, records).Result;
         }
 
-        public async Task<int> Remove(Entity e)
+        public override async Task<int> Remove(Entity e)
         {
             Reminder r;
             if (e is Reminder) r = e as Reminder;
@@ -71,5 +71,7 @@ namespace VModel_
 
             return Edit(sqlStr, records).Result;
         }
+
+        public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty
     }
 }

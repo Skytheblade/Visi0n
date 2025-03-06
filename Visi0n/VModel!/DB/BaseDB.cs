@@ -116,8 +116,8 @@ namespace VModel_
             return records;
         }
 
-        //protected abstract Task<int> Insert();
-        //protected abstract async Task<int> Update();
-        //protected abstract async Task<int> Remove();
+        public abstract Task<int> Insert(Entity e);
+        public abstract Task<int> Update(Entity e0, Entity e1);
+        public abstract Task<int> Remove(Entity e);
     }
 }
