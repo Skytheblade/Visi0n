@@ -22,7 +22,7 @@ namespace Visi0n._0
         public InfoW()
         {
             InitializeComponent();
-            Information.Content = "Version: 0.2;\nProgress to basic completion: 95%, all screens ready, raw, logic soon to be complete;\nOverall progress: 35%\n \nInstructions:\n" +
+            Information.Content = "Version: 0.2.1;\nProgress to basic completion: 95%, all screens ready, raw, logic soon to be complete;\nOverall progress: 35%\n \nInstructions:\n" +
                 "If the login is not working swich Visi0n.0 target platform \n" +
                 "Login textboxes - click to select, new text will appear on start. double click to clear.\n" +
                 "Username, Password (as prewritten) to log in as a test subject. \n" +

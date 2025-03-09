@@ -10,7 +10,8 @@ namespace VModel_
 {
     public class UserService
     {
-        public static bool LoginAtt(string usrname, string pass, int type_)
+        // general login control on base form
+        public static bool LoginAtt(string usrname, string pass, int type_ = 1)
         {
             UserDB usrdb = new UserDB();
             User usr = (User)(usrdb.TargetSelect(new UserDB().FindID(usrname)));
@@ -47,5 +48,15 @@ namespace VModel_
             iid++;
             return iid;
         }
+
+
+
+
+        public static bool Verify(User u)
+        {
+            if (u._absId > 0) return true; else return false;
+        }
+
+        public static Person Persona(User u) => (Person)(new PersonalDB().TargetSelect(u._absId));
     }
 }

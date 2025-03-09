@@ -16,6 +16,7 @@ using Visi0n._0.Pages.Pesonal;
 using Visi0n._0.Pages.General;
 using System.Windows.Controls.Primitives;
 using Model_;
+using VModel_;
 
 namespace Visi0n._0
 {
@@ -25,6 +26,7 @@ namespace Visi0n._0
     public partial class PersonalW : Window
     {
         User _user;
+        Person _person;
 
         public PersonalW(User usr = null)
         {
@@ -34,6 +36,7 @@ namespace Visi0n._0
             if (usr != null) UserSetUp(usr);
         }
 
+
         private void UserSetUp(User u)
         {
             _user = u;
@@ -41,14 +44,16 @@ namespace Visi0n._0
             usrName.Content = _user._usrName;
             usrPass.Content = _user._pwd;
             usrType.Content = _user._type;
+
+            Person p = UserService.Persona(_user);
+            if (UserService.Verify(p)) _person = p;
+            else MessageBox.Show("Person not found");
         }
+
 
         private void Drag(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                DragMove();
-            }
+            try { DragMove(); }
             catch { } // if cant drag, then don't
         }
 
@@ -66,10 +71,8 @@ namespace Visi0n._0
 
 
 
-        private void Frame01_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
-        {
-            //ToFrame();
-        }
+        private void Frame01_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e) { }
+
 
         private void HomeP_Click(object sender, RoutedEventArgs e)
         {
@@ -120,10 +123,9 @@ namespace Visi0n._0
             fold.IsChecked = false;
         }
 
-        private void pfpC(object sender, MouseButtonEventArgs e)
-        {
-            Section("a");
-        }
+
+        private void pfpC(object sender, MouseButtonEventArgs e) { Section("a"); }
+        private void Settings_MouseDown(object sender, MouseButtonEventArgs e) { Section("s"); }
 
         private void Section(string type__)
         {
@@ -147,10 +149,6 @@ namespace Visi0n._0
             }
         }
 
-        private void Settings_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            Section("s");
-        }
 
         private void darkLightMode_Click(object sender, RoutedEventArgs e)
         {

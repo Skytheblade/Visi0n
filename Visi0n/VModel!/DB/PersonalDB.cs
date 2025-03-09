@@ -21,7 +21,7 @@ namespace VModel_
         public override void CreateModel(Entity e)
         {
             Person p = e as Person;
-            p._absId = int.Parse(reader["ID"].ToString());
+            p._absId = int.Parse(reader["Uid"].ToString());
 
             User u = (User)(new UserDB().TargetSelect(p._absId)); // !
             p._usrName = u._usrName;
