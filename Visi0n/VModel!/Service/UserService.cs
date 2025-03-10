@@ -58,5 +58,19 @@ namespace VModel_
         }
 
         public static Person Persona(User u) => (Person)(new PersonalDB().TargetSelect(u._absId));
+
+        public static Person LaPersona(User u)
+        {
+            Person pu = Persona(u);
+            if (Verify(pu)) return pu;
+            else return null;
+        }
+
+        public static Person LaPersona(User u, Person p)
+        {
+            Person pu = Persona(u);
+            if (Verify(pu)) return pu;
+            else return p;
+        }
     }
 }

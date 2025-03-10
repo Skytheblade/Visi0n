@@ -32,8 +32,8 @@ namespace Visi0n._0
         {
             InitializeComponent();
             Section("f");
-            Frame01.Navigate(new PersonalHome());
             if (usr != null) UserSetUp(usr);
+            Frame01.Navigate(new PersonalHome(_person));
         }
 
 
@@ -45,9 +45,8 @@ namespace Visi0n._0
             usrPass.Content = _user._pwd;
             usrType.Content = _user._type;
 
-            Person p = UserService.Persona(_user);
-            if (UserService.Verify(p)) _person = p;
-            else MessageBox.Show("Person not found");
+            _person = UserService.LaPersona(_user);
+            if (_person == null) MessageBox.Show("person not found");
         }
 
 
@@ -77,7 +76,7 @@ namespace Visi0n._0
         private void HomeP_Click(object sender, RoutedEventArgs e)
         {
             Section("f");
-            Frame01.Navigate(new PersonalHome(_user));
+            Frame01.Navigate(new PersonalHome(_person));
             CurrentPage.Content = "Home";
             HomeP.IsChecked = false;
 

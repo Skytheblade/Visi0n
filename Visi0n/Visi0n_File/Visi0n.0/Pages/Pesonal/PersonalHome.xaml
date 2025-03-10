@@ -10,12 +10,30 @@
 
     <Grid Margin="5,0,5,5">
         <Border Margin="5">
-            <!--Border.Background>
-                <ImageBrush ImageSource="/Pictures/sea.jpg"/>
-            </Border.Background-->
-            
-            <!--TextBlock Text="Home" FontSize="48" FontWeight="SemiBold" Foreground="Gray"/-->
-            <Image Source="/Pictures/home.png" Margin="10" Stretch="Fill" Height="150" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="NameTitle" Style="{StaticResource LL01}" Content="Welcome [fname] [lname]" VerticalAlignment="Center" FontSize="20" Margin="10,0"/>
+
+                <StackPanel Grid.Row="1" Margin="3" FlowDirection="LeftToRight" Orientation="Horizontal">
+                    <Border Background="BlueViolet" CornerRadius="3" Width="100" Height="100" Margin="10,0">
+                        <Label Content="info"/>
+                    </Border>
+                    <Border Background="Cyan" CornerRadius="3" Width="100" Height="100" Margin="10,0">
+                        <Label Content="shortcut"/>
+                    </Border>
+                    <Border Background="Yellow" CornerRadius="3" Width="100" Height="100" Margin="10,0">
+                        <Label Content="try google icon font"/>
+                    </Border>
+                </StackPanel>
+            </Grid>
         </Border>
     </Grid>
 </Page>

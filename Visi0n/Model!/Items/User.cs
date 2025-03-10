@@ -28,5 +28,13 @@ namespace Model_
             _absId = id;
             _type = t;
         }
+
+        public virtual void Copy(User u)
+        {
+            _usrName = u._usrName;
+            _pwd = u._pwd;
+            _absId = u._absId;
+            _type = u._type;
+        }
     }
 }

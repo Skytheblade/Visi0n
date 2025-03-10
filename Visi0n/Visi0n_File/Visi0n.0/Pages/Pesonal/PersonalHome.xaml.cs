@@ -21,12 +21,15 @@ namespace Visi0n._0.Pages.Pesonal
     /// </summary>
     public partial class PersonalHome : Page
     {
-        User _user;
+        Person _person;
 
-        public PersonalHome(User user = null)
+        public PersonalHome(Person p = null)
         {
             InitializeComponent();
-            //MessageBox.Show("try google icon font");
+
+            if (p != null) _person = p;
+
+            if (_person != null) NameTitle.Content = $"Welcome {_person._fName} {_person._lName}";
         }
     }
 }

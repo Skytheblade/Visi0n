@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Model_
 {
@@ -19,6 +21,15 @@ namespace Model_
             _cid = cid;
             _fName = fName;
             _lName = lName;
+        }
+
+        public override void Copy(User u)
+        {
+            base.Copy(u);
+            Person p; if (u is Person) p = u as Person; else p = new Person();
+            _cid = p._cid;
+            _fName = p._fName;
+            _lName = p._lName;
         }
     }
 }
