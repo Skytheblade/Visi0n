@@ -8,8 +8,8 @@ namespace Model_
 {
     public class Corp : User
     {
-        string _cid;
-        string _cName;
+        public string _cid;
+        public string _cName;
 
         public Corp() : base()
         {

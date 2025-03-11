@@ -318,19 +318,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\אורט\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
       "projectName": "VModel!",
-      "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
-      "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\אורט\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -344,8 +344,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
-              "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj"
+            "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj"
             }
           }
         }
@@ -381,7 +381,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

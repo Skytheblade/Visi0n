@@ -57,16 +57,18 @@ namespace VModel_
             if (u._absId > 0) return true; else return false;
         }
 
-        public static Person Persona(User u) => (Person)(new PersonalDB().TargetSelect(u._absId));
+        public static Person Persona(User u) => (Person)(new PersonalDB().TargetSelect(u._absId)); // get (person)u
 
-        public static Person LaPersona(User u)
+        public static Corp LaEmpressa(User u) => (Corp)(new CorpDB().TargetSelect(u._absId)); // get (corp)u
+
+
+        public static Person LaPersona(User u) // returns the full (besides type) person of user if valid
         {
             Person pu = Persona(u);
             if (Verify(pu)) return pu;
             else return null;
         }
-
-        public static Person LaPersona(User u, Person p)
+        public static Person LaPersona(User u, Person p) // same but returns target person instead of null
         {
             Person pu = Persona(u);
             if (Verify(pu)) return pu;
@@ -74,10 +76,22 @@ namespace VModel_
         }
 
 
-
-        public static void Corporative(User u)
+        public static Corp Corporative(User u, Corp cc = null) // returns if the user is corp the corporation
         {
-            //Corp comp = 
+            Corp cu = LaEmpressa(u);
+            if (Verify(cu)) return cu;
+            else if (cc == null) return null;
+            else return cc;
+        }
+
+        public static Corp UnGroupe(Person p) => new CorpDB().Call(p._cid); // returns the corp containing user if is
+
+        public static List<Person> LaCampanella(Corp c) // returns all people in a corp
+        {
+            List<Entity> el = new PersonalDB().SelectAll();
+            List<Person> people = new List<Person>();
+            foreach (Person p in el) { if (p._cid == c._cid) people.Add(p); }
+            return people;
         }
     }
 }
