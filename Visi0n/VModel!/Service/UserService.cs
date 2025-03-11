@@ -72,5 +72,12 @@ namespace VModel_
             if (Verify(pu)) return pu;
             else return p;
         }
+
+
+
+        public static void Corporative(User u)
+        {
+            //Corp comp = 
+        }
     }
 }

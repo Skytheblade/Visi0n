@@ -85,9 +85,14 @@
                         <ControlTemplate TargetType="RadioButton">
                             <Border>
                                 <Border.Background>
-                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
-                                        <GradientStop Color="#FFC7E9FF" Offset="0"/>
-                                        <GradientStop Color="#FFF4D6FF" Offset="1"/>
+                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" Opacity="0.125">
+                                        <!--GradientStop Color="#FFC7E9FF" Offset="0"/>
+                                        <GradientStop Color="#FFF4D6FF" Offset="1"/-->
+                                        <!--GradientStop Color="#FFD7EAED" Offset="0"/>
+                                        <GradientStop Color="#FFC8CDE6" Offset="0.5"/>
+                                        <GradientStop Color="#FFE2CAE0" Offset="1"/-->
+                                        <GradientStop Color="#FF546CD0" Offset="0"/>
+                                        <GradientStop Color="#FFD26DCE" Offset="1"/>
                                     </LinearGradientBrush>
                                 </Border.Background>
 
@@ -103,7 +108,7 @@
                         <ControlTemplate TargetType="RadioButton">
                             <Border>
                                 <Border.Background>
-                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" Opacity="0.975">
                                         <GradientStop Color="#FFCBD5FF" Offset="0"/>
                                         <GradientStop Color="#FFFFCFFD" Offset="1"/>
                                     </LinearGradientBrush>

@@ -44,9 +44,22 @@ namespace Visi0n._0
             usrName.Content = _user._usrName;
             usrPass.Content = _user._pwd;
             usrType.Content = _user._type;
+            usrID.Content = _user._absId;
 
             _person = UserService.LaPersona(_user);
             if (_person == null) MessageBox.Show("person not found");
+
+            if (_person != null)
+            {
+                string ttype = "unknown";
+                if (_user._type == 1 || _user._type == 3) ttype = "person";
+                archData.Content = $"Person: \n{_person._usrName} ({_person._pwd}) [t : {ttype}] \n"
+                    + $"{_person._fName} {_person._lName} \n"
+                    + $"Corp : {_person._cid} \n"
+                    + $"ID : {_person._absId} \n\n"
+                + "User: \n" + $"{_user._usrName} ({_user._pwd}) \n"
+                + "Type : " + _user._type + " \nID : " + _user._absId;
+            }
         }
 
 
