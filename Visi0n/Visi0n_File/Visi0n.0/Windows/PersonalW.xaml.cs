@@ -41,15 +41,23 @@ namespace Visi0n._0
         {
             _user = u;
 
-            usrName.Content = _user._usrName;
-            usrPass.Content = _user._pwd;
-            usrType.Content = _user._type;
-            usrID.Content = _user._absId;
+            usrName.Content = "Username:  " + _user._usrName;
+            usrPass.Content = "Password:  " + _user._pwd;
+            usrType.Content = "User Type:  " + _user._type;
+            usrID.Content = "User ID:  " + _user._absId;
 
             _person = UserService.LaPersona(_user);
             if (_person == null) MessageBox.Show("person not found");
 
             if (_person != null)
+            {
+                prsnFName.Content = "First Name:  " + _person._fName;
+                prsnLName.Content = "Last Name:  " + _person._lName;
+                prsnCorp.Content = "Company:  " + _person._cid;
+            }
+
+
+            /*if (_person != null)
             {
                 string ttype = "unknown";
                 if (_user._type == 1 || _user._type == 3) ttype = "person";
@@ -59,7 +67,7 @@ namespace Visi0n._0
                     + $"ID : {_person._absId} \n\n"
                 + "User: \n" + $"{_user._usrName} ({_user._pwd}) \n"
                 + "Type : " + _user._type + " \nID : " + _user._absId;
-            }
+            }*/
         }
 
 

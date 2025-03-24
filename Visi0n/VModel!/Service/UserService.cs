@@ -80,7 +80,6 @@ namespace VModel_
         {
             Corp cu = LaEmpressa(u);
             if (Verify(cu)) return cu;
-            else if (cc == null) return null;
             else return cc;
         }
 

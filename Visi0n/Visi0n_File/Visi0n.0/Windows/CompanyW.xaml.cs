@@ -31,7 +31,7 @@ namespace Visi0n._0
 
             if (usr != null) UserSetUp(usr);
 
-            Screen.Navigate(new CompanyDetailsPage(Screen));
+            Screen.Navigate(new CompanyDetailsPage(Screen, _user));
             currentStateLabel.Content = "Current: Details";
         }
         private void UserSetUp(User u)
@@ -78,7 +78,7 @@ namespace Visi0n._0
 
         private void CompanyDetailsB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new CompanyDetailsPage(Screen));
+            Screen.Navigate(new CompanyDetailsPage(Screen, _user));
             currentStateLabel.Content = "Current: Details";
         }
     }

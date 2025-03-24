@@ -18,10 +18,14 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <ListView Margin="10,10,10,10" Grid.ColumnSpan="2">
+        <ListView Margin="10,10,10,10" Grid.ColumnSpan="1">
             <ListViewItem Content="User 1"/>
             <ListViewItem Content="User 2"/>
         </ListView>
+
+        <Border Background="Beige" Margin="10" Grid.Column="1">
+            <Label Name="DetailsText" Content="Company"/>
+        </Border>
 
         <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" FlowDirection="RightToLeft">
             <Button Content="Save" Margin="10" Width="90"/>
