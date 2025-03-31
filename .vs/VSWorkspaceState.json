@@ -4,14 +4,13 @@
     "\\Visi0n",
     "\\Visi0n\\Visi0n_File",
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Core",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
     "\\Visi0n\\VModel!",
     "\\Visi0n\\VModel!\\DB"
   ],
-  "SelectedNode": "\\Visi0n\\VModel!\\DB\\CorpDB.cs",
+  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

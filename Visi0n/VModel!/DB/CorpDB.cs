@@ -26,7 +26,7 @@ namespace VModel_
             User u = (User)(new UserDB().TargetSelect(c._absId));
             c._usrName = u._usrName;
             c._pwd = u._pwd;
-            c._type = 1;
+            c._type = 2;
 
             c._cid = reader["Cid"].ToString();
             c._cName = reader["CorpName"].ToString();
@@ -55,5 +55,13 @@ namespace VModel_
         public override async Task<int> Insert(Entity e) { return -16; } // empty
         public override async Task<int> Remove(Entity e) { return -16; } // empty
         public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty
+
+
+        /*public string NameID(string cid)
+        {
+            List<Entity> cl = base.Collect("SELECT * FROM Corp_Tbl");
+            foreach (Corp c in cl) { if (c._cid == id) return c; }
+            return new Corp();
+        }*/
     }
 }
