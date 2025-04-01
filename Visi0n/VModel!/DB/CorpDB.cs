@@ -57,11 +57,6 @@ namespace VModel_
         public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty
 
 
-        /*public string NameID(string cid)
-        {
-            List<Entity> cl = base.Collect("SELECT * FROM Corp_Tbl");
-            foreach (Corp c in cl) { if (c._cid == id) return c; }
-            return new Corp();
-        }*/
+        public string NameID(string cid) => Call(cid)._cName;
     }
 }
