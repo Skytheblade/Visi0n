@@ -23,13 +23,13 @@
                 <Label x:Name="NameTitle" Style="{StaticResource LL01}" Content="Welcome [fname] [lname]" VerticalAlignment="Center" FontSize="20" Margin="10,0"/>
 
                 <StackPanel Grid.Row="1" Margin="3" FlowDirection="LeftToRight" Orientation="Horizontal">
-                    <Border Background="BlueViolet" CornerRadius="3" Width="100" Height="100" Margin="10,0">
+                    <Border Style="{StaticResource PHcolor1}">
                         <Label Content="info"/>
                     </Border>
-                    <Border Background="Cyan" CornerRadius="3" Width="100" Height="100" Margin="10,0">
+                    <Border Style="{StaticResource PHcolor2}">
                         <Label Content="shortcut"/>
                     </Border>
-                    <Border Background="Yellow" CornerRadius="3" Width="100" Height="100" Margin="10,0">
+                    <Border  Style="{StaticResource PHcolor3}">
                         <Label Content="try google icon font"/>
                     </Border>
                 </StackPanel>

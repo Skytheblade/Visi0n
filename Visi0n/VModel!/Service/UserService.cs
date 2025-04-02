@@ -89,6 +89,6 @@ namespace VModel_
         }
 
 
-        public static string CorpIdName(string cid) => cid;
+        public static string CorpNameID(string cid) => new CorpDB().Call(cid)._cName; // get name per id
     }
 }

@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "XwuIlVJ0R/lTfQnzNb5EQ952QJud/yAaEFZhLLKYHdjdNfFlJsY4zEH9virquiVhPIaTQOBqsaqGUa1TFhq8uQ==",
+  "dgSpecHash": "K40/Jaofv53R7EsKpgl5qM+m42jj1lpcTfZr+MPaqQ+MAuWc9c64uQQILiwxumunjQe8Jz5u5z+tjKvwFTRGsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\אורט\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0\\microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.data.odbc\\9.0.0\\system.data.odbc.9.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.data.oledb\\8.0.0\\system.data.oledb.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\אורט\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

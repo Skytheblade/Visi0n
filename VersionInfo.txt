@@ -19,3 +19,6 @@ model & view model complete on basic level, system functional
 
 ver 0.2.1.1
 integration of person & ui improvements
+
+ver 0.2.1.2
+improved ui & integration of corp

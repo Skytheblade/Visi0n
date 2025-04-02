@@ -55,6 +55,16 @@ namespace Visi0n._0.Pages.Company
             DetailsText.Content += "Password:  " + u._pwd + "\n";
             DetailsText.Content += "Type:  " + u._type + "\n";
             DetailsText.Content += "User ID:  " + u._absId + "\n";
+
+            if (_corporation != null)
+            {
+                UsersText.Content = "Company users: \n";
+                List<Person> ll = UserService.LaCampanella(_corporation);
+                foreach (Person p in ll)
+                {
+                    UsersText.Content += ("" + p._absId + ", " + p._fName + " " + p._lName + "; ");
+                }
+            }
         }
     }
 }

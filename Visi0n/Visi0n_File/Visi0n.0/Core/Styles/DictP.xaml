@@ -160,4 +160,48 @@
         </Setter>
     </Style>
 
+    <Style TargetType="Border" x:Key="PHcolor1">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="0.5,1">
+                    <GradientStop Color="#FF3C4AD4" Offset="0.303"/>
+                    <GradientStop Color="#FF102288" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Margin" Value="10, 0"/>
+    </Style>
+    <Style TargetType="Border" x:Key="PHcolor2">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FFEC0E41"/>
+                    <GradientStop Color="#FF4A0606" Offset="0.843"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Margin" Value="10, 0"/>
+    </Style>
+    <Style TargetType="Border" x:Key="PHcolor3">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FF85EC0E" Offset="0.05"/>
+                    <GradientStop Color="#FF399C63" Offset="0.397"/>
+                    <GradientStop Color="#FF0EECC8" Offset="0.777"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Margin" Value="10, 0"/>
+    </Style>
+
 </ResourceDictionary>

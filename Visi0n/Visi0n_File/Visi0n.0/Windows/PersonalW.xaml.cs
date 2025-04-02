@@ -53,7 +53,7 @@ namespace Visi0n._0
             {
                 prsnFName.Content = "First Name:  " + _person._fName;
                 prsnLName.Content = "Last Name:  " + _person._lName;
-                prsnCorp.Content = "Company:  " + UserService.CorpIdName(_person._cid);
+                prsnCorp.Content = "Company:  " + UserService.UnGroupe(_person)._cName;
             }
 
 
