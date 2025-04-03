@@ -7,16 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Pages\Company\CalendarCompany.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Pages\Company\CompanyDetailsPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Company\NotesCompany.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Company\RemindersCompany.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\General\CalendarGP.xaml.cs">
@@ -46,25 +37,7 @@
     <Compile Update="Pages\Login\StartPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\Pesonal\CaleAction.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Pesonal\CalendarDayViewP.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Pesonal\CalendarPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Pesonal\NotesPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Pesonal\NotesViewP.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Pages\Pesonal\PersonalHome.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Pages\Pesonal\RemindersPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Windows\CompanyW.xaml.cs">
@@ -78,16 +51,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Pages\Company\CalendarCompany.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Pages\Company\CompanyDetailsPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Company\NotesCompany.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Company\RemindersCompany.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\General\CalendarGP.xaml">
@@ -117,25 +81,7 @@
     <Page Update="Pages\Login\StartPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\Pesonal\CaleAction.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Pesonal\CalendarDayViewP.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Pesonal\CalendarPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Pesonal\NotesPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Pesonal\NotesViewP.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Pages\Pesonal\PersonalHome.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\Pesonal\RemindersPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Core\Styles\Dict0.xaml">
