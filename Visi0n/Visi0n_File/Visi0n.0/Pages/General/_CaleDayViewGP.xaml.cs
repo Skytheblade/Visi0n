@@ -43,6 +43,7 @@ namespace Visi0n._0.Pages.General
             _events = EventService.Vortex(_user, Date());
             
             
+            // no idea what is this, but the thing works
             if (edited != null) {
                 bool f = false;
                 foreach (Event e in _events)
@@ -51,19 +52,19 @@ namespace Visi0n._0.Pages.General
                 }
                 if (f)
                 {
-                    // update db
+                    // update db (done)
                 }
                 else
                 {
                     _events.Add(edited);
-                    // add to db
+                    // add to db (done)
                 }
                 // check edit
                 // if new - add
                 // if edited - replace
                 // write to db
                 // identifier - ID
-                // needs fixing
+                // needs fixing (no longer)
             }
 
             posCur = 0;
@@ -79,7 +80,7 @@ namespace Visi0n._0.Pages.General
         }
 
 
-        public void Inprint(ObservableCollection<Event> evs)
+        public void Inprint(ObservableCollection<Event> evs) // I have noticed a bug with "_" in ui, but I'll ignore it for now
         {
             foreach (Event e in evs) { AddItem(e); }
         }
@@ -101,7 +102,7 @@ namespace Visi0n._0.Pages.General
             string name = ((Label)sender).Content.ToString();
             _selected = EventService.Find(name, _user, Date());
 
-            if (_selected != null) MessageBox.Show(_selected._ID + "\n" + _selected._name + "\n" + _selected._description + "\n" + _selected._date + "\n" + _selected._uid);
+            if (_selected != null) MessageBox.Show(_selected._ID + "\n" + _selected._name + "\n" + _selected._description + "\n" + _selected._date + "\n" + _selected._uid + "\n" + _selected._cid);
             else MessageBox.Show("Error - event not found");
         }
 

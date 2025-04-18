@@ -45,6 +45,7 @@ namespace VModel_
             n._description = reader["EventContent"].ToString();
             n._date = reader["EventDate"].ToString();
             n._ID = int.Parse(reader["ID"].ToString());
+            n._cid = reader["Corp"].ToString();
         }
 
         protected override Entity EGen()
@@ -104,7 +105,7 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = string.Format($"INSERT INTO Cale_Tbl (Uid, EventName, EventContent, EventDate, Corp) VALUES ({n._uid}, '{n._name}', '{n._description}', '{n._date}', '--');");
+            string sqlStr = string.Format($"INSERT INTO Cale_Tbl (Uid, EventName, EventContent, EventDate, Corp) VALUES ({n._uid}, '{n._name}', '{n._description}', '{n._date}', '{n._cid}');");
 
             return Edit(sqlStr, records).Result;
         }
@@ -135,6 +136,32 @@ namespace VModel_
                 $" WHERE (Uid = {n0._uid} AND EventContent = '{n0._description}' AND EventName = '{n0._name}' AND EventDate = '{n0._date}')";
 
             return Edit(sqlStr, records).Result;
+        }
+
+        public List<string> DaysActive(int id, string month, string year, int t = 0)
+        {
+            List<string> ll = new List<string>();
+            foreach(Event l in SelectAll())
+            {
+                if (l._uid == id)
+                {
+                    if (t == 0)
+                    {
+                        if (l._date.Split("/")[1] == month.ToString() && l._date.Split("/")[2] == year.ToString())
+                        {
+                            ll.Add(l._date.Split("/")[0]);
+                        }
+                    }
+                    else
+                    {
+                        if (l._date.Split("/")[1] == month.ToString() && l._date.Split("/")[2] == year.ToString() && (l._cid != "--" && l._cid != "0"))
+                        {
+                            ll.Add(l._date.Split("/")[0]);
+                        }
+                    }
+                }
+            }
+            return ll;
         }
     }
 }

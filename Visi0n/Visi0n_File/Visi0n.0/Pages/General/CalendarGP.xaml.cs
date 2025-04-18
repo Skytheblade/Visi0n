@@ -20,7 +20,7 @@ using VModel_;
 namespace Visi0n._0.Pages.General
 {
     /// <summary>
-    /// Interaction logic for CalendarGP.xaml
+    /// no idea what I have done here
     /// </summary>
     public partial class CalendarGP : Page
     {
@@ -33,7 +33,8 @@ namespace Visi0n._0.Pages.General
         string __date;
 
         User _usr;
-        ObservableCollection<Event> _events; //same as list, but might be better sometimes
+        //ObservableCollection<Event> _events; //same as list, but might be better sometimes
+        DateCaleReader dc;
 
 
         public CalendarGP(Frame frame, User usr)
@@ -42,7 +43,7 @@ namespace Visi0n._0.Pages.General
             _frame = frame;
             _usr = usr;
 
-             _events = EventService.Load(_usr);
+             //_events = EventService.Load(_usr);
 
             Marr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
             Ynum = 2024;
@@ -52,6 +53,12 @@ namespace Visi0n._0.Pages.General
             Year.Content = Ynum.ToString();
             _day = 1;
             UpdateDate();
+
+            dc = new DateCaleReader(new RadioButton[] 
+            {   d1, d2, d3, d4, d5, d6, d7, d8, d9, d10,
+                d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, 
+                d21, d22, d23, d24, d25, d26, d27, d28, d29, d30, d31 }, _usr);
+            dc.ReColor(__date);
         }
 
         private void UpdateDate()
@@ -77,6 +84,7 @@ namespace Visi0n._0.Pages.General
             Month.Content = Marr[MarrIndx].ToString();
             UpdateDate();
             UpdateColumn();
+            dc.ReColor(__date);
         }
 
         private void nxtM_Click(object sender, RoutedEventArgs e)
@@ -88,6 +96,7 @@ namespace Visi0n._0.Pages.General
             Month.Content = Marr[MarrIndx].ToString();
             UpdateDate();
             UpdateColumn();
+            dc.ReColor(__date);
         }
 
         private void preY_Click(object sender, RoutedEventArgs e)
@@ -96,6 +105,7 @@ namespace Visi0n._0.Pages.General
             Year.Content = Ynum.ToString();
             UpdateDate();
             UpdateColumn();
+            dc.ReColor(__date);
         }
 
         private void nxtY_Click(object sender, RoutedEventArgs e)
@@ -104,6 +114,7 @@ namespace Visi0n._0.Pages.General
             Year.Content = Ynum.ToString();
             UpdateDate();
             UpdateColumn();
+            dc.ReColor(__date);
         }
 
 
@@ -118,6 +129,56 @@ namespace Visi0n._0.Pages.General
         {
             //ObservableCollection<Event> storm = EventService.Vortex(_usr, __date.Replace(" ", ""));
             _frame.Navigate(new _CaleDayViewGP(_frame, _usr, __date));
+        }
+
+
+
+        internal class DateCaleReader
+        {
+            User uu;
+            RadioButton[] Total;
+
+            public DateCaleReader(RadioButton[] arr, User uu)
+            {
+                Total = arr;
+                this.uu = uu;
+            }
+
+            public void ReColor(string rawdate)
+            {
+                ColorRaw();
+                string _m = rawdate.Replace(" ", "").Split("/")[1]; string _y = rawdate.Replace(" ", "").Split("/")[2];
+                ColorPersonal(_m, _y);
+                ColorCorp(_m, _y);
+            }
+
+            public void ColorRaw()
+            {
+                foreach (RadioButton r in Total)
+                {
+                    r.Background = Brushes.Beige;
+                }
+            }
+
+            public void ColorPersonal(string _m, string _y)
+            {
+                List<string> days = EventService.ActiveDays(uu._absId, _m, _y);
+                foreach (string d in days)
+                {
+                    foreach(RadioButton r in Total) if (r.Name == "d" + int.Parse(d)) r.Background = Brushes.Pink;
+                }
+            }
+
+            public void ColorCorp(string _m, string _y)
+            {
+                List<string> days = EventService.SuperActiveDays(uu._absId, _m, _y);
+                foreach (string d in days)
+                {
+                    foreach (RadioButton r in Total) if (r.Name == "d" + int.Parse(d)) r.Background = Brushes.Plum;
+                }
+            }
+
+            RadioButton[] ReturnAll() => Total;
         }
     }
 }

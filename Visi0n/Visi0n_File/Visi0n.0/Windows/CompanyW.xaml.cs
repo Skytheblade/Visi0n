@@ -15,6 +15,7 @@ using Visi0n._0.Pages.Company;
 using Visi0n._0.Pages.General;
 using Visi0n._0.Pages.Pesonal;
 using Model_;
+using VModel_;
 
 namespace Visi0n._0
 {
@@ -37,6 +38,8 @@ namespace Visi0n._0
         private void UserSetUp(User u)
         {
             _user = u;
+            Corp c = UserService.Corporative(u);
+            if (c != null) CompanyNameLabel.Content = c._cName + " (" + c._cid + ")";
         }
 
         private void Drag(object sender, RoutedEventArgs e)

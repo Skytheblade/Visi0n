@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Visi0n",
-    "\\Visi0n\\Visi0n_File"
+    "\\Visi0n\\Visi0n_File",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows"
   ],
-  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0.sln",
+  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

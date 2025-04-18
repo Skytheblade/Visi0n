@@ -5,6 +5,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Xml.Linq;
 
 namespace VModel_
 {
@@ -63,6 +65,41 @@ namespace VModel_
         public static void ReWrite(Event Old, Event New)
         {
             new CaleDb().Update(Old, New);
+        }
+
+        public static List<string> ActiveDays(int id, string month, string year) => new CaleDb().DaysActive(id, month, year, 0);
+        public static List<string> SuperActiveDays(int id, string month, string year) => new CaleDb().DaysActive(id, month, year, 1);
+
+
+        // full writing mechanism, command template function
+        public static void WriteEclipse(User u, Event target, string Name_, string Text_, string _date_, string cid = "--")
+        {
+            if (target == null) // add new
+            {
+                target = new Event();
+                target._cid = cid; // its already "--", but per corp write it sets it accordingly (only for new events ofc)
+
+                // set info
+                target._name = Name_;
+                target._description = Text_;
+
+                //target._ID = CreateNewID(); // not needed, id is autonumber
+
+                target._date = _date_.Replace(" ", ""); // in case of
+                target._uid = u._absId; // set id to user
+
+                Write(target); // call insert
+            }
+            else // edit selected
+            {
+                Event tor = target.Copy(); // all properties besides main info set
+
+                target._name = Name_;
+                target._description = Text_;
+                // no need to change anything else, we have add + delete for that
+
+                ReWrite(tor, target); // call update
+            }
         }
     }
 }

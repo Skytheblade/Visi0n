@@ -8,6 +8,9 @@ using System.Xml.Linq;
 
 namespace Model_
 {
+    /// <summary>
+    /// A continium of user for personal matters - all (person) are (user)
+    /// </summary>
     public  class Person : User
     {
         public string _fName;

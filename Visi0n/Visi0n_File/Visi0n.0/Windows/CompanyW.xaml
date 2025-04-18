@@ -27,7 +27,7 @@
         <StackPanel x:Name="ActionButtons" Margin="5" Orientation="Horizontal" FlowDirection="LeftToRight" Grid.Column="0" Grid.Row="0">
             <Grid x:Name="Stats" Width="120" Margin="12,3">
                 <StackPanel Orientation="Vertical" FlowDirection="LeftToRight">
-                    <Label Content="Company Name" FontSize="11" FontWeight="Bold"></Label>
+                    <Label x:Name="CompanyNameLabel" Content="Company Name" FontSize="11" FontWeight="Bold"></Label>
                     <Label x:Name="currentStateLabel" Content="Current: " FontSize="11" FontWeight="Bold"></Label>
                 </StackPanel>
             </Grid>

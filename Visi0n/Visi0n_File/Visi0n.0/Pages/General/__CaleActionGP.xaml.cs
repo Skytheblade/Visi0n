@@ -40,8 +40,8 @@ namespace Visi0n._0.Pages.General
             if (_target != null) { AcName.Text = _target._name; Detl.Text = _target._description; }
         }
 
-        private void Save()
-        {
+        private void Save() => EventService.WriteEclipse(_user, _target, AcName.Text, Detl.Text, _date); // reform to simplify other ends
+        /*{
             if (_target == null) // add new
             {
                 _target = new Event();
@@ -63,7 +63,7 @@ namespace Visi0n._0.Pages.General
 
                 EventService.ReWrite(tor, _target);
             }
-        }
+        }*/
 
         private void Saved(object sender, RoutedEventArgs e)
         {

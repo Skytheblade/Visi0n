@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model_
 {
+    /// <summary>
+    /// A control unit user - all (corp) are (user)
+    /// </summary>
     public class Corp : User
     {
         public string _cid;

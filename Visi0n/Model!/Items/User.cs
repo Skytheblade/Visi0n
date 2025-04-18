@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model_
 {
+    /// <summary>
+    /// The target of contact, the actual user, in its basic state
+    /// </summary>
     public class User : Entity
     {
         public int _absId;
