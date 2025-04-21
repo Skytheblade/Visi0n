@@ -32,9 +32,10 @@
                 </StackPanel>
             </Grid>
             <Button x:Name="CompanyDetailsB" Width="65" Content="Details" Margin="3,0" Click="CompanyDetailsB_Click"/>
-            <Button x:Name="CalendarB" Width="65" Content="Calendar" Margin="3,0" Click="CalendarB_Click"/>
+            <Button x:Name="CalendarB" Width="65" Content="Calendar" Margin="3,0" Click="CaleClick"/>
             <Button x:Name="NotesB" Width="65" Content="Notes" Margin="3,0" Click="NotesB_Click"/>
             <Button x:Name="RemindersB" Width="65" Content="Reminders" Margin="3,0" Click="RemindersB_Click"/>
+            <Button x:Name="SelfPB" Width="65" Content="Self" Margin="3,0" Click="SelfPB_Click"/>
         </StackPanel>
         <Grid x:Name="MainPanel" Margin="5" Grid.ColumnSpan="2" Grid.Row="1">
             <Frame x:Name="Screen" NavigationUIVisibility="Hidden">

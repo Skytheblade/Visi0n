@@ -23,13 +23,13 @@ namespace Visi0n._0.Pages.Company
     public partial class CompanyDetailsPage : Page
     {
         User _user;
-        Frame _frame;
+        //Frame _frame;
         Corp _corporation;
 
-        public CompanyDetailsPage(Frame frame, User u)
+        public CompanyDetailsPage(/*Frame frame,*/ User u)
         {
             InitializeComponent();
-            _frame = frame;
+            //_frame = frame;
             _user = u;
 
             DataSetUp(_user);

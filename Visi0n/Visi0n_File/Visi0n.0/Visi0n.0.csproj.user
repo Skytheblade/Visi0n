@@ -10,6 +10,12 @@
     <Compile Update="Pages\Company\CompanyDetailsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\Company\CompanyEventsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Company\CompanyPersonalPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\General\CalendarGP.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Pages\Company\CompanyDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Company\CompanyEventsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Company\CompanyPersonalPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\General\CalendarGP.xaml">

@@ -58,9 +58,9 @@ namespace VModel_
         }
 
 
-        public static Person Persona(User u) => (Person)(new PersonalDB().TargetSelect(u._absId)); // get (person)u
+        public static Person Persona(User u) => (Person)(new PersonalDB().TargetSelect(u._absId)); // get (person)u raw
 
-        public static Corp LaEmpressa(User u) => (Corp)(new CorpDB().TargetSelect(u._absId)); // get (corp)u
+        public static Corp LaEmpressa(User u) => (Corp)(new CorpDB().TargetSelect(u._absId)); // get (corp)u raw
 
 
         public static Person LaPersona(User u, Person p = null) // returns the full (besides type) person of user if valid | (Person)u
