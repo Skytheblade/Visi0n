@@ -73,6 +73,10 @@ namespace Visi0n._0.Pages.General
         private void UpdateColumn()
         {
             DateText.Content = __date;
+            DateText.Content += "\n\n";
+            ObservableCollection<Event> evs = EventService.Vortex(_usr, __date.Replace(" ","")); // ideal placement, returns all events at date for user
+            foreach (Event e in evs) 
+                DateText.Content += e._name + "\n";
         }
 
         private void preM_Click(object sender, RoutedEventArgs e)
