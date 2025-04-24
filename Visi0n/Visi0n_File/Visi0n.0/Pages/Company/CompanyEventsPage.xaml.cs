@@ -39,9 +39,10 @@ namespace Visi0n._0.Pages.Company
             try
             {
                 int id = int.Parse(Uid.Text);
+                int ddat = int.Parse(Tdd.Text + Tmm.Text + Tyy.Text);
             }
             catch { f = false; }
-            if (f)
+            if (f && Tdd.Text.Length == 2 && Tmm.Text.Length == 2 && Tyy.Text.Length == 4 && int.Parse(Tdd.Text) < 32 && int.Parse(Tmm.Text) < 13)
             {
                 List<Person> emp = UserService.LaCampanella(_self);
                 User u0 = UserService.Get(int.Parse(Uid.Text));
@@ -51,7 +52,7 @@ namespace Visi0n._0.Pages.Company
                     if (u._absId == u0._absId) uu = u0;
                 }
 
-                if (uu != null) { MessageBox.Show($"Attempting Event for id: {uu._absId}"); EventService.WriteEclipse(uu, null, Ename.Text, Etext.Text, "01/11/2024"); }
+                if (uu != null) { MessageBox.Show($"Attempting Event for id: {uu._absId}"); EventService.WriteEclipse(uu, null, Ename.Text, Etext.Text, "" + Tdd.Text + "/" + Tmm.Text + "/" + Tyy.Text, _self._cid); }
                 else MessageBox.Show("Make sure Uid is registered in the company");
             }
             else MessageBox.Show("Make sure input matches target types");
@@ -59,7 +60,7 @@ namespace Visi0n._0.Pages.Company
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            SendEvent(); // add cid to event
+            SendEvent();
         }
     }
 }

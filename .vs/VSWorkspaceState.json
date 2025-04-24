@@ -6,8 +6,9 @@
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows"
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
+    "\\Visi0n\\WCFhost"
   ],
-  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\CompanyW.xaml.cs",
+  "SelectedNode": "\\Visi0n\\WCFhost\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

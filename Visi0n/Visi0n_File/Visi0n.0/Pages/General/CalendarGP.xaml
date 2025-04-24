@@ -79,7 +79,7 @@
 
 
                     <!-- due to the setup each month will show 31 days until further notice -->
-                    <!-- and while I indeed can make the buttons in a better way I already wrote this so this shall stay. do not spit on my efforts at prototype stages.  -->
+                    <!-- and while I indeed can make the buttons in a better way I already wrote this so this shall stay  -->
                     <RadioButton Style="{StaticResource CDay02}" x:Name="d1" Content="01" Margin="5" Grid.Column="0" Grid.Row="0" Checked="d_Checked" MouseDoubleClick="d_MouseDoubleClick"/>
                     <RadioButton Style="{StaticResource CDay02}" x:Name="d2" Content="02" Margin="5" Grid.Column="1" Grid.Row="0" Checked="d_Checked" MouseDoubleClick="d_MouseDoubleClick"/>
                     <RadioButton Style="{StaticResource CDay02}" x:Name="d3" Content="03" Margin="5" Grid.Column="2" Grid.Row="0" Checked="d_Checked" MouseDoubleClick="d_MouseDoubleClick"/>
