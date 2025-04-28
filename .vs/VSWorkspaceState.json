@@ -6,9 +6,11 @@
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
+    "\\Visi0n\\WCFcore",
     "\\Visi0n\\WCFhost"
   ],
-  "SelectedNode": "\\Visi0n\\WCFhost\\Program.cs",
+  "SelectedNode": "\\Visi0n\\WCFcore\\App.config",
   "PreviewInSolutionExplorer": false
 }

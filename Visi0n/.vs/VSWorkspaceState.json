@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Visi0n_File"
+    "\\Visi0n_File",
+    "\\WCFcore"
   ],
-  "SelectedNode": "\\Visi0n_File\\Visi0n.0.sln",
+  "SelectedNode": "\\WCFcore\\ServiceCore.cs",
   "PreviewInSolutionExplorer": false
 }
