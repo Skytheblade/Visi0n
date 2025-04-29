@@ -8,8 +8,10 @@ using VModel_;
 
 namespace WCFcore
 {
-    internal class ServiceCore : IWebService
+    public class ServiceCore : IWebService
     {
+        public static void Main() { }
+
         public bool Login(string Un, string Up, int t) => UserService.LoginAtt(Un, Up, t);
     }
 }

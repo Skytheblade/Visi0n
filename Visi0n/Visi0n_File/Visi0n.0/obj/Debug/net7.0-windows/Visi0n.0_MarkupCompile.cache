@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\
+C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\
 Visi0n._0
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\App.xaml
+C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\App.xaml
 20-2136549050
 
 19125368348
-204-1179270363
+206-1578718763
 Core\Styles\Dict0.xaml;Core\Styles\Dict2.xaml;Core\Styles\DictP.xaml;Pages\Company\CompanyDetailsPage.xaml;Pages\Company\CompanyEventsPage.xaml;Pages\Company\CompanyPersonalPage.xaml;Pages\General\CalendarGP.xaml;Pages\General\NotesGP.xaml;Pages\General\RemindersGP.xaml;Pages\General\_CaleDayViewGP.xaml;Pages\General\_NotesViewGP.xaml;Pages\General\__CaleActionGP.xaml;Pages\Login\LoginPage.xaml;Pages\Login\NewUsr.xaml;Pages\Login\StartPage.xaml;Pages\Pesonal\PersonalHome.xaml;Windows\CompanyW.xaml;Windows\InfoW.xaml;Windows\LoginW.xaml;Windows\PersonalW.xaml;
 
-False
+True
 

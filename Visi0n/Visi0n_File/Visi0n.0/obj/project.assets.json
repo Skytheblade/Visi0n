@@ -191,6 +191,27 @@
         "runtime": {
           "bin/placeholder/VModel!.dll": {}
         }
+      },
+      "WCFcore/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WCFcore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WCFcore.dll": {}
+        }
+      },
+      "WCFhost/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "WCFcore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WCFhost.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WCFhost.dll": {}
+        }
       }
     }
   },
@@ -469,6 +490,16 @@
       "type": "project",
       "path": "../../VModel!/VModel!.csproj",
       "msbuildProject": "../../VModel!/VModel!.csproj"
+    },
+    "WCFcore/1.0.0": {
+      "type": "project",
+      "path": "../../WCFcore/WCFcore.csproj",
+      "msbuildProject": "../../WCFcore/WCFcore.csproj"
+    },
+    "WCFhost/1.0.0": {
+      "type": "project",
+      "path": "../../WCFhost/WCFhost.csproj",
+      "msbuildProject": "../../WCFhost/WCFhost.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -477,23 +508,29 @@
       "Model! >= 1.0.0",
       "System.Data.Odbc >= 9.0.0",
       "System.Data.OleDb >= 8.0.0",
-      "VModel! >= 1.0.0"
+      "VModel! >= 1.0.0",
+      "WCFhost >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\אורט\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+      "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
       "projectName": "Visi0n.0",
-      "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\obj\\",
+      "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+      "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\אורט\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -507,11 +544,14 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj"
+            "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
+              "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj"
+            "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
+              "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj"
+            },
+            "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\WCFhost\\WCFhost.csproj": {
+              "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\WCFhost\\WCFhost.csproj"
             }
           }
         }
@@ -520,7 +560,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net7.0-windows7.0": {
@@ -558,7 +604,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFcore", "..\WCFcore\WCFco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFhost", "..\WCFhost\WCFhost.csproj", "{20E54BAF-A6AF-4669-9B44-AB2B271A1399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visi0nClient", "..\..\Visi0nClient\Visi0nClient.csproj", "{AF662FFE-5274-43CD-8A1D-3A53232DC416}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{20E54BAF-A6AF-4669-9B44-AB2B271A1399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E54BAF-A6AF-4669-9B44-AB2B271A1399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E54BAF-A6AF-4669-9B44-AB2B271A1399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF662FFE-5274-43CD-8A1D-3A53232DC416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF662FFE-5274-43CD-8A1D-3A53232DC416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF662FFE-5274-43CD-8A1D-3A53232DC416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF662FFE-5274-43CD-8A1D-3A53232DC416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
