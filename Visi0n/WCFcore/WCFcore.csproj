@@ -53,6 +53,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="VModel!">
+      <HintPath>..\VModel!\obj\Debug\net7.0\VModel!.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IService.cs" />
@@ -65,12 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\VModel!\VModel!.csproj">
-      <Project>{e514a94b-aeea-4924-9fe2-8d457439f0da}</Project>
-      <Name>VModel!</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
