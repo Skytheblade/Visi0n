@@ -11,7 +11,9 @@ namespace Visi0nClient
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting...");
             WebServiceClient client = new WebServiceClient();
+            Console.WriteLine("Client Set");
 
             bool test = client.Login("DS", "pass", 1);
             Console.WriteLine(test);
