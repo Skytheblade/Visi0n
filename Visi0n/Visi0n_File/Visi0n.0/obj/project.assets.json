@@ -191,27 +191,6 @@
         "runtime": {
           "bin/placeholder/VModel!.dll": {}
         }
-      },
-      "WCFcore/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/WCFcore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WCFcore.dll": {}
-        }
-      },
-      "WCFhost/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "WCFcore": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/WCFhost.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WCFhost.dll": {}
-        }
       }
     }
   },
@@ -490,16 +469,6 @@
       "type": "project",
       "path": "../../VModel!/VModel!.csproj",
       "msbuildProject": "../../VModel!/VModel!.csproj"
-    },
-    "WCFcore/1.0.0": {
-      "type": "project",
-      "path": "../../WCFcore/WCFcore.csproj",
-      "msbuildProject": "../../WCFcore/WCFcore.csproj"
-    },
-    "WCFhost/1.0.0": {
-      "type": "project",
-      "path": "../../WCFhost/WCFhost.csproj",
-      "msbuildProject": "../../WCFhost/WCFhost.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -508,8 +477,7 @@
       "Model! >= 1.0.0",
       "System.Data.Odbc >= 9.0.0",
       "System.Data.OleDb >= 8.0.0",
-      "VModel! >= 1.0.0",
-      "WCFhost >= 1.0.0"
+      "VModel! >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -544,9 +512,6 @@
             },
             "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj"
-            },
-            "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\WCFhost\\WCFhost.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\WCFhost\\WCFhost.csproj"
             }
           }
         }

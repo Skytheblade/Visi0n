@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Visi0n._0.Pages;
-using WCFhost;
 
 namespace Visi0n._0
 {

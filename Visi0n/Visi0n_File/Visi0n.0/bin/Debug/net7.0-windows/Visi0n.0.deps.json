@@ -12,8 +12,7 @@
           "Model!": "1.0.0",
           "System.Data.Odbc": "9.0.0",
           "System.Data.OleDb": "8.0.0",
-          "VModel!": "1.0.0",
-          "WCFhost": "1.0.0"
+          "VModel!": "1.0.0"
         },
         "runtime": {
           "Visi0n.0.dll": {}
@@ -133,10 +132,7 @@
       },
       "Model!/1.0.0": {
         "runtime": {
-          "Model!.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Model!.dll": {}
         }
       },
       "VModel!/1.0.0": {
@@ -145,29 +141,7 @@
           "System.Data.OleDb": "8.0.0"
         },
         "runtime": {
-          "VModel!.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "WCFcore/1.0.0": {
-        "runtime": {
-          "WCFcore.exe": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "WCFhost/1.0.0": {
-        "dependencies": {
-          "WCFcore": "1.0.0"
-        },
-        "runtime": {
-          "WCFhost.exe": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "VModel!.dll": {}
         }
       }
     }
@@ -247,16 +221,6 @@
       "sha512": ""
     },
     "VModel!/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "WCFcore/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "WCFhost/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

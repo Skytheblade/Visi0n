@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="b09027d8-c1ad-4738-9ff1-33cd3e463372" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5000/EchoService/basichttp" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="basichttp.xsd" MetadataType="Schema" ID="0d8d80bd-92cc-48f7-b78d-0ecd1d6373e7" SourceId="1" SourceUrl="http://localhost:5000/EchoService/basichttp?xsd=xsd0" />
+    <MetadataFile FileName="basichttp1.xsd" MetadataType="Schema" ID="54d4e4a9-9411-4c57-91f7-5c482ed30154" SourceId="1" SourceUrl="http://localhost:5000/EchoService/basichttp?xsd=xsd1" />
+    <MetadataFile FileName="EchoService.wsdl" MetadataType="Wsdl" ID="2fb64249-4b24-45d3-aec2-b43db394911f" SourceId="1" SourceUrl="http://localhost:5000/EchoService/basichttp?wsdl" />
+    <MetadataFile FileName="basichttp.disco" MetadataType="Disco" ID="6ace8189-939f-4ed9-aa6e-220e42477b34" SourceId="1" SourceUrl="http://localhost:5000/EchoService/basichttp?disco" />
+    <MetadataFile FileName="basichttp2.xsd" MetadataType="Schema" ID="42715063-343d-4b7f-ad22-313c7a788649" SourceId="1" SourceUrl="http://localhost:5000/EchoService/basichttp?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

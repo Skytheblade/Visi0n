@@ -6,7 +6,7 @@
     <RootNamespace>Visi0n._0</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,7 +30,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Model!\Model!.csproj" />
     <ProjectReference Include="..\..\VModel!\VModel!.csproj" />
-    <ProjectReference Include="..\..\WCFhost\WCFhost.csproj" />
   </ItemGroup>
 
 </Project>

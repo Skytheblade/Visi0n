@@ -93,7 +93,7 @@ namespace Visi0n._0.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Visi0n.0;V1.0.0.0;component/pages/login/loginpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Visi0n.0;component/pages/login/loginpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\Login\LoginPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

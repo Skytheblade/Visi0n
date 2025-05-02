@@ -2,15 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Visi0n",
-    "\\Visi0nClient",
     "\\Visi0n\\Visi0n_File",
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
-    "\\Visi0n\\WCFcore",
-    "\\Visi0n\\WCFhost"
+    "\\Visi0n\\VWService"
   ],
-  "SelectedNode": "\\Visi0nClient\\Program.cs",
+  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0.sln",
   "PreviewInSolutionExplorer": false
 }

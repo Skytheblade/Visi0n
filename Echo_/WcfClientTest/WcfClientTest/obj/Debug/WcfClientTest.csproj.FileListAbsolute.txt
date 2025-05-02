@@ -1,8 +1,0 @@
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\obj\Debug\WcfClientTest.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\obj\Debug\WcfClientTest.csproj.SuggestedBindingRedirects.cache
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\obj\Debug\WcfClientTest.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\bin\Debug\WcfClientTest.exe.config
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\bin\Debug\WcfClientTest.exe
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\bin\Debug\WcfClientTest.pdb
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\obj\Debug\WcfClientTest.exe
-C:\Users\User\Desktop\WcfClientTest\WcfClientTest\obj\Debug\WcfClientTest.pdb
