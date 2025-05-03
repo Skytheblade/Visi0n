@@ -13,6 +13,8 @@ namespace VModel_
 {
     public class UserDB : BaseDB
     {
+        //"SELECT * FROM Usr_Tbl"
+
         public UserDB() : base() { }
 
 
@@ -21,7 +23,7 @@ namespace VModel_
             return new User();
         }
 
-        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT *, Usr_Tbl.ID AS id FROM (Usr_Tbl INNER JOIN TypeUser_Tbl ON Usr_Tbl.ID = TypeUser_Tbl.Id)")
         {
             List<Entity> cl = base.Collect(cmdTxt);
             foreach (User u in cl)
@@ -35,11 +37,11 @@ namespace VModel_
             u._usrName = reader["UserName"].ToString();
             u._pwd = reader["PassCode"].ToString();
             u._absId = int.Parse(reader["ID"].ToString());
-            u._type = int.Parse(reader["UserType"].ToString());
+            u._type = int.Parse(reader["Type"].ToString());
         }
 
 
-        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT *, Usr_Tbl.ID AS id FROM (Usr_Tbl INNER JOIN TypeUser_Tbl ON Usr_Tbl.ID = TypeUser_Tbl.Id)")
         {
             return base.Collect(cmdTxt);
         }
@@ -51,14 +53,20 @@ namespace VModel_
             if (e is User) usr = e as User;
             else return -1;
 
+            User uLast = (User)SelectAll().Last(); // not perfect
+            int lid = uLast._absId + 1;
+
             int records = 0; // affected lines
 
-            string sqlStr = string.Format("INSERT INTO Usr_Tbl (UserName, PassCode, UserType) "
-                + "VALUES ('{0}', '{1}', {2});",
-            /*usr._absId,*/
-            usr._usrName, usr._pwd, usr._type);
-
+            string sqlStr = string.Format("INSERT INTO Usr_Tbl (UserName, PassCode) "
+                + "VALUES ('{0}', '{1}');",
+            usr._usrName, usr._pwd);
             //do not insert autonumber, and do not use 'Password' fields (syntax error)
+
+            await Edit(sqlStr, records);
+
+            sqlStr = string.Format("INSERT INTO TypeUser_Tbl (ID, Type) "
+                + "VALUES ({0}, {1});", lid, usr._type);
 
             return Edit(sqlStr, records).Result;
         }
@@ -68,7 +76,7 @@ namespace VModel_
 
 
 
-        public int FindID(string uname, string cmdTxt = "SELECT * FROM Usr_Tbl")
+        public int FindID(string uname, string cmdTxt = "SELECT *, Usr_Tbl.ID AS id FROM (Usr_Tbl INNER JOIN TypeUser_Tbl ON Usr_Tbl.ID = TypeUser_Tbl.Id)")
         {
             List<Entity> ul = SelectAll();
             int found = -1;

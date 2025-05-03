@@ -10,25 +10,43 @@
 
     <Grid>
         <Grid Margin="5,0,5,5">
-            <Border Background="AliceBlue" Margin="5">
-                <Grid x:Name="Table">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                        <RowDefinition Height="10*"/>
-                    </Grid.RowDefinitions>
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70*"/>
+                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+                <Border Background="AliceBlue">
+                    <Grid x:Name="Table">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
 
-                    <!--Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="0"/>
+                        <!--Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="0"/>
                     <Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="1"/>
                     <Label Style="{StaticResource Note01}" Content="Note" Margin="5" Grid.Row="2"/-->
-                    <Label Style="{StaticResource Note01}" Content="+" Margin="5" Grid.Row="7" MouseDoubleClick="Label_MouseDoubleClick"/>
-                </Grid>
-            </Border>
+                        
+                    </Grid>
+                </Border>
+                <Border Grid.Row="1" Background="AliceBlue">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="80*"/>
+                            <ColumnDefinition Width="10*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Style="{StaticResource Note01}" Content="+" Margin="5" Grid.Row="7" MouseDoubleClick="Label_MouseDoubleClick" Grid.Column="1"/>
+                        <Button x:Name="PosPlus" Content="next" Grid.Column="3" Margin="1" Click="PosPlus_Click"/>
+                        <Button x:Name="PosMinus" Content="prev" Grid.Column="0" Margin="1" Click="PosMinus_Click"/>
+                    </Grid>
+                </Border>
+            </Grid>
         </Grid>
     </Grid>
 </Page>

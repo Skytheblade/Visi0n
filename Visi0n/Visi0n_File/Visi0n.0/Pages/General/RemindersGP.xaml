@@ -9,7 +9,12 @@
       Title="RemindersGP">
 
     <Grid Margin="5,0,5,5">
-        <Border Background="AliceBlue" Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+
+        <Border Background="AliceBlue" Margin="5,5,5,0">
             <Grid x:Name="Rtable">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="10*"/>
@@ -25,23 +30,33 @@
                     <RowDefinition Height="10*"/>
                     <RowDefinition Height="10*"/>
                     <RowDefinition Height="10*"/>
-                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+
+            </Grid>
+
+        </Border>
+
+        <Border Margin="5,0,5,5" Grid.Row="1">
+            <Grid Background="AliceBlue">
+                <Grid.RowDefinitions>
                 </Grid.RowDefinitions>
 
 
-                <Grid Grid.Row="13">
+                <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="75*"/>
                         <ColumnDefinition Width="625*"/>
                         <ColumnDefinition Width="150*"/>
+                        <ColumnDefinition Width="75*"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBox x:Name="TextName" Margin="1" Grid.Column="0" Text="New Reminder"/>
-                    <Button Content="Add" Margin="1" Grid.Column="1" Click="AddRCommand"/>
+                    <TextBox x:Name="TextName" Margin="1" Grid.Column="1" Text="New Reminder"/>
+                    <Button Content="Add" Margin="1" Grid.Column="2" Click="AddRCommand"/>
+                    <Button x:Name="PosPlus" Content="next" Grid.Column="3" Margin="1" Click="PosPlus_Click"/>
+                    <Button x:Name="Minus" Content="prev" Grid.Column="0" Margin="1" Click="Minus_Click"/>
                 </Grid>
             </Grid>
         </Border>
-
-
 
     </Grid>
 </Page>

@@ -29,18 +29,25 @@ namespace Visi0n._0.Pages.General
 
         User _usr;
 
-        public NotesGP(Frame frame, User usr = null)
+        List<NoteItem> _notes;
+        int pagePos;
+
+        public NotesGP(Frame frame, User usr = null, int pagePos = 0)
         {
             InitializeComponent();
             _frame = frame;
 
             posCur = 0;
+            _notes = new List<NoteItem>();
 
             if (usr != null) { _usr = usr; }
             else { _usr = new User(); }
             //MessageBox.Show($"UID = {_usr._absId}");
 
+            this.pagePos = pagePos;
+
             SetNotes(_usr);
+            
         }
 
         public void SetNotes(User usr)
@@ -48,8 +55,9 @@ namespace Visi0n._0.Pages.General
             List<NoteItem> notes = NoteService.GetNotes(usr);
             foreach (NoteItem n in notes)
             {
-                AddItem(n);
+                _notes.Add(n);
             }
+            DrawTable(_notes, pagePos);
         }
 
         private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -65,7 +73,18 @@ namespace Visi0n._0.Pages.General
             label.MouseDown += new MouseButtonEventHandler(label_MouseDown);
             Table.Children.Add(label);
             posCur++;
+            
         }
+
+        private void DrawTable(List<NoteItem> list, int pos)
+        {
+            Table.Children.Clear(); posCur = 0;
+            for (int i = pos * 8; i < (pos + 1) * 8; i++)
+            {
+                if (i < list.Count) AddItem(list[i]);
+            }
+        }
+
 
         private void label_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -76,6 +95,16 @@ namespace Visi0n._0.Pages.General
                 MessageBox.Show($"Selected: Uid = {nt._uid}, Name = {nt._name}");
                 _frame.Navigate(new _NotesViewGP(_frame, _usr, nt));
             }
+        }
+
+        private void PosMinus_Click(object sender, RoutedEventArgs e)
+        {
+            if (pagePos > 0) { pagePos--; } DrawTable(_notes, pagePos);
+        }
+
+        private void PosPlus_Click(object sender, RoutedEventArgs e)
+        {
+            pagePos++; DrawTable(_notes, pagePos);
         }
     }
 }

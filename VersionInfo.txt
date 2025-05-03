@@ -25,3 +25,9 @@ improved ui & integration of corp
 
 ver 0.2.1.3
 improvements to corp & start WCF
+
+ver 0.2.2
+wcf complete (CoreWCF) & client start
+
+ver 0.2.3
+wpf general pages complete & improvements

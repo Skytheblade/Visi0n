@@ -12,7 +12,7 @@ namespace VModel_
         public PersonalDB() : base() { }
 
 
-        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Personal_Tbl")
+        public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM   Personal_Tbl INNER JOIN (Usr_Tbl INNER JOIN TypeUser_Tbl ON Usr_Tbl.ID = TypeUser_Tbl.Id) ON Personal_Tbl.Uid = Usr_Tbl.ID")
         {
             return base.Collect(cmdTxt);
         }
@@ -23,10 +23,9 @@ namespace VModel_
             Person p = e as Person;
             p._absId = int.Parse(reader["Uid"].ToString());
 
-            User u = (User)(new UserDB().TargetSelect(p._absId)); // !
-            p._usrName = u._usrName;
-            p._pwd = u._pwd;
-            p._type = 1;
+            p._usrName = reader["UserName"].ToString();
+            p._pwd = reader["PassCode"].ToString();
+            p._type = int.Parse(reader["Type"].ToString());
 
             p._fName = reader["FirstName"].ToString();
             p._lName = reader["LastName"].ToString();
@@ -39,7 +38,7 @@ namespace VModel_
         }
 
 
-        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM Personal_Tbl")
+        public override Entity TargetSelect(int id, string cmdTxt = "SELECT * FROM   Personal_Tbl INNER JOIN (Usr_Tbl INNER JOIN TypeUser_Tbl ON Usr_Tbl.ID = TypeUser_Tbl.Id) ON Personal_Tbl.Uid = Usr_Tbl.ID")
         {
             List<Entity> cl = base.Collect(cmdTxt);
             foreach (Person p in cl) { if (p._absId == id) return p; }
