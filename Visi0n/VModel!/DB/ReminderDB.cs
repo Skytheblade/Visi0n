@@ -26,9 +26,10 @@ namespace VModel_
 
         public override void CreateModel(Entity e)
         {
-            Reminder n = e as Reminder;
-            n._uid = int.Parse(reader["Uid"].ToString());
-            n._text = reader["Content"].ToString();
+            Reminder r = e as Reminder;
+            r._uid = int.Parse(reader["Uid"].ToString());
+            r._text = reader["Content"].ToString();
+            r._cid = reader["Corp"].ToString();
         }
 
         protected override Entity EGen()
@@ -54,7 +55,7 @@ namespace VModel_
             int records = 0;
 
             // later fix sql injection
-            string sqlStr = string.Format("INSERT INTO Reminder_Tbl (Uid, Content, Corp) " + "VALUES (" + r._uid + ", '" + r._text + "', '--');");
+            string sqlStr = string.Format("INSERT INTO Reminder_Tbl (Uid, Content, Corp) " + "VALUES (" + r._uid + ", '" + r._text + "', '"+ r._cid +"');");
 
             return Edit(sqlStr, records).Result;
         }

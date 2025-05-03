@@ -24,5 +24,7 @@ namespace VModel_
         {
             new ReminderDB().Remove(r);
         }
+
+        public static void ListNewReminder(int id, string text, string cid = "--") => ListReminder(new Reminder(id, text, cid));
     }
 }

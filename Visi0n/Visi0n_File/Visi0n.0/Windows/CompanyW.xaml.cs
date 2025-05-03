@@ -69,13 +69,13 @@ namespace Visi0n._0
 
         private void NotesB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new NotesGP(Screen, _user));
+            Screen.Navigate(new CompanyNotesPage(_user));
             currentStateLabel.Content = "Current: Notes";
         }
 
         private void RemindersB_Click(object sender, RoutedEventArgs e)
         {
-            Screen.Navigate(new RemindersGP(Screen, _user));
+            Screen.Navigate(new CompanyRemindersPage(_user));
             currentStateLabel.Content = "Current: Reminders";
         }
 

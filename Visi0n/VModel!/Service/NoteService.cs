@@ -37,5 +37,11 @@ namespace VModel_
             foreach (NoteItem n in nl) { if (n._uid == u._absId && n._name == name) nn = n; }
             return nn;
         }
+
+        public static void ScrapWrite(string Name, string Text, int Uid, string Cid = "--")
+        {
+            NoteItem nt = new NoteItem(Name, Text, Uid, Cid);
+            WriteNote(nt);
+        }
     }
 }

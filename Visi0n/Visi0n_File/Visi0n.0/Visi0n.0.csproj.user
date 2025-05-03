@@ -13,7 +13,13 @@
     <Compile Update="Pages\Company\CompanyEventsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\Company\CompanyNotesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Company\CompanyPersonalPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Company\CompanyRemindersPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\General\CalendarGP.xaml.cs">
@@ -63,7 +69,13 @@
     <Page Update="Pages\Company\CompanyEventsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pages\Company\CompanyNotesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\Company\CompanyPersonalPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Company\CompanyRemindersPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\General\CalendarGP.xaml">

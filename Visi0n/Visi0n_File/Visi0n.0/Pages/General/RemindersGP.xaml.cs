@@ -27,6 +27,7 @@ namespace Visi0n._0.Pages.General
         int posCur;
 
         User _usr;
+        Person _prsn;
 
         List<Reminder> listed;
         int ppage;
@@ -40,7 +41,7 @@ namespace Visi0n._0.Pages.General
 
             listed = new List<Reminder>();
 
-            if (usr != null) _usr = usr;
+            if (usr != null) { _usr = usr; _prsn = UserService.LaPersona(_usr); }
             else _usr = new User();
 
             Load(_usr);
@@ -66,6 +67,7 @@ namespace Visi0n._0.Pages.General
             if (r == null) 
             { 
                 r = new Reminder(_usr._absId, TextName.Text);
+                //if (_prsn != null) r._cid = _prsn._cid; // for testing
                 ReminderService.ListReminder(r);
             }
             listed.Add(r);
@@ -76,6 +78,7 @@ namespace Visi0n._0.Pages.General
             CheckBox ck = new CheckBox() { Margin = new Thickness(4, 4, 4, 4) };
             ck.Content = r._text;
             ck.Style = (Style)FindResource("Reminder01");
+            if (r._cid != "--") ck.Style = (Style)FindResource("Reminder02");
             ck.Checked += new RoutedEventHandler(CheckBox_Checked);
             Grid.SetRow(ck, posCur);
             posCur++;

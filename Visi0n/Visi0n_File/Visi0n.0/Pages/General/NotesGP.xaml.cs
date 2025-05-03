@@ -69,6 +69,7 @@ namespace Visi0n._0.Pages.General
         {
             Label label = new Label() { Content = nt._name, Margin = new Thickness(5, 5, 5, 5) };
             label.Style = (Style)FindResource("Note01");
+            if (nt._cid != "--") label.Style = (Style)FindResource("Note02");
             Grid.SetRow(label, posCur);
             label.MouseDown += new MouseButtonEventHandler(label_MouseDown);
             Table.Children.Add(label);

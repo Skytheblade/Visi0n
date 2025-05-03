@@ -11,19 +11,22 @@ namespace Model_
         public int _uid;
         public string _name;
         public string _text;
+        public string _cid;
 
         public NoteItem()
         {
             _name = "";
             _text = "";
             _uid = -1;
+            _cid = "--";
         }
 
-        public NoteItem(string n, string t, int u)
+        public NoteItem(string n, string t, int u, string c = "--")
         {
             _name = n;
             _text = t;
             _uid = u;
+            _cid = c;
         }
     }
 }

@@ -30,6 +30,7 @@ namespace VModel_
             n._uid = int.Parse(reader["Uid"].ToString());
             n._name = reader["NoteName"].ToString();
             n._text = reader["NoteText"].ToString();
+            n._cid = reader["Corp"].ToString();
         }
 
         public override List<Entity> SelectAll(string cmdTxt = "SELECT * FROM Note_Tbl")
@@ -55,7 +56,7 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = string.Format($"INSERT INTO Note_Tbl (Uid, NoteName, NoteText, Corp) VALUES ({n._uid}, '{n._name}', '{n._text}', '--');");
+            string sqlStr = string.Format($"INSERT INTO Note_Tbl (Uid, NoteName, NoteText, Corp) VALUES ({n._uid}, '{n._name}', '{n._text}', '{n._cid}');");
 
             return Edit(sqlStr, records).Result;
         }
@@ -67,7 +68,7 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = $"DELETE FROM Note_Tbl WHERE (Uid = " + n._uid + " AND NoteText = '" + n._text + "' AND NoteName = '" + n._name + "')";
+            string sqlStr = "DELETE FROM Note_Tbl WHERE (Uid = " + n._uid + " AND NoteText = '" + n._text + "' AND NoteName = '" + n._name + "')";
 
             return Edit(sqlStr, records).Result;
         }

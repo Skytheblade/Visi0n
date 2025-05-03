@@ -11,6 +11,8 @@ namespace Model_
     /// </summary>
     public class Corp : User
     {
+        // function as cosmetic in relation to users; alternative control over users (self & other compared to self)
+
         public string _cid;
         public string _cName;
 

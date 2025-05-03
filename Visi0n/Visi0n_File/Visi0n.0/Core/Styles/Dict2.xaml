@@ -45,9 +45,15 @@
     <Style x:Key="Note01" TargetType="Label">
         <Setter Property="Background" Value="Beige"/>
     </Style>
+    <Style x:Key="Note02" TargetType="Label">
+        <Setter Property="Background" Value="Violet"/>
+    </Style>
 
     <Style x:Key="Reminder01" TargetType="CheckBox">
         <Setter Property="Background" Value="Beige"/>
+    </Style>
+    <Style x:Key="Reminder02" TargetType="CheckBox">
+        <Setter Property="Background" Value="Violet"/>
     </Style>
 
 
