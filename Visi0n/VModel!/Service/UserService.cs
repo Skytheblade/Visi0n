@@ -90,5 +90,18 @@ namespace VModel_
 
 
         public static string CorpNameID(string cid) => new CorpDB().Call(cid)._cName; // get name per id
+
+
+
+        public static void CreatePerson(User u, string f, string l, string c)
+        {
+            Person p = new Person(u, f, l, c);
+            new PersonalDB().Insert(p);
+        }
+        public static void CreateCorp(User u, string cid, string cn)
+        {
+            Corp cc = new Corp(u, cid, cn);
+            new CorpDB().Insert(cc);
+        }
     }
 }

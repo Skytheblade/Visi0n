@@ -49,6 +49,9 @@
     <Compile Update="Pages\Login\StartPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\Login\TypeUserCreatePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Pesonal\PersonalHome.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -103,6 +106,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Login\StartPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Login\TypeUserCreatePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Pesonal\PersonalHome.xaml">

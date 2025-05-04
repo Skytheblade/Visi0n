@@ -26,6 +26,13 @@ namespace Model_
             _lName = lName;
         }
 
+        public Person(User u, string f, string l, string c) : base(u._usrName, u._pwd, u._absId, 1)
+        {
+            _cid = c;
+            _fName = f;
+            _lName = l;
+        }
+
         public override void Copy(User u)
         {
             base.Copy(u);

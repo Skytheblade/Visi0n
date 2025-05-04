@@ -45,7 +45,19 @@ namespace VModel_
             return new Person();
         }
 
-        public override async Task<int> Insert(Entity e) { return -16; } // empty
+        public override async Task<int> Insert(Entity e)
+        {
+            Person prsn;
+            if (e is Person) prsn = e as Person;
+            else return -1;
+
+            int records = 0;
+
+            string sqlStr = string.Format("INSERT INTO Personal_Tbl (Uid, FirstName, LastName, Corp) "
+                + "VALUES ({0}, '{1}', '{2}', '{3}');", prsn._absId, prsn._fName, prsn._lName, prsn._cid);
+
+            return Edit(sqlStr, records).Result;
+        }
         public override async Task<int> Remove(Entity e) { return -16; } // empty
         public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty
     }

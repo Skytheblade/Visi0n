@@ -60,8 +60,8 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="25*"/>
-                    <ColumnDefinition Width="25*"/>
-                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="35*"/>
+                    <ColumnDefinition Width="40*"/>
                 </Grid.ColumnDefinitions>
                 <Label Style="{StaticResource LL01}" Name="usrName" Content="Username" Grid.Row="0" Grid.Column="0" FontSize="14"/>
                 <Label Style="{StaticResource LL01}" Name="usrPass" Content="Password" Grid.Row="1" Grid.Column="0" FontSize="14"/>

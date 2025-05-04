@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using VModel_;
+using Model_;
 
 namespace Visi0n._0.Pages
 {
@@ -45,9 +46,10 @@ namespace Visi0n._0.Pages
 
         private void usrCreate_Click(object sender, RoutedEventArgs e)
         {
-            UserService.MakeUser(usrnameBox.Text, usrpassBox.Text, _type);
+            User uu = UserService.MakeUser(usrnameBox.Text, usrpassBox.Text, _type);
             MessageBox.Show("attempted creation for: " +
                 usrnameBox.Text + ", " + usrpassBox.Text + ", " + _type + " with next id");
+            _frame.Navigate(new TypeUserCreatePage(uu, _type, _win));
         }
     }
 }
