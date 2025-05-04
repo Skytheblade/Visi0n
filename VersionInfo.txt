@@ -37,3 +37,6 @@ wpf company complete, fully functional
 
 ver 0.2.3.2
 add person & corp creation
+
+ver 0.2.3.3
+improvements

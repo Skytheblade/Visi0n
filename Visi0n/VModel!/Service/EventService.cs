@@ -69,6 +69,7 @@ namespace VModel_
 
         public static List<string> ActiveDays(int id, string month, string year) => new CaleDb().DaysActive(id, month, year, 0);
         public static List<string> SuperActiveDays(int id, string month, string year) => new CaleDb().DaysActive(id, month, year, 1);
+        public delegate List<string> ActivityDays(int id, string month, string year);
 
 
         // full writing mechanism, command template function

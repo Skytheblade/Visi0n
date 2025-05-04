@@ -20,7 +20,7 @@ namespace VModel_
             return false;
         }
 
-        public static User Get(int id = 2)
+        public static User Get(int id = 2) // get user with id
         {
             UserDB usrdb = new UserDB();
             User usr = (User)(usrdb.TargetSelect(id));
@@ -98,6 +98,7 @@ namespace VModel_
             Person p = new Person(u, f, l, c);
             new PersonalDB().Insert(p);
         }
+
         public static void CreateCorp(User u, string cid, string cn)
         {
             Corp cc = new Corp(u, cid, cn);

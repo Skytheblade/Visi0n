@@ -152,9 +152,11 @@ namespace Visi0n._0.Pages.General
             {
                 ColorRaw();
                 string _m = rawdate.Replace(" ", "").Split("/")[1]; string _y = rawdate.Replace(" ", "").Split("/")[2];
-                ColorPersonal(_m, _y);
-                ColorCorp(_m, _y);
+                Color ColorDays = new Color(ColorPersonal); ColorDays(_m, _y);
+                ColorDays = new Color(ColorCorp); ColorDays(_m, _y); // more of a proof of concept
             }
+
+            public delegate void Color(string _m, string _y);
 
             public void ColorRaw()
             {
@@ -166,7 +168,8 @@ namespace Visi0n._0.Pages.General
 
             public void ColorPersonal(string _m, string _y)
             {
-                List<string> days = EventService.ActiveDays(uu._absId, _m, _y);
+                EventService.ActivityDays Activity = new EventService.ActivityDays(EventService.ActiveDays);
+                List<string> days = Activity(uu._absId, _m, _y);
                 foreach (string d in days)
                 {
                     foreach(RadioButton r in Total) if (r.Name == "d" + int.Parse(d)) r.Background = Brushes.Pink;
@@ -175,7 +178,8 @@ namespace Visi0n._0.Pages.General
 
             public void ColorCorp(string _m, string _y)
             {
-                List<string> days = EventService.SuperActiveDays(uu._absId, _m, _y);
+                EventService.ActivityDays Activity = new EventService.ActivityDays(EventService.SuperActiveDays);
+                List<string> days = Activity(uu._absId, _m, _y);
                 foreach (string d in days)
                 {
                     foreach (RadioButton r in Total) if (r.Name == "d" + int.Parse(d)) r.Background = Brushes.Plum;
