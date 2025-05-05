@@ -105,9 +105,14 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = string.Format($"INSERT INTO Cale_Tbl (Uid, EventName, EventContent, EventDate, Corp) VALUES ({n._uid}, '{n._name}', '{n._description}', '{n._date}', '{n._cid}');");
-
-            return Edit(sqlStr, records).Result;
+            string sqlStr = string.Format($"INSERT INTO Cale_Tbl (Uid, EventName, EventContent, EventDate, Corp) VALUES (?, ?, ?, ?, ?);");
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", n._uid);
+            command.Parameters.AddWithValue("?", n._name);
+            command.Parameters.AddWithValue("?", n._description);
+            command.Parameters.AddWithValue("?", n._date);
+            command.Parameters.AddWithValue("?", n._cid);
+            return Edit().Result;
         }
 
         public override async Task<int> Remove(Entity e)
@@ -117,9 +122,13 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = $"DELETE FROM Cale_Tbl WHERE (Uid = {n._uid} AND EventContent = '{n._description}' AND EventName = '{n._name}' AND EventDate = '{n._date}')";
-
-            return Edit(sqlStr, records).Result;
+            string sqlStr = $"DELETE FROM Cale_Tbl WHERE (Uid = ? AND EventContent = ? AND EventName = ? AND EventDate = ?)";
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", n._uid);
+            command.Parameters.AddWithValue("?", n._description);
+            command.Parameters.AddWithValue("?", n._name);
+            command.Parameters.AddWithValue("?", n._date);
+            return Edit().Result;
         }
 
         public override async Task<int> Update(Entity e0, Entity e1)
@@ -131,11 +140,18 @@ namespace VModel_
             int records = 0;
 
             string sqlStr = $"UPDATE Cale_Tbl SET " +
-                $" EventName = '{n1._name}'," +
-                $" EventContent = '{n1._description}' " +
-                $" WHERE (Uid = {n0._uid} AND EventContent = '{n0._description}' AND EventName = '{n0._name}' AND EventDate = '{n0._date}')";
+                $" EventName = ?," +
+                $" EventContent = ? " +
+                $" WHERE (Uid = ? AND EventContent = ? AND EventName = ? AND EventDate = ?)";
 
-            return Edit(sqlStr, records).Result;
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", n1._name);
+            command.Parameters.AddWithValue("?", n1._description);
+            command.Parameters.AddWithValue("?", n0._uid);
+            command.Parameters.AddWithValue("?", n0._description);
+            command.Parameters.AddWithValue("?", n0._name);
+            command.Parameters.AddWithValue("?", n0._date);
+            return Edit().Result;
         }
 
         public List<string> DaysActive(int id, string month, string year, int t = 0)

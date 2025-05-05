@@ -56,9 +56,13 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = string.Format($"INSERT INTO Note_Tbl (Uid, NoteName, NoteText, Corp) VALUES ({n._uid}, '{n._name}', '{n._text}', '{n._cid}');");
-
-            return Edit(sqlStr, records).Result;
+            string sqlStr = string.Format($"INSERT INTO Note_Tbl (Uid, NoteName, NoteText, Corp) VALUES (?, ?, ?, ?);");
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", n._uid);
+            command.Parameters.AddWithValue("?", n._name);
+            command.Parameters.AddWithValue("?", n._text);
+            command.Parameters.AddWithValue("?", n._cid);
+            return Edit().Result;
         }
 
         public override async Task<int> Remove(Entity e)
@@ -68,9 +72,12 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            string sqlStr = "DELETE FROM Note_Tbl WHERE (Uid = " + n._uid + " AND NoteText = '" + n._text + "' AND NoteName = '" + n._name + "')";
-
-            return Edit(sqlStr, records).Result;
+            string sqlStr = "DELETE FROM Note_Tbl WHERE (Uid = ? AND NoteText = ? AND NoteName = ?)";
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", n._uid);
+            command.Parameters.AddWithValue("?", n._text);
+            command.Parameters.AddWithValue("?", n._name);
+            return Edit().Result;
         }
 
         public override async Task<int> Update(Entity e0, Entity e1)
@@ -81,11 +88,16 @@ namespace VModel_
             int records = 0;
 
             string sqlStr = $"UPDATE Note_Tbl SET " +
-                $" NoteName = '{n1._name}'," +
-                $" NoteText = '{n1._text}' " +
-                $" WHERE (Uid = {n0._uid} AND NoteText = '{n0._text}' AND NoteName = '{n0._name}')";
-
-            return Edit(sqlStr, records).Result;
+                $" NoteName = ?," +
+                $" NoteText = ? " +
+                $" WHERE (Uid = ? AND NoteText = ? AND NoteName = ?)";
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", n1._name);
+            command.Parameters.AddWithValue("?", n1._text);
+            command.Parameters.AddWithValue("?", n0._uid);
+            command.Parameters.AddWithValue("?", n0._text);
+            command.Parameters.AddWithValue("?", n0._name);
+            return Edit().Result;
         }
     }
 }

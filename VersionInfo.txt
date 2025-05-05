@@ -40,3 +40,6 @@ add person & corp creation
 
 ver 0.2.3.3
 improvements
+
+ver 0.2.4
+sql injection protection

@@ -54,9 +54,13 @@ namespace VModel_
             int records = 0;
 
             string sqlStr = string.Format("INSERT INTO Personal_Tbl (Uid, FirstName, LastName, Corp) "
-                + "VALUES ({0}, '{1}', '{2}', '{3}');", prsn._absId, prsn._fName, prsn._lName, prsn._cid);
-
-            return Edit(sqlStr, records).Result;
+                + "VALUES (?, ?, ?, ?);");
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", prsn._absId);
+            command.Parameters.AddWithValue("?", prsn._fName);
+            command.Parameters.AddWithValue("?", prsn._lName);
+            command.Parameters.AddWithValue("?", prsn._cid);
+            return Edit().Result;
         }
         public override async Task<int> Remove(Entity e) { return -16; } // empty
         public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty

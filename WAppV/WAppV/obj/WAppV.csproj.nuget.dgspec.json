@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\WAppV\\WAppV\\WAppV.csproj": {}
+    "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\WAppV\\WAppV\\WAppV.csproj": {
+    "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\WAppV\\WAppV\\WAppV.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj",
         "projectName": "WAppV",
-        "projectPath": "C:\\Users\\User\\Desktop\\WAppV\\WAppV\\WAppV.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\WAppV\\WAppV\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -54,10 +54,13 @@ namespace VModel_
             else return -1;
             int records = 0;
 
-            // later fix sql injection
-            string sqlStr = string.Format("INSERT INTO Reminder_Tbl (Uid, Content, Corp) " + "VALUES (" + r._uid + ", '" + r._text + "', '"+ r._cid +"');");
-
-            return Edit(sqlStr, records).Result;
+            // later fix sql injection (fixed)
+            string sqlStr = string.Format("INSERT INTO Reminder_Tbl (Uid, Content, Corp) " + "VALUES (?, ?, ?);");
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", r._uid);
+            command.Parameters.AddWithValue("?", r._text);
+            command.Parameters.AddWithValue("?", r._cid);
+            return Edit().Result;
         }
 
         public override async Task<int> Remove(Entity e)
@@ -68,9 +71,11 @@ namespace VModel_
             int records = 0;
 
             // deletes all same instances (it is now a feature)
-            string sqlStr = $"DELETE FROM Reminder_Tbl WHERE (Uid = "+r._uid+" AND Content = '"+r._text+"')";
-
-            return Edit(sqlStr, records).Result;
+            string sqlStr = $"DELETE FROM Reminder_Tbl WHERE (Uid = ? AND Content = ?)";
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", r._uid);
+            command.Parameters.AddWithValue("?", r._text);
+            return Edit().Result;
         }
 
         public override async Task<int> Update(Entity e0, Entity e1) { return -16; } // empty

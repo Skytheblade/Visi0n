@@ -59,16 +59,19 @@ namespace VModel_
             int records = 0; // affected lines
 
             string sqlStr = string.Format("INSERT INTO Usr_Tbl (UserName, PassCode) "
-                + "VALUES ('{0}', '{1}');",
-            usr._usrName, usr._pwd);
+                + "VALUES (?, ?);");
             //do not insert autonumber, and do not use 'Password' fields (syntax error)
-
-            await Edit(sqlStr, records);
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", usr._usrName);
+            command.Parameters.AddWithValue("?", usr._pwd);
+            await Edit();
 
             sqlStr = string.Format("INSERT INTO TypeUser_Tbl (ID, Type) "
-                + "VALUES ({0}, {1});", lid, usr._type);
-
-            return Edit(sqlStr, records).Result;
+                + "VALUES (?, ?);");
+            CommandSet(sqlStr);
+            command.Parameters.AddWithValue("?", lid);
+            command.Parameters.AddWithValue("?", usr._type);
+            return Edit().Result;
         }
 
         public override async Task<int> Remove(Entity e) { return -16; } // empty

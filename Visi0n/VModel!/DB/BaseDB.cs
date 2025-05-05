@@ -94,13 +94,13 @@ namespace VModel_
 
 
         // The execution of Insert, Update & Remove commands
-        protected async Task<int> Edit(string sqlStr, int records = 0)
+        protected async Task<int> Edit(string sqlStr = "emptyspace", int records = 0)
         {
             trans = null;
             try
             {
-                command.CommandText = sqlStr;
-                connection.Open();
+                //command.CommandText = sqlStr;
+                //connection.Open();
                 trans = connection.BeginTransaction();
                 command.Transaction = trans;
                 records = command.ExecuteNonQuery(); // action; + Async & await for later
@@ -116,6 +116,11 @@ namespace VModel_
                 CloseSetup();
             }
             return records;
+        }
+        protected void CommandSet(string sqlStr)
+        {
+            command.CommandText = sqlStr;
+            connection.Open();
         }
 
         public abstract Task<int> Insert(Entity e);
