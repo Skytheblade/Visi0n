@@ -43,3 +43,6 @@ improvements
 
 ver 0.2.4
 sql injection protection
+
+ver 0.2.5
+wcf client complete & improvements

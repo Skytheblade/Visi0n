@@ -66,11 +66,11 @@ namespace VModel_
             command.Parameters.AddWithValue("?", usr._pwd);
             await Edit();
 
-            sqlStr = string.Format("INSERT INTO TypeUser_Tbl (ID, Type) "
-                + "VALUES (?, ?);");
+            sqlStr = $"INSERT INTO TypeUser_Tbl (ID, Type) "
+                + $"VALUES ({lid}, {usr._type});";
             CommandSet(sqlStr);
-            command.Parameters.AddWithValue("?", lid);
-            command.Parameters.AddWithValue("?", usr._type);
+            //command.Parameters.AddWithValue("?", lid);
+            //command.Parameters.AddWithValue("?", usr._type); // isnt working
             return Edit().Result;
         }
 

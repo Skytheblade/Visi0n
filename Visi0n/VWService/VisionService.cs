@@ -14,8 +14,23 @@ namespace VWS
         {
             Person p = new Person(cid, fName, lName, un, pd, id);
             User u = (User)p;
-            UserService.MakeUser(u._usrName, u._pwd, 1);
-            UserService.CreatePerson(u, p._fName, p._lName, "-");
+            User uu = UserService.MakeUser(u._usrName, u._pwd, 1);
+            UserService.CreatePerson(uu, p._fName, p._lName, "-");
+        }
+
+        public List<string> RemindersString(int id)
+        {
+            List<Reminder> l = Reminders(id);
+            List<string> result = new List<string>();
+            foreach (Reminder r in l) { result.Add(r._text); }
+            return result;
+        }
+
+        public List<Reminder> Reminders(int id)
+        {
+            User u = UserService.Get(id);
+            List<Reminder> l = ReminderService.GetReminders(u);
+            return l;
         }
     }
 }

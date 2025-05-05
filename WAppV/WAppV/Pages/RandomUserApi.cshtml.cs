@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
+using SRv1;
 
 namespace WAppV.Pages
 {
@@ -9,18 +10,28 @@ namespace WAppV.Pages
         public string InputText { get; set; }
         public string Result { get; set; }
 
+        public string uName { get; set; }
+        public string pass { get; set; }
+        public string Fname { get; set; }
+        public string Lname { get; set; }
+
         public void OnGet()
         {
 
         }
 
-        public void OnPost() 
+        public async void OnPost() 
         {
             var action = Request.Form["action"];
             if (action == "b1")
             {
                 // register
-
+                uName = Request.Form["US"];
+                pass = Request.Form["PW"];
+                Fname = Request.Form["FN"];
+                Lname = Request.Form["LN"];
+                var client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
+                await client.CreatePersonAsync("-", Fname, Lname, uName, pass, 0);
             }
             // else pass
         }

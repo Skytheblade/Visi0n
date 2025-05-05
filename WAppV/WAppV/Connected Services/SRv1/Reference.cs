@@ -9,7 +9,68 @@
 
 namespace SRv1
 {
+    using System.Runtime.Serialization;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Reminder", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    public partial class Reminder : SRv1.Entity
+    {
+        
+        private string _cidField;
+        
+        private string _textField;
+        
+        private int _uidField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _cid
+        {
+            get
+            {
+                return this._cidField;
+            }
+            set
+            {
+                this._cidField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _text
+        {
+            get
+            {
+                return this._textField;
+            }
+            set
+            {
+                this._textField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int _uid
+        {
+            get
+            {
+                return this._uidField;
+            }
+            set
+            {
+                this._uidField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Entity", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Reminder))]
+    public partial class Entity : object
+    {
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SRv1.IVisionService")]
@@ -21,6 +82,15 @@ namespace SRv1
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/Login", ReplyAction="http://tempuri.org/IVisionService/LoginResponse")]
         System.Threading.Tasks.Task<bool> LoginAsync(string Uname, string Upass, int T);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/CreatePerson", ReplyAction="http://tempuri.org/IVisionService/CreatePersonResponse")]
+        System.Threading.Tasks.Task CreatePersonAsync(string cid, string fName, string lName, string un, string pd, int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/RemindersString", ReplyAction="http://tempuri.org/IVisionService/RemindersStringResponse")]
+        System.Threading.Tasks.Task<string[]> RemindersStringAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/Reminders", ReplyAction="http://tempuri.org/IVisionService/RemindersResponse")]
+        System.Threading.Tasks.Task<SRv1.Reminder[]> RemindersAsync(int id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
@@ -74,6 +144,21 @@ namespace SRv1
         public System.Threading.Tasks.Task<bool> LoginAsync(string Uname, string Upass, int T)
         {
             return base.Channel.LoginAsync(Uname, Upass, T);
+        }
+        
+        public System.Threading.Tasks.Task CreatePersonAsync(string cid, string fName, string lName, string un, string pd, int id)
+        {
+            return base.Channel.CreatePersonAsync(cid, fName, lName, un, pd, id);
+        }
+        
+        public System.Threading.Tasks.Task<string[]> RemindersStringAsync(int id)
+        {
+            return base.Channel.RemindersStringAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<SRv1.Reminder[]> RemindersAsync(int id)
+        {
+            return base.Channel.RemindersAsync(id);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

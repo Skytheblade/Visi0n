@@ -24,13 +24,13 @@
 
                 <StackPanel Grid.Row="1" Margin="3" FlowDirection="LeftToRight" Orientation="Horizontal">
                     <Border Style="{StaticResource PHcolor1}">
-                        <Label Content="info"/>
+                        <Label Content="Use the calendar"/>
                     </Border>
                     <Border Style="{StaticResource PHcolor2}">
-                        <Label Content="shortcut"/>
+                        <Label Content="Write notes"/>
                     </Border>
                     <Border  Style="{StaticResource PHcolor3}">
-                        <Label Content="try google icon font"/>
+                        <Label Content="Set reminders"/>
                     </Border>
                 </StackPanel>
             </Grid>
