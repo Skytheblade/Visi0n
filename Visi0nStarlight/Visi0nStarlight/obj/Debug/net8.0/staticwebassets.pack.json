@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Visi0nStarlight.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Visi0nStarlight.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Visi0nStarlight.props",
+      "PackagePath": "build\\Visi0nStarlight.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Visi0nStarlight.props",
+      "PackagePath": "buildMultiTargeting\\Visi0nStarlight.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Visi0nStarlight.props",
+      "PackagePath": "buildTransitive\\Visi0nStarlight.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

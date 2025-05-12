@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj": {}
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj": {
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj",
+        "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj",
         "projectName": "WAppV",
-        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\WAppV\\WAppV\\obj\\",
+        "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\WAppV\\WAppV\\WAppV.csproj",
+        "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\WAppV\\WAppV\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\אורט\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

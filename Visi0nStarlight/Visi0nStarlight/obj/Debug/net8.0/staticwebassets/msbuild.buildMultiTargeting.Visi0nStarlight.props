@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Visi0nStarlight.props" />
+</Project>

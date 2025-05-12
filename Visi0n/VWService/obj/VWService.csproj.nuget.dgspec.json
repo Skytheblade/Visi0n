@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj": {}
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj",
+        "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj",
         "projectName": "Model!",
-        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\obj\\",
+        "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj",
+        "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\אורט\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
+        "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
         "projectName": "VModel!",
-        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\obj\\",
+        "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj",
+        "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\אורט\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +91,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj"
+              "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj": {
+                "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\Model!\\Model!.csproj"
               }
             }
           }
@@ -120,21 +128,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj": {
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
+        "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
         "projectName": "VWService",
-        "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\obj\\",
+        "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
+        "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VWService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\אורט\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,8 +160,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj"
+              "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj": {
+                "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0n\\VModel!\\VModel!.csproj"
               }
             }
           }
@@ -200,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
