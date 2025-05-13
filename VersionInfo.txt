@@ -46,3 +46,6 @@ sql injection protection
 
 ver 0.2.5
 wcf client complete & improvements
+
+ver 0.2.6
+blazor app & more

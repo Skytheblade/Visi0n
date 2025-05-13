@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj": {}
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj": {}
   },
   "projects": {
-    "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj": {
+    "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj",
+        "projectUniqueName": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj",
         "projectName": "Visi0nStarlight",
-        "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj",
+        "projectPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj",
         "packagesPath": "C:\\Users\\אורט\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\obj\\",
+        "outputPath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -88,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

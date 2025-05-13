@@ -1162,7 +1162,10 @@
       },
       "Model!/1.0.0": {
         "runtime": {
-          "Model!.dll": {}
+          "Model!.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "VModel!/1.0.0": {
@@ -1171,7 +1174,10 @@
           "System.Data.OleDb": "8.0.0"
         },
         "runtime": {
-          "VModel!.dll": {}
+          "VModel!.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

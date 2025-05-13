@@ -11,16 +11,16 @@
 
 <input @bind-value="_name" />
 <input @bind-value="_text" />
-<input @bind-value="_inputfull" />
+<p>Checked: @_inputfull</p>
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 
 <p role="status">Login: @result</p>
-<input @bind-value="result" />
 
+<!--input @bind-value="result" />
 <button class="btn btn-primary" @onclick="Reload">Active Reload</button>
 <p> </p>
-<button class="btn btn-primary" @onclick="Navigate">Redirect</button>
+<button-- class="btn btn-primary" @onclick="Navigate">Redirect</button-->
 
 @code {
     private int currentCount = 0;
@@ -47,6 +47,7 @@
         { 
             result = "failed"; 
         }
+        StateHasChanged();
     }
 
     public async Task<bool> Call(string un, string pw)

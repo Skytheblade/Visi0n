@@ -28,7 +28,7 @@
         </Style.Setters>
     </Style>
 
-    
+
     <Style TargetType="Label" x:Key="BP2L01">
         <Setter Property="FontSize" Value="16"/>
         <Setter Property="FontWeight" Value="Bold"/>
@@ -44,7 +44,7 @@
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="VerticalAlignment" Value="Center"/>
     </Style>
-    
+
     <Style x:Key="BP02" TargetType="RadioButton">
         <Style.Setters>
             <Setter Property="Template">
@@ -158,6 +158,17 @@
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
+    </Style>
+
+    <Style TargetType="Label" x:Key="LR01">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="11.5"/>
+        <Setter Property="Foreground" Value="#FFDBE4E4"/>
+    </Style>
+    <Style TargetType="Label" x:Key="LR02">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="11.5"/>
+        <Setter Property="Foreground" Value="#FF3C3C3C"/>
     </Style>
 
     <Style TargetType="Border" x:Key="PHcolor1">

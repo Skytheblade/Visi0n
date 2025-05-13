@@ -24,13 +24,13 @@
 
                 <StackPanel Grid.Row="1" Margin="3" FlowDirection="LeftToRight" Orientation="Horizontal">
                     <Border Style="{StaticResource PHcolor1}">
-                        <Label Content="Use the calendar"/>
+                        <Label Name="Lcal"  Style="{StaticResource LR01}" Content="Use the calendar" MouseDoubleClick="Label_MouseDoubleClick"/>
                     </Border>
                     <Border Style="{StaticResource PHcolor2}">
-                        <Label Content="Write notes"/>
+                        <Label Name="Lnot" Style="{StaticResource LR01}" Content="Write notes" MouseDoubleClick="Label_MouseDoubleClick"/>
                     </Border>
                     <Border  Style="{StaticResource PHcolor3}">
-                        <Label Content="Set reminders"/>
+                        <Label Name="Lrem" Style="{StaticResource LR02}" Content="Set reminders" MouseDoubleClick="Label_MouseDoubleClick"/>
                     </Border>
                 </StackPanel>
             </Grid>

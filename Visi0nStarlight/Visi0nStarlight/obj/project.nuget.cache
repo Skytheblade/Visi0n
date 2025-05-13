@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0jwpT50MpFAFDO4sQ3ek4AGpVe8OtC13qN4BZy1sjKGOcwIqEwg7ELztlS2pNgaNDpUD49FWVzGePZFQ8+5qNw==",
+  "dgSpecHash": "MLE49J4yUA8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\אורט\\Desktop\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj",
+  "projectFilePath": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Visi0nStarlight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\אורט\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\אורט\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

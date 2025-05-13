@@ -33,7 +33,7 @@ namespace Visi0n._0
             InitializeComponent();
             Section("f");
             if (usr != null) UserSetUp(usr);
-            Frame01.Navigate(new PersonalHome(_person));
+            Frame01.Navigate(new PersonalHome(Frame01, _person));
         }
 
 
@@ -97,7 +97,7 @@ namespace Visi0n._0
         private void HomeP_Click(object sender, RoutedEventArgs e)
         {
             Section("f");
-            Frame01.Navigate(new PersonalHome(_person));
+            Frame01.Navigate(new PersonalHome(Frame01, _person));
             CurrentPage.Content = "Home";
             HomeP.IsChecked = false;
 

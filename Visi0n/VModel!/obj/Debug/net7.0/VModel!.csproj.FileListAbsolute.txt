@@ -58,4 +58,4 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.pdb
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.genruntimeconfig.cache
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\ref\VModel!.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.sourcelink.json
-C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.csproj.CopyComplete
+C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.csproj.Up2Date

@@ -1,8 +1,39 @@
 ﻿@page "/create"
-
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 @using Newtonsoft.Json;
+@using SRv1;
 
 <h3>UserGen</h3>
+
+<dir class="text-center">
+    <h2>Random User Api for user creation</h2>
+    <p class="text-black">Use it to generate new users (personal) for thr Visi0n project</p>
+    <p>Or make a new user manually</p>
+</dir>
+
+<dir class="text-center">
+    <button class="btn btn-primary" @onclick="GenUser">Generate</button>
+
+    <p> </p>
+    <p>
+        <i> ( First Name,  Last Name,  Username,  Password ) </i>
+    </p>
+
+    <input type="text" id="l1" name="FN" @bind-value="Fname" />
+    <input type="text" id="l2" name="LN" @bind-value="Lname" />
+    <input type="text" id="l3" name="US" @bind-value="uName" />
+    <input type="text" id="l4" name="PW" @bind-value="pass" />
+    <p> </p>
+    <p> <i>all users created this way are not linked to any corporation</i></p>
+    <p> </p>
+    <button class="btn btn-primary" @onclick="Act">Register</button>
+    <button class="btn btn-primary" @onclick="Navigate">Redirect</button>
+</dir>
+
+
+
+
 
 @code {
     public string InputText;
@@ -13,26 +44,24 @@
     public string Fname;
     public string Lname;
 
-    /*public void OnGet()
-    {
 
-    }
-
-    public async void OnPost() 
-    {
-    var action = Request.Form["action"];
-    if (action == "b1")
-    {
     // register
-    uName = Request.Form["US"];
-    pass = Request.Form["PW"];
-    Fname = Request.Form["FN"];
-    Lname = Request.Form["LN"];
-    var client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
-    await client.CreatePersonAsync("-", Fname, Lname, uName, pass, 0);
+    public async void Act()
+    {
+        var client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
+        await client.CreatePersonAsync("-", Fname, Lname, uName, pass, 0);
+        GenUser();
     }
-    // else pass
-    }*/
+
+    // load data into the page
+    public async void GenUser()
+    {
+        uName = await GetUName();
+        pass = await GetPCode();
+        Fname = await GetFName();
+        Lname = await GetLName();
+        StateHasChanged();
+    }
 
     // returns a list (async) of parts of a user
     public  async Task<List<string>> Create()
@@ -118,32 +147,13 @@
         public string password { get; set; }
     }
 
+
     void Navigate()
     {
         Navigation.NavigateTo("/counter");
     }
+
+    void Ref() { }
 }
 
-<h2 class="text-center">Random User Api for user creation</h2>
-<p class="text-black text-center">Use it to generate new users (personal) for thr Visi0n project</p>
-<p>Or make a new user manually</p>
-<body class="text-center">
-    <button @onclick="Create">Generate</button>
-
-        <p> </p>
-        <p>
-            <i> ( First Name,  Last Name,  Username,  Password ) </i>
-        </p>
-
-        <input type="text" id="l1" name="FN" @bind-value="Fname" />
-        <input type="text" id="l2" name="LN" @bind-value="Lname" />
-        <input type="text" id="l3" name="US" @bind-value="uName" />
-        <input type="text" id="l4" name="PW" @bind-value="pass" />
-        <p> </p>
-        <p> <i>all users created this way are not linked to any corporation</i></p>
-        <p> </p>
-        <button @onclick="Create">Register</button>
-
-</body>
-
-<button class="btn btn-primary" @onclick="Navigate">Redirect</button>
+<!--button @onclick="Ref">Refresh</!--button-->

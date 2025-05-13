@@ -170,4 +170,4 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-wi
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Pages\Company\CompanyNotesPage.baml
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Pages\Company\CompanyRemindersPage.baml
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Pages\Login\TypeUserCreatePage.baml
-C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Visi0n.0.csproj.CopyComplete
+C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Visi0n.0.csproj.Up2Date
