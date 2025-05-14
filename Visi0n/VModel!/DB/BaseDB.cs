@@ -23,7 +23,8 @@ namespace VModel_
             ";Data Source=" + dirr + "\\VModel!\\DB\\DatabaseTest1.accdb" +
             ";Persist Security Info=True";
 
-        public string connestringStatic = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\DB\DatabaseTest1.accdb;Persist Security Info=True";
+        public string connestringStatic = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\DB\DatabaseTest1.accdb;Persist Security Info=True";
+        
 
         public OleDbConnection connection;
         public OleDbCommand command;

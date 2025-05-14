@@ -67,9 +67,175 @@ namespace SRv1
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Entity", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Event))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.NoteItem))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Reminder))]
     public partial class Entity : object
     {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Event", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    public partial class Event : SRv1.Entity
+    {
+        
+        private int _IDField;
+        
+        private string _cidField;
+        
+        private string _dateField;
+        
+        private string _descriptionField;
+        
+        private string _nameField;
+        
+        private int _uidField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int _ID
+        {
+            get
+            {
+                return this._IDField;
+            }
+            set
+            {
+                this._IDField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _cid
+        {
+            get
+            {
+                return this._cidField;
+            }
+            set
+            {
+                this._cidField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _date
+        {
+            get
+            {
+                return this._dateField;
+            }
+            set
+            {
+                this._dateField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _description
+        {
+            get
+            {
+                return this._descriptionField;
+            }
+            set
+            {
+                this._descriptionField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _name
+        {
+            get
+            {
+                return this._nameField;
+            }
+            set
+            {
+                this._nameField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int _uid
+        {
+            get
+            {
+                return this._uidField;
+            }
+            set
+            {
+                this._uidField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="NoteItem", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    public partial class NoteItem : SRv1.Entity
+    {
+        
+        private string _cidField;
+        
+        private string _nameField;
+        
+        private string _textField;
+        
+        private int _uidField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _cid
+        {
+            get
+            {
+                return this._cidField;
+            }
+            set
+            {
+                this._cidField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _name
+        {
+            get
+            {
+                return this._nameField;
+            }
+            set
+            {
+                this._nameField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _text
+        {
+            get
+            {
+                return this._textField;
+            }
+            set
+            {
+                this._textField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int _uid
+        {
+            get
+            {
+                return this._uidField;
+            }
+            set
+            {
+                this._uidField = value;
+            }
+        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
@@ -87,10 +253,25 @@ namespace SRv1
         System.Threading.Tasks.Task CreatePersonAsync(string cid, string fName, string lName, string un, string pd, int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/RemindersString", ReplyAction="http://tempuri.org/IVisionService/RemindersStringResponse")]
-        System.Threading.Tasks.Task<string[]> RemindersStringAsync(int id);
+        System.Threading.Tasks.Task<System.Collections.Generic.List<string>> RemindersStringAsync(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/Reminders", ReplyAction="http://tempuri.org/IVisionService/RemindersResponse")]
-        System.Threading.Tasks.Task<SRv1.Reminder[]> RemindersAsync(int id);
+        System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.Reminder>> RemindersAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/GetID", ReplyAction="http://tempuri.org/IVisionService/GetIDResponse")]
+        System.Threading.Tasks.Task<int> GetIDAsync(string n);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/EventsString", ReplyAction="http://tempuri.org/IVisionService/EventsStringResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<string>> EventsStringAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/Events", ReplyAction="http://tempuri.org/IVisionService/EventsResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.Event>> EventsAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/NotesString", ReplyAction="http://tempuri.org/IVisionService/NotesStringResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<string>> NotesStringAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/Notes", ReplyAction="http://tempuri.org/IVisionService/NotesResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.NoteItem>> NotesAsync(int id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
@@ -151,14 +332,39 @@ namespace SRv1
             return base.Channel.CreatePersonAsync(cid, fName, lName, un, pd, id);
         }
         
-        public System.Threading.Tasks.Task<string[]> RemindersStringAsync(int id)
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<string>> RemindersStringAsync(int id)
         {
             return base.Channel.RemindersStringAsync(id);
         }
         
-        public System.Threading.Tasks.Task<SRv1.Reminder[]> RemindersAsync(int id)
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.Reminder>> RemindersAsync(int id)
         {
             return base.Channel.RemindersAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<int> GetIDAsync(string n)
+        {
+            return base.Channel.GetIDAsync(n);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<string>> EventsStringAsync(int id)
+        {
+            return base.Channel.EventsStringAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.Event>> EventsAsync(int id)
+        {
+            return base.Channel.EventsAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<string>> NotesStringAsync(int id)
+        {
+            return base.Channel.NotesStringAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.NoteItem>> NotesAsync(int id)
+        {
+            return base.Channel.NotesAsync(id);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

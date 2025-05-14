@@ -20,5 +20,20 @@ namespace VWS
 
         [OperationContract]
         List<Reminder> Reminders(int id);
+
+        [OperationContract]
+        int GetID(string n);
+
+        [OperationContract]
+        List<string> EventsString(int id);
+
+        [OperationContract]
+        List<Event> Events(int id);
+
+        [OperationContract]
+        List<string> NotesString(int id);
+
+        [OperationContract]
+        List<NoteItem> Notes(int id);
     }
 }

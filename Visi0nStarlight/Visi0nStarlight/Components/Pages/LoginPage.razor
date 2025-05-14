@@ -1,4 +1,4 @@
-﻿@page "/page"
+﻿@page "/page/{value}"
 @rendermode InteractiveServer
 @inject NavigationManager Navigation
 @using SRv1;
@@ -16,12 +16,12 @@
 
 <p role="status">Login: @result</p>
 
-<!--input @bind-value="result" />
-<button class="btn btn-primary" @onclick="Reload">Active Reload</button>
-<p> </p>
-<button-- class="btn btn-primary" @onclick="Navigate">Redirect</button-->
 
 @code {
+
+    [Parameter]
+    public string value { get; set; }
+
     private int currentCount = 0;
     string _name = "Hi";
     string _text = "Guten Morgen";
@@ -34,8 +34,6 @@
     {
         currentCount++;
         result = "trying";
-        //if (_name == "hello") { _name = "heyy"; _text = "click clak"; }
-        //else { _name = "hello"; _text = "you have clocked" + currentCount + " times"; }
         _inputfull = _name + " " + _text;
         Submit = await Call(_name, _text);
         if (Submit) 
@@ -47,6 +45,10 @@
             result = "failed"; 
         }
         StateHasChanged();
+        await Task.Delay(300);
+        VisionServiceClient client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
+        int idd = await client.GetIDAsync(_name);
+        if (Submit) Navigate("self/" + idd);
     }
 
     public async Task<bool> Call(string un, string pw)
@@ -59,9 +61,9 @@
 
     void Reload() { } // just run a command on main to load unloaded data (for async functions), or use StateHasChanged
 
-    void Navigate()
+    void Navigate(string name)
     {
-        Navigation.NavigateTo("/counter");
+        Navigation.NavigateTo("/" + name);
     }
 }
 

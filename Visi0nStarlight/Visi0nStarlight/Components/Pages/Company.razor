@@ -1,0 +1,56 @@
+﻿@page "/self/{Value}"
+@rendermode InteractiveServer
+@using SRv1;
+
+<h2>Company</h2>
+<p> </p> <p> </p>
+<h4>Calendar Events</h4>
+<p>@calEves</p>
+<h4>Notes Index</h4>
+<p>@notes</p>
+<h4>Reminders</h4>
+<p>@reminders</p>
+
+@code {
+    [Parameter]
+    public string Value { get; set; }
+
+    string calEves = "";
+    string notes = "";
+    string reminders = "";
+
+    int id;
+
+    protected override async void OnInitialized()
+    {
+        base.OnInitialized();
+        id = int.Parse(Value);
+        VisionServiceClient client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
+        reminders = await LoadReminders(id, client);
+        notes = await LoadNotes(id, client);
+        calEves = await LoadEvents(id, client);
+        StateHasChanged();
+    }
+
+
+    async Task<string> LoadReminders(int id, VisionServiceClient client)
+    {
+        var strings = await client.RemindersStringAsync(id); string ls = "";
+        foreach (var s in strings) { ls += "" + s + "; "; }
+        return ls;
+    }
+
+    async Task<string> LoadNotes(int id, VisionServiceClient client)
+    {
+        var strings = await client.NotesStringAsync(id); string ls = "";
+        foreach (var s in strings) { ls += "" + s + "; "; }
+        return ls;
+    }
+
+    async Task<string> LoadEvents(int id, VisionServiceClient client)
+    {
+        var strings = await client.EventsStringAsync(id); string ls = "";
+        foreach (var s in strings) { ls += "" + s + "; "; }
+        return ls;
+    }
+}

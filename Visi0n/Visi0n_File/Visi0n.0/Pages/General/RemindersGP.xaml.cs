@@ -61,6 +61,7 @@ namespace Visi0n._0.Pages.General
         private void AddRCommand(object sender, RoutedEventArgs e)
         {
             AddReminder();
+            DrawTable(listed, ppage);
         }
         private void AddReminder(Reminder r = null)
         {
@@ -71,7 +72,7 @@ namespace Visi0n._0.Pages.General
                 ReminderService.ListReminder(r);
             }
             listed.Add(r);
-            DrawTable(listed, ppage);
+            //DrawTable(listed, ppage);
         }
         private void DrawR(Reminder r) // sets reminder in ui
         {

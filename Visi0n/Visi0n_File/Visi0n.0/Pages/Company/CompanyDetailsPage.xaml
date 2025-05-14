@@ -34,6 +34,6 @@
             <Button Content="Remove" Margin="10" Width="90"/>
         </StackPanel>
 
-        <TextBox Grid.Row="1" Margin="10" Text="User ID"/>
+        <TextBox Grid.Row="1" Margin="10" Text="This feature isn't working yet"/>
     </Grid>
 </Page>

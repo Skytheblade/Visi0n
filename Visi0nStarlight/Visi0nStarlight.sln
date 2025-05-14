@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visi0nStarlight", "Visi0nStarlight\Visi0nStarlight.csproj", "{CE5B2130-5D1C-4B51-983E-198DB99A8907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visi0nStarlight", "Visi0nStarlight\Visi0nStarlight.csproj", "{CE5B2130-5D1C-4B51-983E-198DB99A8907}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

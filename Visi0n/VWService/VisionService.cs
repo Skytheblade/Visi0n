@@ -10,6 +10,8 @@ namespace VWS
 
         public bool Login(string Un, string Up, int T) => UserService.LoginAtt(Un, Up, T);
 
+        public int GetID(string uName) => UserService.FindUserID(uName);
+
         public void CreatePerson(string cid, string fName, string lName, string un, string pd, int id = 0)
         {
             Person p = new Person(cid, fName, lName, un, pd, id);
@@ -31,6 +33,40 @@ namespace VWS
             User u = UserService.Get(id);
             List<Reminder> l = ReminderService.GetReminders(u);
             return l;
+        }
+
+        public List<Event> Events(int id)
+        {
+            User u = UserService.Get(id);
+            var ll = EventService.Load(u);
+            List<Event> l = new();
+            foreach (var i in ll) { l.Add(i); }
+            return l;
+        }
+
+        public List<string> EventsString(int id)
+        {
+            var lst = Events(id);
+            List<string> result = new();
+            foreach (var i in lst) { result.Add(i._name); }
+            return result;
+        }
+
+        public List<NoteItem> Notes(int id)
+        {
+            User u = UserService.Get(id);
+            var ll = NoteService.GetNotes(u);
+            List<NoteItem> l = new();
+            foreach (var i in ll) { l.Add(i); }
+            return l;
+        }
+
+        public List<string> NotesString(int id)
+        {
+            var lst = Notes(id);
+            List<string> result = new();
+            foreach (var i in lst) { result.Add(i._name); }
+            return result;
         }
     }
 }

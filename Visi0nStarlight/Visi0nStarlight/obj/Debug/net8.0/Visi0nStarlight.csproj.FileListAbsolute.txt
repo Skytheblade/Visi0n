@@ -75,7 +75,6 @@ C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\appsettings.json
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\Connected Services\SRv1\ConnectedService.json
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\Visi0nStarlight.staticwebassets.runtime.json
-C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\Visi0nStarlight.staticwebassets.endpoints.json
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\Visi0nStarlight.exe
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\Visi0nStarlight.deps.json
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\bin\Debug\net8.0\Visi0nStarlight.runtimeconfig.json
@@ -135,15 +134,11 @@ C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\scopedcss\projectbundle\Visi0nStarlight.bundle.scp.css
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets\msbuild.Visi0nStarlight.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets\msbuild.Visi0nStarlight.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets\msbuild.build.Visi0nStarlight.props
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Visi0nStarlight.props
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Visi0nStarlight.props
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\Visi0nSt.131287AD.Up2Date
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\Visi0nStarlight.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\refint\Visi0nStarlight.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\Visi0nStarlight.pdb
@@ -227,3 +222,4 @@ C:\Users\User\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\re
 C:\Users\User\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\Visi0nStarlight.pdb
 C:\Users\User\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\Visi0nStarlight.genruntimeconfig.cache
 C:\Users\User\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\ref\Visi0nStarlight.dll
+C:\Users\אורט\Desktop\Visi0n\Visi0nStarlight\Visi0nStarlight\obj\Debug\net8.0\Visi0nStarlight.csproj.CopyComplete

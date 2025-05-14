@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "UcHhv+kDf9Y47mFH5njAmRmAUswtmiAU0yaVmvhv9EE=",
+  "Hash": "o1L6+KcH/iyAs7OK3hK3ZHcrqLFjEEHnPIwtWS9DV6E=",
   "Source": "VWService",
   "BasePath": "_content/VWService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

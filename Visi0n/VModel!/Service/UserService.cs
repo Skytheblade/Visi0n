@@ -13,12 +13,15 @@ namespace VModel_
         // general login control on base form
         public static bool LoginAtt(string usrname, string pass, int type_ = 1)
         {
-            UserDB usrdb = new UserDB();
-            User usr = (User)(usrdb.TargetSelect(new UserDB().FindID(usrname)));
+            User usr = FindUser(usrname);
 
             if (usr._usrName == usrname && usr._pwd == pass && (usr._type == type_ || usr._type == 3)) return true;
             return false;
         }
+
+        public static User FindUser(string usrName) => (User)(new UserDB().TargetSelect(new UserDB().FindID(usrName)));
+
+        public static int FindUserID(string usrName) => FindUser(usrName)._absId;
 
         public static User Get(int id = 2) // get user with id
         {

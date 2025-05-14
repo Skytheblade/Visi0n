@@ -225,14 +225,10 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\refint\VWServ
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.pdb
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.genruntimeconfig.cache
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\ref\VWService.dll
-C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\bin\Debug\net7.0\VWService.staticwebassets.endpoints.json
-C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.build.endpoints.json
-C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets\msbuild.VWService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
-C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.csproj.Up2Date
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\bin\Debug\net7.0\VWService.staticwebassets.endpoints.json
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.sourcelink.json
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.build.endpoints.json
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets\msbuild.VWService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.csproj.Up2Date
+C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.csproj.CopyComplete
