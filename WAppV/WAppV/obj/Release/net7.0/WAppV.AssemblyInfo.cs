@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WAppV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2767a679862a8f9cb81e40e69d8b867a1aa6d4f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0d974a51596bff6e536ac8eb45b41bab1b0e63e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WAppV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WAppV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

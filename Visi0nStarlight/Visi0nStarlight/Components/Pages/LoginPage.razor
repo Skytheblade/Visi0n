@@ -5,14 +5,13 @@
 
 <PageTitle>Counter</PageTitle>
 
-<h1>Page</h1>
+<h1>Login Page</h1>
 
-<p role="status">Current count: @currentCount</p>
 
 <input @bind-value="_name" />
 <input @bind-value="_text" />
 <p>Checked: @_inputfull</p>
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="LogAtt">Click me</button>
 
 
 <p role="status">Login: @result</p>
@@ -31,7 +30,7 @@
     bool Submit;
     string result = "";
 
-    private async void IncrementCount()
+    private async void LogAtt()
     {
         currentCount++;
         result = "trying";
@@ -58,7 +57,7 @@
         else return false;
     }
 
-    void Reload() { } // just run a command on main to load unloaded data (for async functions)
+    void Reload() { } // just run a command on main to load unloaded data (for async functions), or use StateHasChanged
 
     void Navigate()
     {

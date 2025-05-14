@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cd4OR4AnGVDv7chfaLqXNHcBkE+RMQrETR/+Q254CKE=",
+  "Hash": "F2IMr5w1REo27sNd6c74RLcDMGxnBu7mS50EW3rTiSw=",
   "Source": "Visi0nStarlight",
   "BasePath": "_content/Visi0nStarlight",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Visi0nStarlight\\wwwroot",
       "Source": "Visi0nStarlight",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
       "BasePath": "_content/Visi0nStarlight",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "Visi0nStarlight#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "JzU+mhji9GK7Z7JWFEKLhQNd1XAOYvX5l+CkWx2pwbw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css"
     },
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "Visi0nStarlight#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "JzU+mhji9GK7Z7JWFEKLhQNd1XAOYvX5l+CkWx2pwbw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
+      "Identity": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
       "SourceId": "Visi0nStarlight",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\",
       "BasePath": "_content/Visi0nStarlight",
       "RelativePath": "mpic#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -167,7 +167,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -188,7 +188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -204,7 +204,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -225,7 +225,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -249,7 +249,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -270,7 +270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -294,7 +294,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,7 +315,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -331,7 +331,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -352,7 +352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -376,7 +376,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -397,7 +397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -413,7 +413,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -434,7 +434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -458,7 +458,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -479,7 +479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -495,7 +495,7 @@
     },
     {
       "Route": "mpic.8n1u215xka.jpg",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -516,7 +516,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:52:31 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -540,7 +540,7 @@
     },
     {
       "Route": "mpic.jpg",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -561,7 +561,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:52:31 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -577,7 +577,7 @@
     },
     {
       "Route": "Visi0nStarlight.bundle.scp.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -598,7 +598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -614,7 +614,7 @@
     },
     {
       "Route": "Visi0nStarlight.ldf091ryhl.bundle.scp.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -635,7 +635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -659,7 +659,7 @@
     },
     {
       "Route": "Visi0nStarlight.ldf091ryhl.styles.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -680,7 +680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -704,7 +704,7 @@
     },
     {
       "Route": "Visi0nStarlight.styles.css",
-      "AssetFile": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Visi0nStarlight.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -725,7 +725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:11:05 GMT"
+          "Value": "Tue, 13 May 2025 14:12:09 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -92,7 +92,6 @@ C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.p
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\scopedcss\bundle\VWService.styles.css
-C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.csproj.CopyComplete
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.dll
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\refint\VWService.dll
 C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.pdb
@@ -231,3 +230,9 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebasse
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets\msbuild.VWService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.csproj.Up2Date
+C:\Users\User\Desktop\Visi0n\Visi0n\VWService\bin\Debug\net7.0\VWService.staticwebassets.endpoints.json
+C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.sourcelink.json
+C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets\msbuild.VWService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Desktop\Visi0n\Visi0n\VWService\obj\Debug\net7.0\VWService.csproj.Up2Date

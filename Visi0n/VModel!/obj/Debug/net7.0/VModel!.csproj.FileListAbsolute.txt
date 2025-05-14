@@ -22,7 +22,6 @@ C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\bin\Debug\net7.0\runtimes\win\lib\ne
 C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\bin\Debug\net7.0\Model!.dll
 C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\bin\Debug\net7.0\Model!.pdb
-C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.csproj.CopyComplete
 C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.dll
 C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\refint\VModel!.dll
 C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.pdb
@@ -59,3 +58,5 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.genrunt
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\ref\VModel!.dll
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.sourcelink.json
 C:\Users\אורט\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.csproj.Up2Date
+C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.sourcelink.json
+C:\Users\User\Desktop\Visi0n\Visi0n\VModel!\obj\Debug\net7.0\VModel!.csproj.Up2Date
