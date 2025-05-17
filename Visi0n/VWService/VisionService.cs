@@ -68,5 +68,21 @@ namespace VWS
             foreach (var i in lst) { result.Add(i._name); }
             return result;
         }
+
+        public List<Person> CorpUsers(int id)
+        {
+            User u = UserService.Get(id);
+            Corp c = UserService.Corporative(u);
+            var l = UserService.LaCampanella(c);
+            return l;
+        }
+
+        public List<string> CorpUsersString(int id)
+        {
+            var lst = CorpUsers(id);
+            List<string> result = new();
+            foreach(var i in lst) { result.Add($"({i._fName} {i._lName}, {i._absId})"); }
+            return result;
+        }
     }
 }

@@ -1,28 +1,32 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Visi0nStarlight.bundle.scp.css"
+      "Id": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Visi0nStarlight.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Visi0nStarlight.ldf091ryhl.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
+      "Id": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\אורט\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\wwwroot\\mpic.jpg",
       "PackagePath": "staticwebassets\\mpic.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Visi0nStarlight.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Visi0nStarlight.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -23,8 +23,8 @@
     public string value { get; set; }
 
     private int currentCount = 0;
-    string _name = "Hi";
-    string _text = "Guten Morgen";
+    string _name = "Username";
+    string _text = "Password";
     string _inputfull = "";
 
     bool Submit;
@@ -35,7 +35,7 @@
         currentCount++;
         result = "trying";
         _inputfull = _name + " " + _text;
-        Submit = await Call(_name, _text);
+        Submit = await Call(_name, _text, int.Parse(value));
         if (Submit) 
         { 
             result = "logged"; 
@@ -48,13 +48,21 @@
         await Task.Delay(300);
         VisionServiceClient client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
         int idd = await client.GetIDAsync(_name);
-        if (Submit) Navigate("self/" + idd);
+        if (Submit)
+        {
+            if (int.Parse(value) == 1)
+            {
+                Navigate("self/" + idd);
+            }
+            else if (int.Parse(value) == 2)
+                Navigate("corp/" + idd);
+        }
     }
 
-    public async Task<bool> Call(string un, string pw)
+    public async Task<bool> Call(string un, string pw, int tp)
     {
         var client = new VisionServiceClient(VisionServiceClient.EndpointConfiguration.BasicHttpBinding_IVisionService, "http://localhost:5000/VisionService/basichttp");
-        bool fl = await client.LoginAsync(un, pw, 1);
+        bool fl = await client.LoginAsync(un, pw, tp);
         if (fl) return true;
         else return false;
     }

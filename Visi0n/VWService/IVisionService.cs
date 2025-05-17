@@ -35,5 +35,11 @@ namespace VWS
 
         [OperationContract]
         List<NoteItem> Notes(int id);
+
+        [OperationContract]
+        List<Person> CorpUsers(int id);
+
+        [OperationContract]
+        List<string> CorpUsersString(int id);
     }
 }

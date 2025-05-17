@@ -49,3 +49,6 @@ wcf client complete & improvements
 
 ver 0.2.6
 blazor app & more
+
+ver 0.2.7
+prefinal steps before full low level completion

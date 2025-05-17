@@ -13,7 +13,7 @@ namespace SRv1
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Reminder", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
     public partial class Reminder : SRv1.Entity
     {
@@ -65,17 +65,19 @@ namespace SRv1
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Entity", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Event))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.NoteItem))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.User))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Person))]
     [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Reminder))]
     public partial class Entity : object
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Event", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
     public partial class Event : SRv1.Entity
     {
@@ -172,7 +174,7 @@ namespace SRv1
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.Runtime.Serialization.DataContractAttribute(Name="NoteItem", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
     public partial class NoteItem : SRv1.Entity
     {
@@ -238,7 +240,127 @@ namespace SRv1
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="User", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(SRv1.Person))]
+    public partial class User : SRv1.Entity
+    {
+        
+        private int _absIdField;
+        
+        private string _pwdField;
+        
+        private int _typeField;
+        
+        private string _usrNameField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int _absId
+        {
+            get
+            {
+                return this._absIdField;
+            }
+            set
+            {
+                this._absIdField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _pwd
+        {
+            get
+            {
+                return this._pwdField;
+            }
+            set
+            {
+                this._pwdField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int _type
+        {
+            get
+            {
+                return this._typeField;
+            }
+            set
+            {
+                this._typeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _usrName
+        {
+            get
+            {
+                return this._usrNameField;
+            }
+            set
+            {
+                this._usrNameField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Person", Namespace="http://schemas.datacontract.org/2004/07/Model_")]
+    public partial class Person : SRv1.User
+    {
+        
+        private string _cidField;
+        
+        private string _fNameField;
+        
+        private string _lNameField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _cid
+        {
+            get
+            {
+                return this._cidField;
+            }
+            set
+            {
+                this._cidField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _fName
+        {
+            get
+            {
+                return this._fNameField;
+            }
+            set
+            {
+                this._fNameField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string _lName
+        {
+            get
+            {
+                return this._lNameField;
+            }
+            set
+            {
+                this._lNameField = value;
+            }
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SRv1.IVisionService")]
     public interface IVisionService
     {
@@ -272,15 +394,21 @@ namespace SRv1
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/Notes", ReplyAction="http://tempuri.org/IVisionService/NotesResponse")]
         System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.NoteItem>> NotesAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/CorpUsers", ReplyAction="http://tempuri.org/IVisionService/CorpUsersResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.Person>> CorpUsersAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVisionService/CorpUsersString", ReplyAction="http://tempuri.org/IVisionService/CorpUsersStringResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<string>> CorpUsersStringAsync(int id);
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     public interface IVisionServiceChannel : SRv1.IVisionService, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
     public partial class VisionServiceClient : System.ServiceModel.ClientBase<SRv1.IVisionService>, SRv1.IVisionService
     {
         
@@ -365,6 +493,16 @@ namespace SRv1
         public System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.NoteItem>> NotesAsync(int id)
         {
             return base.Channel.NotesAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<SRv1.Person>> CorpUsersAsync(int id)
+        {
+            return base.Channel.CorpUsersAsync(id);
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<string>> CorpUsersStringAsync(int id)
+        {
+            return base.Channel.CorpUsersStringAsync(id);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
