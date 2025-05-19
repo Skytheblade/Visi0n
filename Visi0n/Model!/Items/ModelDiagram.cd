@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model_.Corp">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Corp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_.Entity">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_.Event">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAEBAAAABAABgAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Items\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_.NoteItem">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAABAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Items\NoteItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_.Person">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Items\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_.Reminder">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Reminder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_.User">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAgAQAAAAAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

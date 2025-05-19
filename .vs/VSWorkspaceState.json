@@ -2,17 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Visi0n",
-    "\\Visi0nStarlight",
-    "\\Visi0nStarlight\\Visi0nStarlight",
-    "\\Visi0nStarlight\\Visi0nStarlight\\Components",
-    "\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages",
     "\\Visi0n\\Visi0n_File",
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
+    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
     "\\Visi0n\\VModel!",
     "\\Visi0n\\VModel!\\DB",
     "\\Visi0n\\VWService"
   ],
-  "SelectedNode": "\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
+  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
   "PreviewInSolutionExplorer": false
 }
