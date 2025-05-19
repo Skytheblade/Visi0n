@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Visi0n",
+    "\\Visi0n\\Model!",
+    "\\Visi0n\\Model!\\Items",
     "\\Visi0n\\Visi0n_File",
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages",
-    "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
     "\\Visi0n\\VModel!",
     "\\Visi0n\\VModel!\\DB",
     "\\Visi0n\\VWService"
   ],
-  "SelectedNode": "\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
+  "SelectedNode": "\\Visi0n\\Model!\\Items\\Corp.cs",
   "PreviewInSolutionExplorer": false
 }

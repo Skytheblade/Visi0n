@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VModel_.BaseDB">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQAAEAAACAAAggAAAABBAAAAgQAIAADAAAAAIgQEAA=</HashCode>
+      <FileName>DB\BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.CaleDb">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAIAAABAAAEgACAAABAEAAAAkAAAA=</HashCode>
+      <FileName>DB\CaleDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.CorpDB">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQEAAACAAAAAAAAAABAAAAgAAAAABAAAAAAgAAAA=</HashCode>
+      <FileName>DB\CorpDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.NoteDB">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAABAAAEgAAAAABAAAAAAgAAAA=</HashCode>
+      <FileName>DB\NoteDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.PersonalDB">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAABAAAAgAAAAABAAAAAAgAAAA=</HashCode>
+      <FileName>DB\PersonalDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.ReminderDB">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAABAAAEgAAAAABAAAAAAgAAAA=</HashCode>
+      <FileName>DB\ReminderDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.UserDB">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAABAAAAgAAAAABAAAAAAkAAAA=</HashCode>
+      <FileName>DB\UserDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.EventService">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="VModel_.EventService.ActivityDays" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Service\EventService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgIAECAAABAAAAAAAAAAAAAAIgAEAAAAAIAEADAA=</HashCode>
+      <FileName>Service\EventService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.NoteService">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAEEAACIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Service\NoteService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.ReminderService">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAIAAAEAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\ReminderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VModel_.UserService">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABEAAAAAAAEwBAAAAAOAAAAAAQAAAgAAIEACCAAAA=</HashCode>
+      <FileName>Service\UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

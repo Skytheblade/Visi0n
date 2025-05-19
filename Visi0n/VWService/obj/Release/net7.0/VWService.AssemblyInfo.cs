@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VWService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7113baa2d8a80e38e370063ef81d7563aed8ecb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6072263681a3f5dfabaf53f09422a31b82ab8afb")]
 [assembly: System.Reflection.AssemblyProductAttribute("VWService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VWService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

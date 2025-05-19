@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\usergen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\usergen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\company.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\company.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\usergen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\usergen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,13 +126,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Company.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Company.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Company.razor",
               "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Company.razor",
               "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\Company.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T09:37:55.003Z",
               "EditorCaption": ""
@@ -187,19 +187,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserGen.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\UserGen.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\UserGen.razor",
               "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\UserGen.razor",
               "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\UserGen.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T05:14:34.297Z"
+              "WhenOpened": "2025-05-13T05:14:34.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Personal.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Personal.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Personal.razor",
@@ -235,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginPage.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
