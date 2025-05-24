@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Visi0nStarlight")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6072263681a3f5dfabaf53f09422a31b82ab8afb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60e514b2139a2ffde192ac09b4474cea824e4593")]
 [assembly: System.Reflection.AssemblyProductAttribute("Visi0nStarlight")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Visi0nStarlight")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

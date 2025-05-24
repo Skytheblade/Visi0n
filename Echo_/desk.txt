@@ -1,8 +1,0 @@
-V 0.2.6 -:
-
-miniproject
-ECPP
-miniproject2
-Visi0nClient
-WcfTest
-WAppV

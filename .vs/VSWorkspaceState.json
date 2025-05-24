@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Visi0n",
-    "\\Visi0n\\Model!",
-    "\\Visi0n\\Model!\\Items",
+    "\\Visi0nStarlight",
+    "\\Visi0nStarlight\\Visi0nStarlight",
+    "\\Visi0nStarlight\\Visi0nStarlight\\Components",
+    "\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages",
     "\\Visi0n\\Visi0n_File",
     "\\Visi0n\\Visi0n_File\\Visi0n.0",
     "\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows",
@@ -11,6 +13,5 @@
     "\\Visi0n\\VModel!\\DB",
     "\\Visi0n\\VWService"
   ],
-  "SelectedNode": "\\Visi0n\\VModel!\\DB\\BaseDB.cs",
   "PreviewInSolutionExplorer": false
 }
