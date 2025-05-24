@@ -172,3 +172,5 @@ C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-wi
 C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Visi0n.0.sourcelink.json
 C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Visi0n.0.csproj.Up2Date
 C:\Users\אורט\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Visi0n.0.csproj.CopyComplete
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Core\UControls\Menu001.g.cs
+C:\Users\User\Desktop\Visi0n\Visi0n\Visi0n_File\Visi0n.0\obj\Debug\net7.0-windows\Core\UControls\Menu001.baml

@@ -29,6 +29,10 @@ namespace Visi0n._0.Pages.Company
             InitializeComponent();
 
             _user = u;
+
+            controlPanel.Children.Add(new Menu001(OverruleF, _user, 1));
+            controlPanel.Children.Add(new Menu001(OverruleF, _user, 2));
+            controlPanel.Children.Add(new Menu001(OverruleF, _user));
         }
 
 

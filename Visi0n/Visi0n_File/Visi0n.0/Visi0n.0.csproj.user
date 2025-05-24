@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Core\UControls\Menu001.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Company\CompanyDetailsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

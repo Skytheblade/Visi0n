@@ -3,6 +3,137 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\ucontrols\\menu001.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\ucontrols\\menu001.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\ucontrols\\menu001.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\ucontrols\\menu001.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companypersonalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\company\\companypersonalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companypersonalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\company\\companypersonalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vmodel!\\db\\basedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\remindersgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\remindersgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_notesviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_notesviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\notesgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\notesgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_caledayviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_caledayviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_notesviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_notesviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\__caleactiongp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\__caleactiongp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\__caleactiongp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\__caleactiongp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_caledayviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_caledayviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\calendargp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\calendargp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\calendargp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\calendargp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\styles\\dict2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\styles\\dict2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\styles\\dictp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\styles\\dictp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\pesonal\\personalhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\pesonal\\personalhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\personalw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\personalw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\personalw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\personalw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\typeusercreatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\typeusercreatepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\typeusercreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\typeusercreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\newusr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\newusr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\newusr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\newusr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\styles\\dict0.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\styles\\dict0.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\visi0n.0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\visi0n.0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\loginw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\loginw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\loginw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\loginw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE1B0A0B-1ACD-4512-81D8-E718F6B35299}|..\\VWService\\VWService.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vwservice\\visionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,10 +146,6 @@
       "AbsoluteMoniker": "D:0:0:{AE1B0A0B-1ACD-4512-81D8-E718F6B35299}|..\\VWService\\VWService.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vwservice\\vwservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\visi0n.0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\visi0n.0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE1B0A0B-1ACD-4512-81D8-E718F6B35299}|..\\VWService\\VWService.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vwservice\\host.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,9 +153,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vmodel!\\db\\notedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vmodel!\\db\\basedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vmodel!\\db\\reminderdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -41,10 +165,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E514A94B-AEEA-4924-9FE2-8D457439F0DA}|..\\VModel!\\VModel!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\vmodel!\\viewmodeldiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\typeusercreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\typeusercreatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCFBBE35-123F-4499-896B-8A9F933D4449}|..\\Model!\\Model!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\model!\\items\\modeldiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
@@ -62,10 +182,6 @@
       "AbsoluteMoniker": "D:0:0:{DCFBBE35-123F-4499-896B-8A9F933D4449}|..\\Model!\\Model!.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\model!\\items\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\newusr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\newusr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companydetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\company\\companydetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,70 +190,14 @@
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\companyw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\personalw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\personalw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\loginw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\loginw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\pesonal\\personalhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\pesonal\\personalhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\personalw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\personalw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\pesonal\\personalhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\pesonal\\personalhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\styles\\dictp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\styles\\dictp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\styles\\dict2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\styles\\dict2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\core\\styles\\dict0.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\core\\styles\\dict0.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\windows\\loginw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\loginw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\AppData\\Local\\Temp\\.vsdbgsrc\\83616927926d14a9d63ba91b611a12293ac61079cc74be5d9c8aaec5dc9ed161\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\calendargp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\calendargp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\login\\newusr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\login\\newusr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\calendargp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\calendargp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companyeventspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,28 +218,8 @@
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\windows\\companyw.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companypersonalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\company\\companypersonalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companypersonalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\company\\companypersonalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\__caleactiongp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\__caleactiongp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_caledayviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_caledayviewgp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\company\\companydetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\company\\companydetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|c:\\users\\user\\desktop\\visi0n\\visi0n\\visi0n_file\\visi0n.0\\pages\\general\\_caledayviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F59BBEAD-0136-4C78-8753-5CB93F660937}|Visi0n.0\\Visi0n.0.csproj|solutionrelative:visi0n.0\\pages\\general\\_caledayviewgp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\WCFcore\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -234,7 +274,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -286,306 +326,82 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyPersonalPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:23:37.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServiceDiagram.cd",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\ServiceDiagram.cd",
-              "RelativeDocumentMoniker": "..\\VWService\\ServiceDiagram.cd",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\ServiceDiagram.cd",
-              "RelativeToolTip": "..\\VWService\\ServiceDiagram.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-05-19T19:05:08.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Host.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\Host.cs",
-              "RelativeDocumentMoniker": "..\\VWService\\Host.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\Host.cs",
-              "RelativeToolTip": "..\\VWService\\Host.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "CompanyPersonalPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T17:32:15.923Z",
+              "WhenOpened": "2025-04-21T10:21:33.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NoteDB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\NoteDB.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\NoteDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Menu001.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\UControls\\Menu001.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Core\\UControls\\Menu001.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\UControls\\Menu001.xaml",
+              "RelativeToolTip": "Visi0n.0\\Core\\UControls\\Menu001.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T11:05:42.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalendarGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:30:47.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T10:05:56.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReminderDB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\ReminderDB.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\ReminderDB.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:30:09.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserDB.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\DB\\UserDB.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
-              "RelativeToolTip": "..\\VModel!\\DB\\UserDB.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:30:05.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "BaseDB.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\BaseDB.cs",
               "RelativeDocumentMoniker": "..\\VModel!\\DB\\BaseDB.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\BaseDB.cs",
               "RelativeToolTip": "..\\VModel!\\DB\\BaseDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T14:58:17.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\VModel!\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
-              "RelativeToolTip": "..\\VModel!\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:29:07.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IVisionService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\IVisionService.cs",
-              "RelativeDocumentMoniker": "..\\VWService\\IVisionService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\IVisionService.cs",
-              "RelativeToolTip": "..\\VWService\\IVisionService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Title": "Menu001.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\UControls\\Menu001.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Core\\UControls\\Menu001.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\UControls\\Menu001.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Core\\UControls\\Menu001.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAjwCIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:26:20.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VisionService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VisionService.cs",
-              "RelativeDocumentMoniker": "..\\VWService\\VisionService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VisionService.cs",
-              "RelativeToolTip": "..\\VWService\\VisionService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:31:06.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Entity.cs",
-              "RelativeDocumentMoniker": "..\\Model!\\Items\\Entity.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Entity.cs",
-              "RelativeToolTip": "..\\Model!\\Items\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T14:32:35.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VWService.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
-              "RelativeDocumentMoniker": "..\\VWService\\VWService.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
-              "RelativeToolTip": "..\\VWService\\VWService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-13T14:59:53.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Visi0n.0.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
-              "RelativeDocumentMoniker": "Visi0n.0\\Visi0n.0.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
-              "RelativeToolTip": "Visi0n.0\\Visi0n.0.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-21T10:05:56.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewModelDiagram.cd",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\ViewModelDiagram.cd",
-              "RelativeDocumentMoniker": "..\\VModel!\\ViewModelDiagram.cd",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\ViewModelDiagram.cd",
-              "RelativeToolTip": "..\\VModel!\\ViewModelDiagram.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-05-19T14:19:32.864Z",
+              "WhenOpened": "2025-05-24T11:05:53.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ModelDiagram.cd",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\ModelDiagram.cd",
-              "RelativeDocumentMoniker": "..\\Model!\\Items\\ModelDiagram.cd",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\ModelDiagram.cd",
-              "RelativeToolTip": "..\\Model!\\Items\\ModelDiagram.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-05-18T14:32:38.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Reminder.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Reminder.cs",
-              "RelativeDocumentMoniker": "..\\Model!\\Items\\Reminder.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Reminder.cs",
-              "RelativeToolTip": "..\\Model!\\Items\\Reminder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:46:40.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Corp.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
-              "RelativeDocumentMoniker": "..\\Model!\\Items\\Corp.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
-              "RelativeToolTip": "..\\Model!\\Items\\Corp.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:41:00.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
-              "RelativeDocumentMoniker": "..\\Model!\\Items\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
-              "RelativeToolTip": "..\\Model!\\Items\\User.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T14:34:21.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TypeUserCreatePage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T01:07:49.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NewUsr.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T01:07:36.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
-              "RelativeDocumentMoniker": "..\\Model!\\Items\\Person.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
-              "RelativeToolTip": "..\\Model!\\Items\\Person.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:40:31.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PersonalHome.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T06:45:17.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CompanyW.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\CompanyW.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\CompanyW.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\CompanyW.xaml",
-              "RelativeToolTip": "Visi0n.0\\Windows\\CompanyW.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T10:05:56.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PersonalW.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\PersonalW.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml",
-              "RelativeToolTip": "Visi0n.0\\Windows\\PersonalW.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T09:33:08.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\App.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\App.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\App.xaml",
-              "RelativeToolTip": "Visi0n.0\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T05:21:50.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
               "Title": "CalendarGP.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\CalendarGP.xaml",
@@ -596,114 +412,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CompanyDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwB4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:05:56.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:05:56.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginW.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\LoginW.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml",
-              "RelativeToolTip": "Visi0n.0\\Windows\\LoginW.xaml",
+              "DocumentIndex": 11,
+              "Title": "__CaleActionGP.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\__CaleActionGP.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\__CaleActionGP.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\__CaleActionGP.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\__CaleActionGP.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T09:30:07.933Z"
+              "WhenOpened": "2025-05-24T08:43:08.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CalendarGP.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\General\\CalendarGP.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RemindersGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\RemindersGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\RemindersGP.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\RemindersGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\RemindersGP.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:05:56.364Z"
+              "WhenOpened": "2025-05-24T10:03:26.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PersonalHome.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "NotesGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\NotesGP.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAGYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:56:33.744Z"
+              "WhenOpened": "2025-05-24T09:01:35.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PersonalW.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\PersonalW.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Windows\\PersonalW.xaml.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwHAAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "_NotesViewGP.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T09:32:57.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_NotesViewGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_NotesViewGP.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:57:22.443Z"
+              "WhenOpened": "2025-05-24T09:45:08.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAywEUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "_CaleDayViewGP.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:05:56.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_CaleDayViewGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwFwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:03:19.718Z"
+              "WhenOpened": "2025-04-21T10:05:56.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ServiceCore.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Dict2.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles\\Dict2.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Core\\Styles\\Dict2.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles\\Dict2.xaml",
+              "RelativeToolTip": "Visi0n.0\\Core\\Styles\\Dict2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:05:56.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "__CaleActionGP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:08:42.241Z"
+              "WhenOpened": "2025-04-21T10:05:56.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LoginW.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\LoginW.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Windows\\LoginW.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwDgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:02:49.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 16,
               "Title": "DictP.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles\\DictP.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Core\\Styles\\DictP.xaml",
@@ -715,30 +529,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:05:56.376Z"
+              "DocumentIndex": 17,
+              "Title": "PersonalHome.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T06:45:17.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
-              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
+              "DocumentIndex": 18,
+              "Title": "PersonalW.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\PersonalW.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Windows\\PersonalW.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwHAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T06:21:26.642Z"
+              "WhenOpened": "2025-05-13T06:57:22.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 19,
+              "Title": "PersonalW.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\PersonalW.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\PersonalW.xaml",
+              "RelativeToolTip": "Visi0n.0\\Windows\\PersonalW.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T09:33:08.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewUsr.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\NewUsr.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T01:07:36.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NewUsr.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\NewUsr.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\NewUsr.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T11:03:15.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\App.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\App.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\App.xaml",
+              "RelativeToolTip": "Visi0n.0\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T05:21:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TypeUserCreatePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:27:21.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:03:19.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\AssemblyInfo.cs",
+              "RelativeToolTip": "Visi0n.0\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:00:44.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Dict0.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles\\Dict0.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Core\\Styles\\Dict0.xaml",
@@ -751,18 +647,346 @@
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "Dict2.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles\\Dict2.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Core\\Styles\\Dict2.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Core\\Styles\\Dict2.xaml",
-              "RelativeToolTip": "Visi0n.0\\Core\\Styles\\Dict2.xaml",
+              "Title": "Visi0n.0.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+              "RelativeDocumentMoniker": "Visi0n.0\\Visi0n.0.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Visi0n.0.csproj",
+              "RelativeToolTip": "Visi0n.0\\Visi0n.0.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T10:05:56.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TypeUserCreatePage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\TypeUserCreatePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T10:05:56.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T01:07:49.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\StartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\StartPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:31:14.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\StartPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\StartPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T11:03:17.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "LoginW.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\LoginW.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml",
+              "RelativeToolTip": "Visi0n.0\\Windows\\LoginW.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T09:30:07.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VisionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VisionService.cs",
+              "RelativeDocumentMoniker": "..\\VWService\\VisionService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VisionService.cs",
+              "RelativeToolTip": "..\\VWService\\VisionService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:31:06.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Entity.cs",
+              "RelativeDocumentMoniker": "..\\Model!\\Items\\Entity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Entity.cs",
+              "RelativeToolTip": "..\\Model!\\Items\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:32:35.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IVisionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\IVisionService.cs",
+              "RelativeDocumentMoniker": "..\\VWService\\IVisionService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\IVisionService.cs",
+              "RelativeToolTip": "..\\VWService\\IVisionService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:26:20.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
+              "RelativeToolTip": "..\\VModel!\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:29:07.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ServiceDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\ServiceDiagram.cd",
+              "RelativeDocumentMoniker": "..\\VWService\\ServiceDiagram.cd",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\ServiceDiagram.cd",
+              "RelativeToolTip": "..\\VWService\\ServiceDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-05-19T19:05:08.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\UserDB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\UserDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\UserDB.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:30:05.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginW.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\LoginW.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\LoginW.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Windows\\LoginW.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:02:49.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReminderDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\ReminderDB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\ReminderDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\ReminderDB.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:30:09.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NoteDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
+              "RelativeDocumentMoniker": "..\\VModel!\\DB\\NoteDB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\NoteDB.cs",
+              "RelativeToolTip": "..\\VModel!\\DB\\NoteDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:30:47.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Host.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\Host.cs",
+              "RelativeDocumentMoniker": "..\\VWService\\Host.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\Host.cs",
+              "RelativeToolTip": "..\\VWService\\Host.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:32:15.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VWService.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
+              "RelativeDocumentMoniker": "..\\VWService\\VWService.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VWService\\VWService.csproj",
+              "RelativeToolTip": "..\\VWService\\VWService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T14:59:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ViewModelDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\ViewModelDiagram.cd",
+              "RelativeDocumentMoniker": "..\\VModel!\\ViewModelDiagram.cd",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\VModel!\\ViewModelDiagram.cd",
+              "RelativeToolTip": "..\\VModel!\\ViewModelDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-05-19T14:19:32.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ModelDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\ModelDiagram.cd",
+              "RelativeDocumentMoniker": "..\\Model!\\Items\\ModelDiagram.cd",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\ModelDiagram.cd",
+              "RelativeToolTip": "..\\Model!\\Items\\ModelDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-05-18T14:32:38.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Reminder.cs",
+              "RelativeDocumentMoniker": "..\\Model!\\Items\\Reminder.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Reminder.cs",
+              "RelativeToolTip": "..\\Model!\\Items\\Reminder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:46:40.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Corp.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
+              "RelativeDocumentMoniker": "..\\Model!\\Items\\Corp.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
+              "RelativeToolTip": "..\\Model!\\Items\\Corp.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:41:00.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
+              "RelativeDocumentMoniker": "..\\Model!\\Items\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
+              "RelativeToolTip": "..\\Model!\\Items\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:34:21.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
+              "RelativeDocumentMoniker": "..\\Model!\\Items\\Person.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
+              "RelativeToolTip": "..\\Model!\\Items\\Person.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:40:31.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CompanyW.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\CompanyW.xaml",
+              "RelativeDocumentMoniker": "Visi0n.0\\Windows\\CompanyW.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\CompanyW.xaml",
+              "RelativeToolTip": "Visi0n.0\\Windows\\CompanyW.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:05:56.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CompanyDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:05:56.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:05:56.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PersonalHome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
+              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
+              "RelativeToolTip": "Visi0n.0\\Pages\\Pesonal\\PersonalHome.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:56:33.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ServiceCore.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\ServiceCore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:08:42.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:05:56.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:21:26.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\AppData\\Local\\Temp\\.vsdbgsrc\\83616927926d14a9d63ba91b611a12293ac61079cc74be5d9c8aaec5dc9ed161\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\AppData\\Local\\Temp\\.vsdbgsrc\\83616927926d14a9d63ba91b611a12293ac61079cc74be5d9c8aaec5dc9ed161\\XamlReader.cs",
@@ -774,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\App.config",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0nClient\\App.config",
@@ -786,40 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "NewUsr.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\NewUsr.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\NewUsr.xaml",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\NewUsr.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T11:03:15.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "StartPage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Login\\StartPage.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Login\\StartPage.xaml",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Login\\StartPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T11:03:17.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CompanyPersonalPage.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T10:23:37.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 54,
               "Title": "CompanyEventsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyEventsPage.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyEventsPage.xaml.cs",
@@ -831,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 56,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\WCFhost\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\WCFhost\\Program.cs",
@@ -842,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 57,
               "Title": "CompanyEventsPage.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyEventsPage.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyEventsPage.xaml",
@@ -853,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\WCFcore\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\WCFcore\\Program.cs",
@@ -864,19 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CompanyPersonalPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\Company\\CompanyPersonalPage.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAUwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:21:33.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 55,
               "Title": "Microsoft.WinFX.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.101\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
@@ -887,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 69,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\User.cs",
@@ -899,19 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "__CaleActionGP.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\General\\__CaleActionGP.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:05:56.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 70,
               "Title": "NoteService.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\NoteService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\NoteService.cs",
@@ -923,7 +1090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 71,
               "Title": "EventService.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\EventService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\Service\\EventService.cs",
@@ -935,7 +1102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 72,
               "Title": "CaleDB.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CaleDB.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\VModel!\\DB\\CaleDB.cs",
@@ -947,7 +1114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 73,
               "Title": "Corp.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Corp.cs",
@@ -959,7 +1126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 58,
               "Title": "CompanyW.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Windows\\CompanyW.xaml.cs",
               "RelativeDocumentMoniker": "Visi0n.0\\Windows\\CompanyW.xaml.cs",
@@ -971,7 +1138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 59,
               "Title": "CompanyDetailsPage.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml",
               "RelativeDocumentMoniker": "Visi0n.0\\Pages\\Company\\CompanyDetailsPage.xaml",
@@ -982,19 +1149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "_CaleDayViewGP.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
-              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwEEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:05:56.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 74,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Event.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\Model!\\Items\\Event.cs",
@@ -1006,18 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "_CaleDayViewGP.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
-              "RelativeDocumentMoniker": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0n\\Visi0n_File\\Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
-              "RelativeToolTip": "Visi0n.0\\Pages\\General\\_CaleDayViewGP.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T10:05:56.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 63,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\App.config",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\App.config",
@@ -1029,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 64,
               "Title": "IWebService.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\IWebService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFcore\\IWebService.cs",
@@ -1041,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 65,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFhost\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFhost\\Program.cs",
@@ -1053,7 +1197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 66,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFhost\\App.config",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u05D0\u05D5\u05E8\u05D8\\Desktop\\Visi0n\\Visi0n\\WCFhost\\App.config",

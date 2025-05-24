@@ -52,3 +52,6 @@ blazor app & more
 
 ver 0.2.7
 prefinal steps before full low level completion
+
+ver 0.2.8
+added user controls

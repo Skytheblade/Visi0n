@@ -101,7 +101,7 @@ namespace Visi0n._0 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Visi0n.0;V1.0.0.0;component/windows/loginw.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Visi0n.0;component/windows/loginw.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\LoginW.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

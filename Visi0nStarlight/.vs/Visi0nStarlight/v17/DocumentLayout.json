@@ -7,24 +7,8 @@
       "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\usergen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\company.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\company.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\personal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\personal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\company.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\company.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\personal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\personal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|solutionrelative:visi0nstarlight\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE5B2130-5D1C-4B51-983E-198DB99A8907}|Visi0nStarlight\\Visi0nStarlight.csproj|c:\\users\\user\\desktop\\visi0n\\visi0nstarlight\\visi0nstarlight\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,31 +126,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Company.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Company.razor",
-              "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Company.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Company.razor",
-              "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\Company.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T09:37:55.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T06:08:00.95Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Routes.razor",
@@ -193,14 +168,14 @@
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\UserGen.razor",
               "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\UserGen.razor",
               "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\UserGen.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwE8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-13T05:14:34.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Personal.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Personal.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Personal.razor",
@@ -224,31 +199,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Visi0nStarlight\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-13T05:14:34.3Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T07:58:18.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoginPage.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
               "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
               "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\LoginPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-13T05:14:34.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T06:08:00.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Company.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Company.razor",
+              "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Company.razor",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Company.razor",
+              "RelativeToolTip": "Visi0nStarlight\\Components\\Pages\\Company.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T09:37:55.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Pages\\Home.razor",
@@ -269,18 +280,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-13T06:21:45.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Visi0n\\Visi0nStarlight\\Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Visi0nStarlight\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T07:58:18.173Z"
             },
             {
               "$type": "Document",
